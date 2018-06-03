@@ -2,3 +2,24 @@ body {
     font-family: "Roboto","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 0.8em;
 }
+
+.preview-img {
+    display: inline-block;
+}
+
+.preview-img img.preview-img-png {
+    height: 100px;
+}
+
+.preview-img img.preview-img-gif {
+    display: none;
+    height: 100px;
+}
+
+.preview-img:hover img.preview-img-png {
+    display: none;
+}
+
+.preview-img:hover img.preview-img-gif {
+    display: inline-block;
+}
