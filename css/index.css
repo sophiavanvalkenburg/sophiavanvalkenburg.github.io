@@ -1,0 +1,34 @@
+body {
+    font-family: "Roboto","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 0.8em;
+}
+
+.project-card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.preview-img {
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+}
+
+.preview-img img.preview-img-png {
+    height: 200px;
+    width: auto;
+}
+
+.preview-img img.preview-img-gif {
+    display: none;
+    height: 200px;
+    width: auto;
+}
+
+.preview-img:hover img.preview-img-png {
+    display: none;
+}
+
+.preview-img:hover img.preview-img-gif {
+    display: inline-block;
+}
