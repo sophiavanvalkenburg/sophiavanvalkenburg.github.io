@@ -3,26 +3,20 @@ body {
     font-size: 0.8em;
 }
 
-.project-card {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.preview-img {
-    display: inline-block;
-    margin: auto;
-    padding: 10px;
+.project-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .preview-img img.preview-img-png {
-    height: 200px;
-    width: auto;
+    width: 100px;
+    height: auto;
 }
 
 .preview-img img.preview-img-gif {
     display: none;
-    height: 200px;
-    width: auto;
+    width: 100px;
+    height: auto;
 }
 
 .preview-img:hover img.preview-img-png {
