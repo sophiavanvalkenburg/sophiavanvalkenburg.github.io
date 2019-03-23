@@ -10,9 +10,11 @@ function generateProjectCard(project) {
         '<div class="col col-md-6 offset-md-3">' +
           '<div class="card border-0">' +
             '<div class="row align-items-center project-row border-top">' +
-              '<div class="col-4 text-center preview-img">' +
-                '<img class="card-img-top rounded preview-img-gif" src="' + project.previewImgUrl + '.gif" />' +
-                '<img class="card-img-top rounded preview-img-png" src="' + project.previewImgUrl + '.png" />' +
+              '<div class="col-4 text-center preview-img">';
+    if (project.previewImgType === 'gif') {
+      cardHtml += '<img class="card-img-top rounded preview-img-gif" src="' + project.previewImgUrl + '.gif" />';
+    }
+      cardHtml += '<img class="card-img-top rounded preview-img-png ' + (project.previewImgType !== 'gif' ? 'no-gif': '') + '" src="' + project.previewImgUrl + '.png" />' +
               '</div>' +
               '<div class="col-8">' +
                 '<div class="card-block">' +

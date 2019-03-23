@@ -27,6 +27,10 @@ body {
     display: none;
 }
 
+.preview-img:hover img.no-gif {
+    display: inline-block;
+}
+
 .preview-img:hover img.preview-img-gif {
     display: inline-block;
 }
