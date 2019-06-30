@@ -1,5 +1,12 @@
 const PROJECT_DATA = [
   {
+    title: 'Recent Drawings',
+    description: 'Selected drawings in a variety of media.',
+    projectUrl: 'https://sophiaceleste.com/drawing/',
+    previewImgUrl: 'previews/drawing-preview',
+    previewImgType: 'png'
+  },
+  {
     title: 'My Favorite Toy',
     description: 'A short graphic memoir',
     projectUrl: 'https://sophiaceleste.com/comics/my-favorite-toy/',
