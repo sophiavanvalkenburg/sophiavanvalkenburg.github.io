@@ -1,5 +1,11 @@
 let DRAWING_DATA = [
   {
+    file: 'copper-cup-still-life.jpg',
+    preview: 'copper-cup-still-life-sm.jpeg',
+    title: 'Copper Cup',
+    material: 'oil on canvas board'
+  },
+  {
     file: 'sitting-woman-in-ink.jpg',
     preview: 'sitting-woman-in-ink-sm.jpeg',
     title: 'Sitting Woman #2',
@@ -27,13 +33,25 @@ let DRAWING_DATA = [
     file: 'sitting-man-in-wax-resist.jpg',
     preview: 'sitting-man-in-wax-resist-sm.jpeg',
     title: 'Sitting Man #2',
-    material: 'wax resist'
+    material: 'wax, ink, char-kole'
+  },
+  {
+    file: 'cadaver-hand-foot-study.jpg',
+    preview: 'cadaver-hand-foot-study-sm.jpeg',
+    title: 'Study of a Cadaver\'s Hand and Foot',
+    material: 'graphite'
   },
   {
     file: 'mans-leg.jpg',
     preview: 'mans-leg-sm.jpeg',
     title: 'A Man\'s Leg',
     material: 'charcoal pencil'
+  },
+  {
+    file: 'woman-sitting-sculpture.jpg',
+    preview: 'woman-sitting-sculpture-sm.jpeg',
+    title: 'Sitting Woman Sculpture',
+    material: 'plastalina clay'
   },
   {
     file: 'reclining-woman.jpg',
