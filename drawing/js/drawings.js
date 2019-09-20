@@ -1,9 +1,9 @@
 let DRAWING_DATA = [
   {
-    file: 'soft-dragon.jpg',
-    preview: 'soft-dragon-sm.jpeg',
-    title: 'Soft Dragon',
-    material: 'sanguine chalk'
+    file: 'sitting-woman-in-ink.jpg',
+    preview: 'sitting-woman-in-ink-sm.jpeg',
+    title: 'Sitting Woman #2',
+    material: 'ink wash'
   },
   {
     file: 'woman-with-earring.jpg',
@@ -18,6 +18,18 @@ let DRAWING_DATA = [
     material: 'sanguine chalk'
   },
   {
+    file: 'soft-dragon.jpg',
+    preview: 'soft-dragon-sm.jpeg',
+    title: 'Soft Dragon',
+    material: 'sanguine chalk'
+  },
+  {
+    file: 'sitting-man-in-wax-resist.jpg',
+    preview: 'sitting-man-in-wax-resist-sm.jpeg',
+    title: 'Sitting Man #2',
+    material: 'wax resist'
+  },
+  {
     file: 'mans-leg.jpg',
     preview: 'mans-leg-sm.jpeg',
     title: 'A Man\'s Leg',
@@ -30,22 +42,16 @@ let DRAWING_DATA = [
     material: 'pastel'
   },
   {
-    file: 'sitting-man-in-wax-resist.jpg',
-    preview: 'sitting-man-in-wax-resist-sm.jpeg',
-    title: 'Sitting Man #2',
-    material: 'wax resist'
+    file: 'womans-torso.jpg',
+    preview: 'womans-torso-sm.jpeg',
+    title: 'A Woman\'s Torso',
+    material: 'sanguine chalk'
   },
   {
     file: 'sitting-man.jpg',
     preview: 'sitting-man-sm.jpeg',
     title: 'Sitting Man #1',
     material: 'sanguine chalk'
-  },
-  {
-    file: 'sitting-woman-in-ink.jpg',
-    preview: 'sitting-woman-in-ink-sm.jpeg',
-    title: 'Sitting Woman #2',
-    material: 'ink wash'
   },
   {
     file: 'sitting-woman-in-silverpoint.jpg',
@@ -64,12 +70,6 @@ let DRAWING_DATA = [
     preview: 'womans-portrait-in-silverpoint-sm.jpeg',
     title: 'Portrait of a Woman',
     material: 'silverpoint'
-  },
-  {
-    file: 'womans-torso.jpg',
-    preview: 'womans-torso-sm.jpeg',
-    title: 'A Woman\'s Torso',
-    material: 'sanguine chalk'
   },
   {
     file: 'man-in-halloween-lighting.jpg',
