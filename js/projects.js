@@ -1,9 +1,9 @@
 const PROJECT_DATA = [
   {
-    title: 'Recent Drawings',
-    description: 'Selected drawings in a variety of media.',
-    projectUrl: 'https://sophiaceleste.com/drawing/',
-    previewImgUrl: 'previews/drawing-preview',
+    title: 'Portfolio',
+    description: 'Selected works in a variety of media.',
+    projectUrl: 'https://sophiaceleste.com/portfolio/',
+    previewImgUrl: 'previews/portfolio-preview',
     previewImgType: 'png'
   },
   {

@@ -1,4 +1,4 @@
-let DRAWING_DATA = [
+let PORTFOLIO_DATA = [
   {
     file: 'copper-cup-still-life.jpg',
     preview: 'copper-cup-still-life-sm.jpeg',
