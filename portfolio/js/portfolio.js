@@ -30,6 +30,12 @@ let PORTFOLIO_DATA = [
     material: 'sanguine chalk'
   },
   {
+    file: 'portrait-of-woman-oil.jpg',
+    preview: 'portrait-of-woman-oil-sm.jpeg',
+    title: 'Portrait of a Woman with Red Hair',
+    material: 'oil on canvas board'
+  },
+  {
     file: 'sitting-man-in-wax-resist.jpg',
     preview: 'sitting-man-in-wax-resist-sm.jpeg',
     title: 'Sitting Man #2',
