@@ -36,16 +36,20 @@ let PORTFOLIO_DATA = [
     material: 'oil on canvas board'
   },
   {
-    file: 'sitting-man-in-wax-resist.jpg',
-    preview: 'sitting-man-in-wax-resist-sm.jpeg',
-    title: 'Sitting Man #2',
-    material: 'wax, ink, char-kole'
-  },
-  {
     file: 'cadaver-hand-foot-study.jpg',
     preview: 'cadaver-hand-foot-study-sm.jpeg',
     title: 'Study of a Cadaver\'s Hand and Foot',
     material: 'graphite'
+  },
+  {
+    file: 'gesture-short.jpg',
+    preview: 'gesture-short-sm.jpeg',
+    title: 'Gestures (5 min)'
+  },
+  {
+    file: 'gesture-long.jpg',
+    preview: 'gesture-long-sm.jpeg',
+    title: 'Gestures (10-20 min)'
   },
   {
     file: 'mans-leg.jpg',
@@ -88,6 +92,12 @@ let PORTFOLIO_DATA = [
     preview: 'gwb-cloudy-day-sm.jpeg',
     title: 'George Washington Bridge on a Cloudy Day',
     material: 'ink wash'
+  },
+  {
+    file: 'sitting-man-in-wax-resist.jpg',
+    preview: 'sitting-man-in-wax-resist-sm.jpeg',
+    title: 'Sitting Man #2',
+    material: 'wax, ink, char-kole'
   },
   {
     file: 'womans-portrait-in-silverpoint.jpg',
