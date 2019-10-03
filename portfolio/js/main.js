@@ -5,11 +5,13 @@ for ( let i = 0; i < PORTFOLIO_DATA.length; i++ ){
 }
 
 function generatePortfolioCard(portfolio) {
+  const materialCaption = portfolio.material ? ` - ${portfolio.material}` : '';
+  const caption = portfolio.title + materialCaption;
   return `<a href='img/${portfolio.file}' target="_blank" >
     <div class='img-card'>
       <img src='img/${portfolio.preview}' />
       <div class='img-overlay'>
-        <div class='caption'>${portfolio.title} - ${portfolio.material}</div>
+        <div class='caption'>${caption}</div>
       </div>
     </div>
   </a>`;
