@@ -42,6 +42,12 @@ let PORTFOLIO_DATA = [
     material: 'graphite'
   },
   {
+    file: 'inktober-2019-day-7.jpeg',
+    preview: 'inktober-2019-day-7-sm.jpeg',
+    title: 'Inktober 2019, Day 7 ("Enchanted")',
+    material: 'ink wash'
+  },
+  {
     file: 'gesture-short.jpg',
     preview: 'gesture-short-sm.jpeg',
     title: 'Gestures (5 min)'
