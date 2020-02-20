@@ -60,6 +60,7 @@ const PROJECT_DATA = [
   {
     title: 'Music Doodles',
     description: 'Experiments with visualizing music',
+    projectUrl: 'https://sophiaceleste.com/music-doodles/',
     codeUrl: 'https://github.com/sophiavanvalkenburg/music-doodles/',
     previewImgUrl: 'previews/funk',
     previewImgType: 'gif'
