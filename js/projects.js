@@ -28,6 +28,14 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
+    title: 'Halloween Haus',
+    description: 'Many moons ago, 28 souls gathered at a haunted haus on all hallow\'s eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...',
+    projectUrl: 'https://sophiaceleste.com/halloween-haus/',
+    codeUrl: 'https://github.com/sophiavanvalkenburg/halloween-haus/',
+    previewImgUrl: 'previews/halloween-haus',
+    previewImgType: 'gif'
+  },
+  {
     title: 'My Favorite Toy',
     description: 'A short graphic memoir',
     projectUrl: 'https://sophiaceleste.com/comics/my-favorite-toy/',
@@ -45,7 +53,7 @@ const PROJECT_DATA = [
   {
     title: 'Rubiks Cube',
     description: 'Model of a Rubiks Cube written in C++ and OpenGL from scratch.',
-    codeUrl: 'https://github.com/sophiavanvalkenburg/rubiks-cube/',
+    projectUrl: 'https://github.com/sophiavanvalkenburg/rubiks-cube/',
     previewImgUrl: 'previews/rubiks-cube-demo',
     previewImgType: 'gif'
   },
@@ -67,7 +75,7 @@ const PROJECT_DATA = [
   },
   {
     title: 'The Wrigglies',
-    description: 'ITP Camp 2017 Project / music credit: <a href="https://soundcloud.com/psilodump/never-heal-chapter-i">Psilodump</a><br/>' +
+    description: 'ITP Camp 2017 Project<br>music credit: <a href="https://soundcloud.com/psilodump/never-heal-chapter-i">Psilodump</a><br/>' +
       '<a href="https://www.sophiaceleste.com/wrigglies-itp-2017/cat.html" target="_blank">Bonus: Cat Face</a>',
     projectUrl: 'https://sophiaceleste.com/wrigglies-itp-2017',
     codeUrl: 'https://github.com/sophiavanvalkenburg/wrigglies-itp-2017',
@@ -75,8 +83,8 @@ const PROJECT_DATA = [
     previewImgType: 'gif'
   },
   {
-    title: 'Music Video for "funkpeter (beta)"',
-    description: 'music credit: <a href="https://soundcloud.com/psilodump/funkpeter-beta">Psilodump</a>',
+    title: '"funkpeter (beta)" MV',
+    description: 'A music video for "funkpeter (beta)" by <a href="https://soundcloud.com/psilodump/funkpeter-beta">Psilodump</a>',
     projectUrl: 'https://sophiaceleste.com/files/funkpeter-beta.mp4',
     previewImgUrl: 'previews/funkpeter-beta',
     previewImgType: 'gif'
@@ -87,14 +95,6 @@ const PROJECT_DATA = [
     projectUrl: 'https://sophiaceleste.com/ant-world-3d/',
     codeUrl: 'https://github.com/sophiavanvalkenburg/ant-world-3d',
     previewImgUrl: 'previews/ant-world',
-    previewImgType: 'gif'
-  },
-  {
-    title: 'Halloween Haus',
-    description: 'Many moons ago, 28 souls gathered at a haunted haus on all hallow\'s eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...',
-    projectUrl: 'https://sophiaceleste.com/halloween-haus/',
-    codeUrl: 'https://github.com/sophiavanvalkenburg/halloween-haus/',
-    previewImgUrl: 'previews/halloween-haus',
     previewImgType: 'gif'
   }
 ];

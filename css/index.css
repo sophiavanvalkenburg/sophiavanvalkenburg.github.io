@@ -1,36 +1,81 @@
 body {
     font-family: "Roboto","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 0.8em;
-    /*
-    background: url("../background-hair.jpg") no-repeat;
-    background-size: 100%;
-    */
 }
 
-.project-row {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.project-navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: right !important;
 }
 
-.preview-img img.preview-img-png {
-    width: 100px;
-    height: auto;
+.page-title {
+    padding-right: 20px;
+    color: lightgray;
+}
+
+@media (max-width: 500px ) {
+    .project-navbar-container {
+        display: block;
+    }
+}
+
+.social-media-link {
+    padding: 0 4px;
+}
+
+.code-link {
+    z-index: 1;
+}
+
+#project-container {
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+}
+
+.project-card {
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  min-width: 250px;
+  max-width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-card > *{
+  text-align: center;
+}
+
+.preview-img {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.preview-img img {
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
 }
 
 .preview-img img.preview-img-gif {
     display: none;
-    width: 100px;
-    height: auto;
 }
 
-.preview-img:hover img.preview-img-png {
+.project-card:hover {
+    background: rgb(225, 225, 225);
+}
+
+.project-card:hover img.preview-img-png {
     display: none;
 }
 
-.preview-img:hover img.no-gif {
+.project-card:hover img.no-gif {
     display: inline-block;
 }
 
-.preview-img:hover img.preview-img-gif {
+.project-card:hover img.preview-img-gif {
     display: inline-block;
 }

@@ -6,31 +6,21 @@ for ( let i = 0; i < PROJECT_DATA.length; i++ ){
 
 function generateProjectCard(project) {
   let cardHtml = '' +
-      '<div class="row">' +
-        '<div class="col col-md-6 offset-md-3">' +
-          '<div class="card border-0">' +
-            '<div class="row align-items-center project-row border-top">' +
-              '<div class="col-4 text-center preview-img">';
+        '<div class="project-card card">' +
+        '<div class="card-body">' +
+              '<div class="preview-img">';
     if (project.previewImgType === 'gif') {
-      cardHtml += '<img class="card-img-top rounded preview-img-gif" src="' + project.previewImgUrl + '.gif" />';
+      cardHtml += '<img class="preview-img-gif" src="' + project.previewImgUrl + '.gif" />';
     }
-      cardHtml += '<img class="card-img-top rounded preview-img-png ' + (project.previewImgType !== 'gif' ? 'no-gif': '') + '" src="' + project.previewImgUrl + '.png" />' +
+      cardHtml += '<img class="preview-img-png ' + (project.previewImgType !== 'gif' ? 'no-gif': '') + '" src="' + project.previewImgUrl + '.png" />' +
               '</div>' +
-              '<div class="col-8">' +
-                '<div class="card-block">' +
-                  '<h5 class="card-title">' + project.title + '</h5>' +
-                  '<p class="card-text">' + project.description + '</p>';
-    if (typeof(project.projectUrl) !== 'undefined') {
-      cardHtml += '<a href="' + project.projectUrl + '" class="btn btn-primary" target="_blank">Go to Project</a>';
-    }
-    if (typeof(project.codeUrl) !== 'undefined') {
-      cardHtml += '<a href="' + project.codeUrl + '" class="btn" target="_blank">View Code</a>';
-    }
-      cardHtml += '</div>' +
-              '</div>' +
-            '</div>' +
-          '</div>' +
-        '</div>' +
+              '<h5 class="project-card-title">' + project.title + '</h5>' +
+                '<p>' + project.description + '</p>';
+      cardHtml += '<a class="stretched-link" href="' + project.projectUrl + '" target="_blank"</a>' +
       '</div>';
+      if (typeof(project.codeUrl) !== 'undefined') {
+        cardHtml += '<a class="code-link" href="' + project.codeUrl + '" target="_blank">View Code on GitHub</a></div>';
+      }
+      cardHtml += '</div>';
   return cardHtml;
 }
