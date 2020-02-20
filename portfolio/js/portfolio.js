@@ -1,15 +1,15 @@
 let PORTFOLIO_DATA = [
   {
+    file: 'joe-portrait.jpg',
+    preview: 'joe-portrait-sm.jpeg',
+    title: 'Portrait of Joe',
+    material: 'oil on canvas board' 
+  },
+  {
     file: 'copper-cup-still-life.jpg',
     preview: 'copper-cup-still-life-sm.jpeg',
     title: 'Copper Cup',
     material: 'oil on canvas board'
-  },
-  {
-    file: 'sitting-woman-in-ink.jpg',
-    preview: 'sitting-woman-in-ink-sm.jpeg',
-    title: 'Sitting Woman #2',
-    material: 'ink wash'
   },
   {
     file: 'woman-with-earring.jpg',
@@ -18,22 +18,16 @@ let PORTFOLIO_DATA = [
     material: 'charcoal pencil'
   },
   {
-    file: 'mans-chest.jpg',
-    preview: 'mans-chest-sm.jpeg',
-    title: 'A Man\'s Chest',
-    material: 'sanguine chalk'
+    file: 'sitting-woman-in-ink.jpg',
+    preview: 'sitting-woman-in-ink-sm.jpeg',
+    title: 'Sitting Woman #2',
+    material: 'ink wash'
   },
   {
-    file: 'soft-dragon.jpg',
-    preview: 'soft-dragon-sm.jpeg',
-    title: 'Soft Dragon',
-    material: 'sanguine chalk'
-  },
-  {
-    file: 'portrait-of-woman-oil.jpg',
-    preview: 'portrait-of-woman-oil-sm.jpeg',
-    title: 'Portrait of a Woman with Red Hair',
-    material: 'oil on canvas board'
+    file: 'anatomical-woman.jpg',
+    preview: 'anatomical-woman-sm.jpeg',
+    title: 'Anatomy Study #1',
+    material: 'pencil'
   },
   {
     file: 'cadaver-hand-foot-study.jpg',
@@ -42,26 +36,46 @@ let PORTFOLIO_DATA = [
     material: 'graphite'
   },
   {
+    file: 'mans-chest.jpg',
+    preview: 'mans-chest-sm.jpeg',
+    title: 'A Man\'s Chest',
+    material: 'sanguine chalk'
+  },
+  {
+    file: 'dizzy-ballerina.jpg',
+    preview: 'dizzy-ballerina-sm.jpeg',
+    title: 'The Dizzy Ballerina',
+    material: 'colored pencil'
+  },
+  {
+    file: 'soft-dragon.jpg',
+    preview: 'soft-dragon-sm.jpeg',
+    title: 'Soft Dragon',
+    material: 'sanguine chalk'
+  },
+  {
     file: 'inktober-2019-day-7.jpg',
     preview: 'inktober-2019-day-7-sm.jpeg',
     title: 'Inktober 2019, Day 7 ("Enchanted")',
     material: 'ink wash'
   },
   {
-    file: 'gesture-short.jpg',
-    preview: 'gesture-short-sm.jpeg',
-    title: 'Gestures (5 min)'
-  },
-  {
-    file: 'gesture-long.jpg',
-    preview: 'gesture-long-sm.jpeg',
-    title: 'Gestures (10-20 min)'
+    file: 'dragonfruit-still-life.jpg',
+    preview: 'dragonfruit-still-life-sm.jpeg',
+    title: 'Dragonfruit Still Life',
+    material: 'oil on canvas'
   },
   {
     file: 'mans-leg.jpg',
     preview: 'mans-leg-sm.jpeg',
     title: 'A Man\'s Leg',
     material: 'charcoal pencil'
+  },
+  {
+    file: 'portrait-of-woman-oil.jpg',
+    preview: 'portrait-of-woman-oil-sm.jpeg',
+    title: 'Portrait of a Woman with Red Hair',
+    material: 'oil on canvas board'
   },
   {
     file: 'woman-sitting-sculpture.jpg',
@@ -75,6 +89,30 @@ let PORTFOLIO_DATA = [
     title: 'Reclining Woman',
     material: 'pastel'
   },
+  {
+    file: '20-min-poses.jpg',
+    preview: '20-min-poses-sm.jpeg',
+    title: '20 Minute Poses',
+    material: 'pencil'
+  },
+  {
+    file: 'gwb-cloudy-day.jpg',
+    preview: 'gwb-cloudy-day-sm.jpeg',
+    title: 'George Washington Bridge on a Cloudy Day',
+    material: 'ink wash'
+  },
+  {
+    file: 'spiraling-thoughts.jpg',
+    preview: 'spiraling-thoughts-sm.jpeg',
+    title: 'Spiraling Thoughts',
+    material: 'ink'
+  },
+  {
+    file: 'catacombes.jpg',
+    preview: 'catacombes-sm.jpeg',
+    title: 'Les Catacombes',
+    material: 'pencil & ink'
+  }, 
   {
     file: 'womans-torso.jpg',
     preview: 'womans-torso-sm.jpeg',
@@ -94,10 +132,28 @@ let PORTFOLIO_DATA = [
     material: 'silverpoint'
   },
   {
-    file: 'gwb-cloudy-day.jpg',
-    preview: 'gwb-cloudy-day-sm.jpeg',
-    title: 'George Washington Bridge on a Cloudy Day',
-    material: 'ink wash'
+    file: 'darcy-standing.jpg',
+    preview: 'darcy-standing-sm.jpeg',
+    title: 'Darcy Standing',
+    material: 'pencil'
+  },
+  {
+    file: 'finger-lips.jpg',
+    preview: 'finger-lips-sm.jpeg',
+    title: 'Finger Lips',
+    material: 'ink wash',
+  },
+  {
+    file: 'engergetic-figures.jpg',
+    preview: 'engergetic-figures-sm.jpeg',
+    title: 'Energetic Figures',
+    material: 'ink'
+  },
+  {
+    file: 'faces-in-shadow.jpg',
+    preview: 'faces-in-shadow-sm.jpeg',
+    title: 'Faces in Shadow',
+    material: 'ink'
   },
   {
     file: 'sitting-man-in-wax-resist.jpg',
@@ -117,4 +173,16 @@ let PORTFOLIO_DATA = [
     title: 'Man in Halloween Lighting',
     material: 'pastel'
   },
+  {
+    file: 'xmas-tree.jpg',
+    preview: 'xmas-tree-sm.jpeg',
+    title: 'Christmas Tree',
+    material: 'charcoal pencil & marker'
+  },
+  {
+    file: 'dark-woods.jpg',
+    preview: 'dark-woods-sm.jpeg',
+    title: 'The Dark Woods',
+    material: 'acrylic on canvas'
+  }
 ];
