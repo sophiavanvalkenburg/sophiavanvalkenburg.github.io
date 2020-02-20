@@ -75,8 +75,7 @@ const PROJECT_DATA = [
   },
   {
     title: 'The Wrigglies',
-    description: 'ITP Camp 2017 Project<br>music credit: <a href="https://soundcloud.com/psilodump/never-heal-chapter-i">Psilodump</a><br/>' +
-      '<a href="https://www.sophiaceleste.com/wrigglies-itp-2017/cat.html" target="_blank">Bonus: Cat Face</a>',
+    description: 'ITP Camp 2017 Project<br>music credit: Psilodump',
     projectUrl: 'https://sophiaceleste.com/wrigglies-itp-2017',
     codeUrl: 'https://github.com/sophiavanvalkenburg/wrigglies-itp-2017',
     previewImgUrl: 'previews/wrigglies-demo',
@@ -84,7 +83,7 @@ const PROJECT_DATA = [
   },
   {
     title: '"funkpeter (beta)" MV',
-    description: 'A music video for "funkpeter (beta)" by <a href="https://soundcloud.com/psilodump/funkpeter-beta">Psilodump</a>',
+    description: 'A music video for "funkpeter (beta)" by Psilodump',
     projectUrl: 'https://sophiaceleste.com/files/funkpeter-beta.mp4',
     previewImgUrl: 'previews/funkpeter-beta',
     previewImgType: 'gif'
