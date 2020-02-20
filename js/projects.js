@@ -7,6 +7,13 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
+    title: 'Bug Mandala',
+    description: 'A psychedelic animated illustration of dancing bugs',
+    projectUrl: 'https://sophiaceleste.com/bug-mandala',
+    previewImgUrl: 'previews/bug-mandala',
+    previewImgType: 'gif'
+  },
+  {
     title: 'My Favorite Toy',
     description: 'A short graphic memoir',
     projectUrl: 'https://sophiaceleste.com/comics/my-favorite-toy/',
