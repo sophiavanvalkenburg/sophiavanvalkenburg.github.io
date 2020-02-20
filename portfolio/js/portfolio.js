@@ -42,7 +42,7 @@ let PORTFOLIO_DATA = [
     material: 'graphite'
   },
   {
-    file: 'inktober-2019-day-7.jpeg',
+    file: 'inktober-2019-day-7.jpg',
     preview: 'inktober-2019-day-7-sm.jpeg',
     title: 'Inktober 2019, Day 7 ("Enchanted")',
     material: 'ink wash'
