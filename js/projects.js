@@ -74,6 +74,14 @@ const PROJECT_DATA = [
     previewImgType: 'gif'
   },
   {
+    title: 'Ant World',
+    description: 'Concept illustration of a fantastical ant hill with 3D prototype of ant, created with three.js',
+    projectUrl: 'https://sophiaceleste.com/ant-world-3d/',
+    codeUrl: 'https://github.com/sophiavanvalkenburg/ant-world-3d',
+    previewImgUrl: 'previews/ant-world',
+    previewImgType: 'gif'
+  },
+  {
     title: 'Halloween Haus',
     description: 'Many moons ago, 28 souls gathered at a haunted haus on all hallow\'s eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...',
     projectUrl: 'https://sophiaceleste.com/halloween-haus/',
