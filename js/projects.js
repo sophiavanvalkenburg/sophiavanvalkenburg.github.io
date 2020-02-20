@@ -7,6 +7,13 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
+    title: 'Witch Finger Grapes',
+    description: 'A surreal animated photograph',
+    projectUrl: 'https://sophiaceleste.com/witch-finger-grapes',
+    previewImgUrl: 'previews/witch-finger-grapes',
+    previewImgType: 'png'
+  },
+  {
     title: 'Bug Mandala',
     description: 'A psychedelic animated illustration of dancing bugs',
     projectUrl: 'https://sophiaceleste.com/bug-mandala',
