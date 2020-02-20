@@ -1,6 +1,6 @@
 const PROJECT_DATA = [
   {
-    title: 'Portfolio',
+    title: 'Fine Art Portfolio',
     description: 'Selected works in a variety of media.',
     projectUrl: 'https://sophiaceleste.com/portfolio/',
     previewImgUrl: 'previews/portfolio-preview',
