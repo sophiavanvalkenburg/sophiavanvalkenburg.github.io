@@ -21,6 +21,13 @@ const PROJECT_DATA = [
     previewImgType: 'gif'
   },
   {
+    title: 'Inktober 2019',
+    description: 'Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.',
+    projectUrl: 'https://sophiaceleste.com/inktober-2019/',
+    previewImgUrl: 'previews/inktober-2019',
+    previewImgType: 'png'
+  },
+  {
     title: 'My Favorite Toy',
     description: 'A short graphic memoir',
     projectUrl: 'https://sophiaceleste.com/comics/my-favorite-toy/',
