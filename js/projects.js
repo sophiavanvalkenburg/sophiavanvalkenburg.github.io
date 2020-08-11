@@ -7,6 +7,13 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
+    title: 'Super Cat: Defender of the Realm',
+    description: 'Super Cat takes on her strongest foe yet... but there\'s a twist!',
+    projectUrl: 'https://sophiaceleste.com/comics/super-cat-defender-of-the-realm.png',
+    previewImgUrl: 'previews/super-cat-defender-of-the-realm-sm',
+    previewImgType: 'png'
+  },
+  {
     title: 'Witch Finger Grapes',
     description: 'A surreal animated photograph',
     projectUrl: 'https://sophiaceleste.com/witch-finger-grapes',
