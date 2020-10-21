@@ -28,6 +28,11 @@ body {
     z-index: 1;
 }
 
+#vimeo-player-container {
+    margin-top: 25px;
+    max-width: 640px;
+}
+
 #project-container {
     margin-top: 25px;
     display: flex;
