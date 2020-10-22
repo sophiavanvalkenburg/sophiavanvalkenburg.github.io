@@ -91,7 +91,7 @@ const PROJECT_DATA = [
   {
     title: '"funkpeter (beta)" MV',
     description: 'A music video for "funkpeter (beta)" by Psilodump',
-    projectUrl: 'https://sophiaceleste.com/files/funkpeter-beta.mp4',
+    projectUrl: 'https://vimeo.com/383631135',
     previewImgUrl: 'previews/funkpeter-beta',
     previewImgType: 'gif'
   },
