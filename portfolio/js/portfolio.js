@@ -1,9 +1,57 @@
 let PORTFOLIO_DATA = [
   {
-    file: 'joe-portrait.jpg',
-    preview: 'joe-portrait-sm.jpeg',
-    title: 'Portrait of Joe',
-    material: 'oil on canvas board' 
+    file: 'scuba-bull.png',
+    preview: 'scuba-bull-sm.jpg',
+    title: 'The Raging Bull Submerged',
+    material: 'digital (Photoshop)'
+  },
+  {
+    file: 'autumn-path.jpg',
+    preview: 'autumn-path-sm.jpg',
+    title: 'Autumn Path',
+    material: 'digital (Photoshop)'
+  },
+  {
+    file: 'eartha-kitt.jpg',
+    preview: 'eartha-kitt-sm.jpg',
+    title: 'Portrait of Eartha Kitt',
+    material: 'watercolor',
+  },
+  {
+    file: 'devin-portrait.jpg',
+    preview: 'devin-portrait-sm.jpg',
+    title: 'Portrait of Devin',
+    material: 'oil on canvas',
+  },
+  {
+    file: 'yellow-lady.jpg',
+    preview: 'yellow-lady-sm.jpg',
+    title: 'Portrait of Leslie',
+    material: 'oil on canvas board'
+  },
+  {
+    file: 'red-hat.jpg',
+    preview: 'red-hat-sm.jpg',
+    title: 'Portrait of Steve',
+    material: 'oil on canvas board',
+  },
+  {
+    file: 'theresafractale.jpg',
+    preview: 'theresafractale-sm.jpg',
+    title: 'Portrait of Theresafractale',
+    material: 'oil on canvas board',
+  },
+  {
+    file: 'elena-portrait.jpg',
+    preview: 'elena-portrait-sm.jpg',
+    title: 'Portrait of Elena',
+    material: 'oil on canvas board',
+  },
+  {
+    file: 'our-livingroom.jpg',
+    preview: 'our-livingroom-sm.jpg',
+    title: 'Our Livingroom',
+    material: 'digital (Illustrator)',
   },
   {
     file: 'copper-cup-still-life.jpg',
@@ -12,10 +60,46 @@ let PORTFOLIO_DATA = [
     material: 'oil on canvas board'
   },
   {
+    file: 'ink-bug.jpg',
+    preview: 'ink-bug-sm.jpg',
+    title: 'Mole Cricket',
+    material: 'ink',
+  },
+  {
+    file: 'lilypad-pond.jpg',
+    preview: 'lilypad-pond-sm.jpg',
+    title: 'Lilypad Landscape',
+    material: 'watercolor',
+  },
+  {
+    file: 'man-with-staff.jpg',
+    preview: 'man-with-staff-sm.jpg',
+    title: 'Man with Staff',
+    material: 'charcoal',
+  },
+  {
+    file: 'forest-cabin.jpg',
+    preview: 'forest-cabin-sm.jpg',
+    title: 'Forest Cabin',
+    material: 'watercolor',
+  },
+  {
+    file: 'joe-portrait.jpg',
+    preview: 'joe-portrait-sm.jpeg',
+    title: 'Portrait of Joe',
+    material: 'oil on canvas board' 
+  },
+  {
     file: 'woman-with-earring.jpg',
     preview: 'woman-with-earring-sm.jpeg',
     title: 'Woman with Earring',
     material: 'charcoal pencil'
+  },
+  {
+    file: 'devin-sitting.jpg',
+    preview: 'devin-sitting-sm.jpg',
+    title: 'Portrait of Devin Sitting',
+    material: 'charcoal',
   },
   {
     file: 'sitting-woman-in-ink.jpg',
@@ -71,29 +155,11 @@ let PORTFOLIO_DATA = [
     title: 'A Man\'s Leg',
     material: 'charcoal pencil'
   },
-  {
-    file: 'portrait-of-woman-oil.jpg',
-    preview: 'portrait-of-woman-oil-sm.jpeg',
-    title: 'Portrait of a Woman with Red Hair',
-    material: 'oil on canvas board'
-  },
-  {
-    file: 'woman-sitting-sculpture.jpg',
-    preview: 'woman-sitting-sculpture-sm.jpeg',
-    title: 'Sitting Woman Sculpture',
-    material: 'plastalina clay'
-  },
-  {
+ {
     file: 'reclining-woman.jpg',
     preview: 'reclining-woman-sm.jpeg',
     title: 'Reclining Woman',
     material: 'pastel'
-  },
-  {
-    file: '20-min-poses.jpg',
-    preview: '20-min-poses-sm.jpeg',
-    title: '20 Minute Poses',
-    material: 'pencil'
   },
   {
     file: 'gwb-cloudy-day.jpg',
@@ -108,28 +174,10 @@ let PORTFOLIO_DATA = [
     material: 'ink'
   },
   {
-    file: 'catacombes.jpg',
-    preview: 'catacombes-sm.jpeg',
-    title: 'Les Catacombes',
-    material: 'pencil & ink'
-  }, 
-  {
     file: 'womans-torso.jpg',
     preview: 'womans-torso-sm.jpeg',
     title: 'A Woman\'s Torso',
     material: 'sanguine chalk'
-  },
-  {
-    file: 'sitting-man.jpg',
-    preview: 'sitting-man-sm.jpeg',
-    title: 'Sitting Man #1',
-    material: 'sanguine chalk'
-  },
-  {
-    file: 'sitting-woman-in-silverpoint.jpg',
-    preview: 'sitting-woman-in-silverpoint-sm.jpeg',
-    title: 'Sitting Woman #1',
-    material: 'silverpoint'
   },
   {
     file: 'darcy-standing.jpg',
@@ -138,51 +186,9 @@ let PORTFOLIO_DATA = [
     material: 'pencil'
   },
   {
-    file: 'finger-lips.jpg',
-    preview: 'finger-lips-sm.jpeg',
-    title: 'Finger Lips',
-    material: 'ink wash',
-  },
-  {
-    file: 'engergetic-figures.jpg',
-    preview: 'engergetic-figures-sm.jpeg',
-    title: 'Energetic Figures',
-    material: 'ink'
-  },
-  {
-    file: 'faces-in-shadow.jpg',
-    preview: 'faces-in-shadow-sm.jpeg',
-    title: 'Faces in Shadow',
-    material: 'ink'
-  },
-  {
     file: 'sitting-man-in-wax-resist.jpg',
     preview: 'sitting-man-in-wax-resist-sm.jpeg',
     title: 'Sitting Man #2',
     material: 'wax, ink, char-kole'
-  },
-  {
-    file: 'womans-portrait-in-silverpoint.jpg',
-    preview: 'womans-portrait-in-silverpoint-sm.jpeg',
-    title: 'Portrait of a Woman',
-    material: 'silverpoint'
-  },
-  {
-    file: 'man-in-halloween-lighting.jpg',
-    preview: 'man-in-halloween-lighting-sm.jpeg',
-    title: 'Man in Halloween Lighting',
-    material: 'pastel'
-  },
-  {
-    file: 'xmas-tree.jpg',
-    preview: 'xmas-tree-sm.jpeg',
-    title: 'Christmas Tree',
-    material: 'charcoal pencil & marker'
-  },
-  {
-    file: 'dark-woods.jpg',
-    preview: 'dark-woods-sm.jpeg',
-    title: 'The Dark Woods',
-    material: 'acrylic on canvas'
   }
 ];
