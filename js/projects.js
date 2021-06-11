@@ -1,5 +1,11 @@
 const PROJECT_DATA = [
-
+  {
+    title: 'Illustration',
+    description: 'Recent work in a variety of styles.',
+    projectUrl: 'https://sophiaceleste.com/illustration/',
+    previewImgUrl: 'previews/illustration',
+    previewImgType: 'png'
+  },
   {
     title: 'Inktober 2020 (Drawlloween)',
     description: 'Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.',
@@ -15,10 +21,10 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
-    title: 'Mole Cricket',
-    description: 'Detailed drawing of a mole cricket in various styles.',
-    projectUrl: 'https://sophiaceleste.com/mole-cricket/',
-    previewImgUrl: 'previews/mole-cricket',
+    title: 'Fine Art',
+    description: 'Selected works in a variety of media.',
+    projectUrl: 'https://sophiaceleste.com/fine-art/',
+    previewImgUrl: 'previews/fine-art',
     previewImgType: 'png'
   },
   {
@@ -28,18 +34,19 @@ const PROJECT_DATA = [
     previewImgUrl: 'previews/inktober-2019',
     previewImgType: 'png'
   },
-  {
-    title: 'Fine Art & Illustration',
-    description: 'Selected works in a variety of media.',
-    projectUrl: 'https://sophiaceleste.com/fine-art/',
-    previewImgUrl: 'previews/fine-art',
-    previewImgType: 'png'
-  },
+
   {
     title: 'Amaryllis Blooming',
     description: 'Short animation of an amaryllis blooming, in watercolor',
     projectUrl: 'https://sophiaceleste.com/amaryllis-blooming/',
     previewImgUrl: 'previews/amaryllis',
+    previewImgType: 'png'
+  },
+  {
+    title: 'Mole Cricket',
+    description: 'Detailed drawing of a mole cricket in various styles.',
+    projectUrl: 'https://sophiaceleste.com/mole-cricket/',
+    previewImgUrl: 'previews/mole-cricket',
     previewImgType: 'png'
   },
   {

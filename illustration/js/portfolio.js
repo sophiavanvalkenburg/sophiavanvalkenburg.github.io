@@ -1,5 +1,29 @@
 let PORTFOLIO_DATA = [
   {
+    file: 'the-doll-house-poster.jpg',
+    preview: 'the-doll-house-poster-sm.jpg',
+    title: 'The Doll House (Movie Poster)',
+    material: 'graphite pencil, digitally composited'
+  },
+  {
+    file: 'go-bug-or-go-home.png',
+    preview: 'go-bug-or-go-home-sm.png',
+    title: 'Go Bug or Go Home (Cover)',
+    material: 'inked, digitally colored'
+  },
+  {
+    file: 'boscord-streaming.png',
+    preview: 'boscord-streaming-sm.png',
+    title: 'The Boscord Twitch Stream Background',
+    material: 'digital (Photoshop)'
+  },
+  {
+    file: 'once-upon-a-fairytale.jpg',
+    preview: 'once-upon-a-fairytale-sm.jpg',
+    title: 'Once Upon A Fairytale (Book Cover)',
+    material: 'inked, digitally colored'
+  },
+  {
     file: 'sunflower-eloise.jpg',
     preview: 'sunflower-eloise-sm.jpg',
     title: 'Eloise in Sunflower',
@@ -11,6 +35,12 @@ let PORTFOLIO_DATA = [
     title: 'Mango and Knife',
     material: 'digital (Photoshop)'
   },
+  {
+    file: 'canopy-cat-rescue.png',
+    preview: 'canopy-cat-rescue-sm.png',
+    title: 'Canopy Cat Rescue T-Shirt Design',
+    material: 'digital (Photoshop)'
+  }, 
   {
     file: 'film-noir.jpg',
     preview: 'film-noir-sm.jpg',
