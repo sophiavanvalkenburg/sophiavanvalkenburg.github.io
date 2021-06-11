@@ -29,10 +29,10 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
-    title: 'Fine Art Portfolio',
+    title: 'Fine Art & Illustration',
     description: 'Selected works in a variety of media.',
-    projectUrl: 'https://sophiaceleste.com/portfolio/',
-    previewImgUrl: 'previews/portfolio-preview',
+    projectUrl: 'https://sophiaceleste.com/fine-art/',
+    previewImgUrl: 'previews/fine-art',
     previewImgType: 'png'
   },
   {
