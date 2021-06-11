@@ -1,17 +1,11 @@
 const PROJECT_DATA = [
-  {
-    title: 'Fine Art Portfolio',
-    description: 'Selected works in a variety of media.',
-    projectUrl: 'https://sophiaceleste.com/portfolio/',
-    previewImgUrl: 'previews/portfolio-preview',
-    previewImgType: 'png'
-  },
+
   {
     title: 'Inktober 2020 (Drawlloween)',
     description: 'Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.',
     projectUrl: 'https://sophiaceleste.com/inktober-2020/',
     previewImgUrl: 'previews/inktober-2020',
-    previewImgType: 'jpg'
+    previewImgType: 'png'
   },
   {
     title: 'Super Cat: Defender of the Realm',
@@ -21,11 +15,11 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
-    title: 'Bug Mandala',
-    description: 'A psychedelic animated illustration of dancing bugs',
-    projectUrl: 'https://sophiaceleste.com/bug-mandala',
-    previewImgUrl: 'previews/bug-mandala',
-    previewImgType: 'gif'
+    title: 'Mole Cricket',
+    description: 'Detailed drawing of a mole cricket in various styles.',
+    projectUrl: 'https://sophiaceleste.com/mole-cricket/',
+    previewImgUrl: 'previews/mole-cricket',
+    previewImgType: 'png'
   },
   {
     title: 'Inktober 2019',
@@ -33,6 +27,20 @@ const PROJECT_DATA = [
     projectUrl: 'https://sophiaceleste.com/inktober-2019/',
     previewImgUrl: 'previews/inktober-2019',
     previewImgType: 'png'
+  },
+  {
+    title: 'Fine Art Portfolio',
+    description: 'Selected works in a variety of media.',
+    projectUrl: 'https://sophiaceleste.com/portfolio/',
+    previewImgUrl: 'previews/portfolio-preview',
+    previewImgType: 'png'
+  },
+  {
+    title: 'Bug Mandala',
+    description: 'A psychedelic animated illustration of dancing bugs',
+    projectUrl: 'https://sophiaceleste.com/bug-mandala',
+    previewImgUrl: 'previews/bug-mandala',
+    previewImgType: 'gif'
   },
   {
     title: 'Halloween Haus',
