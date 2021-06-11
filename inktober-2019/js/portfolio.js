@@ -127,7 +127,7 @@ let PORTFOLIO_DATA = [
   {
     file: 'inktober-2019-day-26.jpg',
     preview: 'inktober-2019-day-26-sm.jpeg',
-    title: 'Day 26 ("Dark)',
+    title: 'Day 26 ("Dark")',
   },
   {
     file: 'inktober-2019-day-27.jpg',
