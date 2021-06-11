@@ -1,5 +1,83 @@
 let PORTFOLIO_DATA = [
   {
+    file: 'plum-and-pear.jpg',
+    preview: 'plum-and-pear-sm.jpg',
+    title: 'Plum and Pear',
+    material: 'oil on shellacked paper'
+  },
+  {
+    file: 'hacker-brian.jpg',
+    preview: 'hacker-brian-sm.jpg',
+    title: 'Brian the Hacker',
+    material: 'charcoal pencil'
+  },
+  {
+    file: 'girl-with-pearl-earring.jpg',
+    preview: 'girl-with-pearl-earring-sm.jpg',
+    title: 'Copy of \'Girl With A Pearl Earring\'',
+    material: 'oil on canvas board'
+  },
+  {
+    file: 'man-facing-away-with-staff.jpg',
+    preview: 'man-facing-away-with-staff-sm.jpg',
+    title: 'Man Facing Away',
+    material: 'charcoal pencil'
+  },
+  {
+    file: 'sunflower-eloise.jpg',
+    preview: 'sunflower-eloise-sm.jpg',
+    title: 'Eloise in Sunflower',
+    material: 'oil on canvas'
+  },
+  {
+    file: 'graphic-still-life.png',
+    preview: 'graphic-still-life-sm.png',
+    title: 'Mango and Knife',
+    material: 'digital (Photoshop)'
+  },
+  {
+    file: 'heavy-woman-portrait.jpg',
+    preview: 'heavy-woman-portrait-sm.jpg',
+    title: 'Portrait of Woman',
+    material: 'charcoal pencil'
+  },
+  {
+    file: 'film-noir.jpg',
+    preview: 'film-noir-sm.jpg',
+    title: 'A Film Noir Scene',
+    material: 'watercolor & ink'
+  },
+  {
+    file: 'delicata-squash.jpg',
+    preview: 'delicata-squash-sm.jpg',
+    title: 'Delicata Squash',
+    material: 'watercolor'
+  },
+ {
+    file: 'firefighter-dad.jpg',
+    preview: 'firefighter-dad-sm.jpg',
+    title: 'My Dad the Firefighter',
+    material: 'graphite pencil'
+  },
+  {
+    file: 'queen-of-plants.jpg',
+    preview: 'queen-of-plants-sm.jpg',
+    title: 'Queen of Plants',
+    material: 'Sculpey, mixed media'
+  },
+  {
+    file: 'flask-and-spoon.jpg',
+    preview: 'flask-and-spoon-sm.jpg',
+    title: 'Flask and Spoon',
+    material: 'watercolor'
+  },
+  {
+    file: 'rollerskating-isa.png',
+    preview: 'rollerskating-isa-sm.png',
+    title: 'Rollerskating Izzy',
+    material: 'digital (Photoshop)'
+  },
+  {
     file: 'scuba-bull.png',
     preview: 'scuba-bull-sm.jpg',
     title: 'The Raging Bull Submerged',
@@ -24,21 +102,9 @@ let PORTFOLIO_DATA = [
     material: 'oil on canvas',
   },
   {
-    file: 'yellow-lady.jpg',
-    preview: 'yellow-lady-sm.jpg',
-    title: 'Portrait of Leslie',
-    material: 'oil on canvas board'
-  },
-  {
     file: 'red-hat.jpg',
     preview: 'red-hat-sm.jpg',
     title: 'Portrait of Steve',
-    material: 'oil on canvas board',
-  },
-  {
-    file: 'theresafractale.jpg',
-    preview: 'theresafractale-sm.jpg',
-    title: 'Portrait of Theresafractale',
     material: 'oil on canvas board',
   },
   {
@@ -46,6 +112,12 @@ let PORTFOLIO_DATA = [
     preview: 'elena-portrait-sm.jpg',
     title: 'Portrait of Elena',
     material: 'oil on canvas board',
+  },
+  {
+    file: 'devin-sitting.jpg',
+    preview: 'devin-sitting-sm.jpg',
+    title: 'Portrait of Devin Sitting',
+    material: 'charcoal',
   },
   {
     file: 'our-livingroom.jpg',
@@ -58,6 +130,12 @@ let PORTFOLIO_DATA = [
     preview: 'copper-cup-still-life-sm.jpeg',
     title: 'Copper Cup',
     material: 'oil on canvas board'
+  },
+  {
+    file: 'joe-portrait.jpg',
+    preview: 'joe-portrait-sm.jpeg',
+    title: 'Portrait of Joe',
+    material: 'oil on canvas board' 
   },
   {
     file: 'ink-bug.jpg',
@@ -78,28 +156,10 @@ let PORTFOLIO_DATA = [
     material: 'charcoal',
   },
   {
-    file: 'forest-cabin.jpg',
-    preview: 'forest-cabin-sm.jpg',
-    title: 'Forest Cabin',
-    material: 'watercolor',
-  },
-  {
-    file: 'joe-portrait.jpg',
-    preview: 'joe-portrait-sm.jpeg',
-    title: 'Portrait of Joe',
-    material: 'oil on canvas board' 
-  },
-  {
     file: 'woman-with-earring.jpg',
     preview: 'woman-with-earring-sm.jpeg',
     title: 'Woman with Earring',
     material: 'charcoal pencil'
-  },
-  {
-    file: 'devin-sitting.jpg',
-    preview: 'devin-sitting-sm.jpg',
-    title: 'Portrait of Devin Sitting',
-    material: 'charcoal',
   },
   {
     file: 'sitting-woman-in-ink.jpg',
@@ -111,6 +171,12 @@ let PORTFOLIO_DATA = [
     file: 'anatomical-woman.jpg',
     preview: 'anatomical-woman-sm.jpeg',
     title: 'Anatomy Study #1',
+    material: 'pencil'
+  },
+  {
+    file: 'darcy-standing.jpg',
+    preview: 'darcy-standing-sm.jpeg',
+    title: 'Darcy Standing',
     material: 'pencil'
   },
   {
@@ -126,12 +192,6 @@ let PORTFOLIO_DATA = [
     material: 'sanguine chalk'
   },
   {
-    file: 'dizzy-ballerina.jpg',
-    preview: 'dizzy-ballerina-sm.jpeg',
-    title: 'The Dizzy Ballerina',
-    material: 'colored pencil'
-  },
-  {
     file: 'soft-dragon.jpg',
     preview: 'soft-dragon-sm.jpeg',
     title: 'Soft Dragon',
@@ -144,22 +204,10 @@ let PORTFOLIO_DATA = [
     material: 'ink wash'
   },
   {
-    file: 'dragonfruit-still-life.jpg',
-    preview: 'dragonfruit-still-life-sm.jpeg',
-    title: 'Dragonfruit Still Life',
-    material: 'oil on canvas'
-  },
-  {
-    file: 'mans-leg.jpg',
-    preview: 'mans-leg-sm.jpeg',
-    title: 'A Man\'s Leg',
-    material: 'charcoal pencil'
-  },
- {
-    file: 'reclining-woman.jpg',
-    preview: 'reclining-woman-sm.jpeg',
-    title: 'Reclining Woman',
-    material: 'pastel'
+    file: 'sitting-man-in-wax-resist.jpg',
+    preview: 'sitting-man-in-wax-resist-sm.jpeg',
+    title: 'Sitting Man #2',
+    material: 'wax, ink, char-kole'
   },
   {
     file: 'gwb-cloudy-day.jpg',
@@ -168,27 +216,15 @@ let PORTFOLIO_DATA = [
     material: 'ink wash'
   },
   {
-    file: 'spiraling-thoughts.jpg',
-    preview: 'spiraling-thoughts-sm.jpeg',
-    title: 'Spiraling Thoughts',
-    material: 'ink'
-  },
-  {
     file: 'womans-torso.jpg',
     preview: 'womans-torso-sm.jpeg',
     title: 'A Woman\'s Torso',
     material: 'sanguine chalk'
   },
   {
-    file: 'darcy-standing.jpg',
-    preview: 'darcy-standing-sm.jpeg',
-    title: 'Darcy Standing',
-    material: 'pencil'
-  },
-  {
-    file: 'sitting-man-in-wax-resist.jpg',
-    preview: 'sitting-man-in-wax-resist-sm.jpeg',
-    title: 'Sitting Man #2',
-    material: 'wax, ink, char-kole'
+    file: 'reclining-woman.jpg',
+    preview: 'reclining-woman-sm.jpeg',
+    title: 'Reclining Woman',
+    material: 'pastel'
   }
 ];
