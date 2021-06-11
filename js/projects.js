@@ -36,6 +36,13 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
+    title: 'Amaryllis Blooming',
+    description: 'Short animation of an amaryllis blooming, in watercolor',
+    projectUrl: 'https://sophiaceleste.com/amaryllis-blooming/',
+    previewImgUrl: 'previews/amaryllis',
+    previewImgType: 'png'
+  },
+  {
     title: 'Bug Mandala',
     description: 'A psychedelic animated illustration of dancing bugs',
     projectUrl: 'https://sophiaceleste.com/bug-mandala',
