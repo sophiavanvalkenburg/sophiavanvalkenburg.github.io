@@ -7,17 +7,17 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
+    title: 'Inktober 2020 (Drawlloween)',
+    description: 'Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.',
+    projectUrl: 'https://sophiaceleste.com/inktober-2020/',
+    previewImgUrl: 'previews/inktober-2020',
+    previewImgType: 'jpg'
+  },
+  {
     title: 'Super Cat: Defender of the Realm',
     description: 'Super Cat takes on her strongest foe yet... but there\'s a twist!',
     projectUrl: 'https://sophiaceleste.com/comics/super-cat-defender-of-the-realm.png',
     previewImgUrl: 'previews/super-cat-defender-of-the-realm-sm',
-    previewImgType: 'png'
-  },
-  {
-    title: 'Witch Finger Grapes',
-    description: 'A surreal animated photograph',
-    projectUrl: 'https://sophiaceleste.com/witch-finger-grapes',
-    previewImgUrl: 'previews/witch-finger-grapes',
     previewImgType: 'png'
   },
   {
