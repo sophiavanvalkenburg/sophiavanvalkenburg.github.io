@@ -137,6 +137,6 @@ const PROJECT_DATA = [
     projectUrl: 'https://sophiaceleste.com/ant-world-3d/',
     codeUrl: 'https://github.com/sophiavanvalkenburg/ant-world-3d',
     previewImgUrl: 'previews/ant-world',
-    previewImgType: 'gif'
+    previewImgType: 'png'
   }
 ];
