@@ -65,12 +65,6 @@ let PORTFOLIO_DATA = [
     title: 'The Raging Bull Submerged',
     material: 'digital (Photoshop)'
   },
-  {
-    file: 'our-livingroom.jpg',
-    preview: 'our-livingroom-sm.jpg',
-    title: 'Our Livingroom',
-    material: 'digital (Illustrator)',
-  },
  {
     file: 'ink-bug.jpg',
     preview: 'ink-bug-sm.jpg',
@@ -89,4 +83,16 @@ let PORTFOLIO_DATA = [
     title: 'Inktober 2019, Day 7 ("Enchanted")',
     material: 'ink wash'
   },
+  {
+    file: 'ant-hill.jpg',
+    preview: 'ant-hill-sm.jpg',
+    title: 'Ant Hill',
+    material: 'ink, color pencil, marker'
+  },
+  {
+    file: 'our-livingroom.jpg',
+    preview: 'our-livingroom-sm.jpg',
+    title: 'Our Livingroom',
+    material: 'digital (Illustrator)',
+  }
 ];
