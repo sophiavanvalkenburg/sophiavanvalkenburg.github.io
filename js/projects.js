@@ -43,6 +43,20 @@ const PROJECT_DATA = [
     previewImgType: 'png'
   },
   {
+    title: 'Canopy Cat Rescue',
+    description: 'My Submission for Canopy Cat Rescue\'s T-Shirt Contest',
+    projectUrl: 'https://sophiaceleste.com/canopy-cat/',
+    previewImgUrl: 'previews/canopy-cat',
+    previewImgType: 'png'
+  },
+  {
+    title: 'Once Upon A Fairytale',
+    description: 'Book Cover design for a modern-day fairytale anthology',
+    projectUrl: 'https://sophiaceleste.com/once-upon-a-fairytale/',
+    previewImgUrl: 'previews/once-upon-a-fairytale',
+    previewImgType: 'png'
+  },
+  {
     title: 'Mole Cricket',
     description: 'Detailed drawing of a mole cricket in various styles.',
     projectUrl: 'https://sophiaceleste.com/mole-cricket/',
