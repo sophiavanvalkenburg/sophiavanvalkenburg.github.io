@@ -1,15 +1,22 @@
 body {
     font-family: "Roboto","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 0.8em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.navbar {
+footer {
+    margin-top: auto;
+}
+
+.navbar, footer {
     background-color: white;
     padding: 30px 50px 30px 50px;
 }
 
 .navbar-brand {
-    font-size: 48pt;
+    font-size: 5em;
 }
 
 .nav-link  {
@@ -40,6 +47,25 @@ body {
 
 .social-media-link {
     padding: 0 4px;
+}
+
+.social-media-link:hover {
+    text-decoration: none;
+}
+
+.social-media-link:focus {
+    outline: 0;
+    
+}
+
+.social-media-link > img {
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+.social-media-link:focus > img {
+    border: 1px solid black;
+    border-radius: 0;
 }
 
 .code-link {
