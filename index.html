@@ -27,6 +27,14 @@
     <!--<div id="vimeo-player-container" class="container">
       <iframe src="https://player.vimeo.com/video/440104318" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>-->
+
+    <div id="filter-button-container" class="container">
+      <button class="btn" onclick="filterSelection('all')">ALL</button>
+      <button class="btn active" onclick="filterSelection('illustration')">ILLUSTRATION</button>
+      <button class="btn" onclick="filterSelection('interactive')">INTERACTIVES</button>
+      <button class="btn" onclick="filterSelection('fine-art')">FINE ART</button>
+    </div>
+      
     <div id="project-container" class="container"></div>
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

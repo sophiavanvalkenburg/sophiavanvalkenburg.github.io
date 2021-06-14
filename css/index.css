@@ -5,17 +5,31 @@ body {
 
 .navbar {
     background-color: white;
-    padding:50px;
+    padding: 30px 50px 30px 50px;
 }
 
 .navbar-brand {
     font-size: 48pt;
 }
-.nav-link, .nav-link:hover{
+
+.nav-link  {
+    border: 1px solid white;
+}
+
+.nav-link, .nav-link:hover {
     color: black;
-    text-decoration: none;
     font-size: 20pt;
     font-family: 'Arial Narrow'
+}
+
+.nav-link:hover, .nav-link:focus {
+    text-decoration: underline;
+}
+
+.nav-link:focus {
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 0;
 }
 
 
@@ -47,6 +61,11 @@ body {
 
 .preview-img-container {
     padding-bottom: 50px;
+    display: none;
+}
+
+.preview-img-container.show {
+    display: block;
 }
 
 .preview-img {
@@ -59,12 +78,26 @@ body {
     
 }
 
-.preview-img img.preview-img-gif {
-    display: none;
-}
-
 .preview-img:hover .img-overlay {
     visibility: visible;
+}
+
+.preview-img:focus, .img-overlay {
+    visibility: visible;
+}
+
+.preview-img > a:focus {
+    outline: 0;
+}
+
+.preview-img > a > img {
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+.preview-img > a:focus > img {
+    border: 1px solid black; 
+    border-radius: 0;
 }
 
 .img-overlay {
@@ -85,4 +118,28 @@ body {
     font-family: 'Arial Narrow';
     text-align: center;
     width: 100%;
+}
+
+
+#filter-button-container > button {
+    background-color: white;
+    border: 0;
+    color: #646464;
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+#filter-button-container > button:focus, 
+#filter-button-container > .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+#filter-button-container > button:hover, 
+#filter-button-container > button.active,
+#filter-button-container > button:focus {
+    text-decoration: underline;
+    color: black;
 }

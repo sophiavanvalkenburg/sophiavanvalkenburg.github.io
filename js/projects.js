@@ -4,35 +4,40 @@ const PROJECT_DATA = [
     description: 'Recent work in a variety of styles.',
     projectUrl: 'https://sophiaceleste.com/illustration/',
     previewImgUrl: 'previews/illustration',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'illustration'
   },
   {
     title: 'Inktober 2020 (Drawlloween)',
     description: 'Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.',
     projectUrl: 'https://sophiaceleste.com/inktober-2020/',
     previewImgUrl: 'previews/inktober-2020',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'illustration'
   },
   {
     title: 'Super Cat: Defender of the Realm',
     description: 'Super Cat takes on her strongest foe yet... but there\'s a twist!',
     projectUrl: 'https://sophiaceleste.com/comics/super-cat-defender-of-the-realm.png',
     previewImgUrl: 'previews/super-cat-defender-of-the-realm-sm',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'comic'
   },
   {
     title: 'Fine Art',
     description: 'Selected works in a variety of media.',
     projectUrl: 'https://sophiaceleste.com/fine-art/',
     previewImgUrl: 'previews/fine-art',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'fine-art'
   },
   {
     title: 'Inktober 2019',
     description: 'Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.',
     projectUrl: 'https://sophiaceleste.com/inktober-2019/',
     previewImgUrl: 'previews/inktober-2019',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'illustration'
   },
 
   {
@@ -40,7 +45,8 @@ const PROJECT_DATA = [
     description: 'Short animation of an amaryllis blooming, in watercolor',
     projectUrl: 'https://sophiaceleste.com/amaryllis-blooming/',
     previewImgUrl: 'previews/amaryllis',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'animation'
   },
   {
     title: 'Ant World',
@@ -48,7 +54,8 @@ const PROJECT_DATA = [
     projectUrl: 'https://sophiaceleste.com/ant-world-3d/',
     codeUrl: 'https://github.com/sophiavanvalkenburg/ant-world-3d',
     previewImgUrl: 'previews/ant-world',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'interactive'
   },
   {
     title: 'Halloween Haus',
@@ -56,35 +63,40 @@ const PROJECT_DATA = [
     projectUrl: 'https://sophiaceleste.com/halloween-haus/',
     codeUrl: 'https://github.com/sophiavanvalkenburg/halloween-haus/',
     previewImgUrl: 'previews/halloween-haus',
-    previewImgType: 'gif'
+    previewImgType: 'gif',
+    category: 'interactive'
   },
   {
     title: 'Canopy Cat Rescue',
     description: 'My Submission for Canopy Cat Rescue\'s T-Shirt Contest',
     projectUrl: 'https://sophiaceleste.com/canopy-cat/',
     previewImgUrl: 'previews/canopy-cat',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'illustration'
   },
   {
     title: 'Once Upon A Fairytale',
     description: 'Book Cover design for a modern-day fairytale anthology',
     projectUrl: 'https://sophiaceleste.com/once-upon-a-fairytale/',
     previewImgUrl: 'previews/once-upon-a-fairytale',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'illustration'
   },
   {
     title: 'Mole Cricket',
     description: 'Detailed drawing of a mole cricket in various styles.',
     projectUrl: 'https://sophiaceleste.com/mole-cricket/',
     previewImgUrl: 'previews/mole-cricket',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'illustration'
   },
   {
     title: 'My Favorite Toy',
     description: 'A short graphic memoir',
     projectUrl: 'https://sophiaceleste.com/comics/my-favorite-toy/',
     previewImgUrl: 'comics/my-favorite-toy/img/my_favorite_toy_title_sm',
-    previewImgType: 'png'
+    previewImgType: 'png',
+    category: 'comic'
   },
   {
     title: 'Eyeball Forest',
@@ -92,7 +104,8 @@ const PROJECT_DATA = [
     projectUrl: 'https://sophiaceleste.com/eyeball-forest/',
     codeUrl: 'https://github.com/sophiavanvalkenburg/eyeball-forest/',
     previewImgUrl: 'previews/eyeball-forest-demo',
-    previewImgType: 'gif'
+    previewImgType: 'gif',
+    category: 'interactive'
   },
   {
     title: 'Music Doodles',
@@ -100,21 +113,24 @@ const PROJECT_DATA = [
     projectUrl: 'https://sophiaceleste.com/music-doodles/',
     codeUrl: 'https://github.com/sophiavanvalkenburg/music-doodles/',
     previewImgUrl: 'previews/funk',
-    previewImgType: 'gif'
+    previewImgType: 'gif',
+    category: 'interactive'
   },
   {
     title: '"funkpeter (beta)" MV',
     description: 'A music video for "funkpeter (beta)" by Psilodump',
     projectUrl: 'https://vimeo.com/383631135',
     previewImgUrl: 'previews/funkpeter-beta',
-    previewImgType: 'gif'
+    previewImgType: 'gif',
+    category: 'animation'
   },
   {
     title: 'Bug Mandala',
     description: 'A psychedelic animated illustration of dancing bugs',
     projectUrl: 'https://sophiaceleste.com/bug-mandala',
     previewImgUrl: 'previews/bug-mandala',
-    previewImgType: 'gif'
+    previewImgType: 'gif',
+    category: 'animation'
   },
   {
     title: 'AR Builders',
@@ -122,7 +138,8 @@ const PROJECT_DATA = [
     projectUrl: 'https://floored.github.io/ar-builders',
     codeUrl: 'https://github.com/sophiavanvalkenburg/ar-builders/',
     previewImgUrl: 'previews/ar-builders-demo',
-    previewImgType: 'gif'
+    previewImgType: 'gif',
+    category: 'interactive'
   },
   {
     title: 'The Wrigglies',
@@ -130,13 +147,15 @@ const PROJECT_DATA = [
     projectUrl: 'https://sophiaceleste.com/wrigglies-itp-2017',
     codeUrl: 'https://github.com/sophiavanvalkenburg/wrigglies-itp-2017',
     previewImgUrl: 'previews/wrigglies-demo',
-    previewImgType: 'gif'
+    previewImgType: 'gif',
+    category: 'interactive'
   },
   {
     title: 'Rubiks Cube',
     description: 'Model of a Rubiks Cube written in C++ and OpenGL from scratch.',
     projectUrl: 'https://github.com/sophiavanvalkenburg/rubiks-cube/',
     previewImgUrl: 'previews/rubiks-cube-demo',
-    previewImgType: 'gif'
+    previewImgType: 'gif',
+    category: 'interactive'
   }
 ];
