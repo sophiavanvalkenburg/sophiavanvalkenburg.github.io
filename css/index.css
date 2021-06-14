@@ -3,21 +3,25 @@ body {
     font-size: 0.8em;
 }
 
-.project-navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: right !important;
+.navbar {
+    background-color: white;
+    padding:50px;
 }
+
+.navbar-brand {
+    font-size: 48pt;
+}
+.nav-link, .nav-link:hover{
+    color: black;
+    text-decoration: none;
+    font-size: 20pt;
+    font-family: 'Arial Narrow'
+}
+
 
 .page-title {
     padding-right: 20px;
-    color: lightgray;
-}
-
-@media (max-width: 500px ) {
-    .project-navbar-container {
-        display: block;
-    }
+    font-style: italic;
 }
 
 .social-media-link {
@@ -37,50 +41,48 @@ body {
     margin-top: 25px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     padding: 0;
 }
 
-.project-card {
-  position: relative;
-  padding: 10px;
-  margin: 10px;
-  overflow: hidden;
-  min-width: 250px;
-  max-width: 250px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
-}
-
-.project-card > *{
-  text-align: center;
+.preview-img-container {
+    padding-bottom: 50px;
 }
 
 .preview-img {
-    overflow: hidden;
-    border-radius: 5px;
+    position: relative;
 }
 
 .preview-img img {
-    height: 200px;
+    height: 300px;
     width: auto;
-    border-radius: 5px;
+    
 }
 
 .preview-img img.preview-img-gif {
     display: none;
 }
 
-.project-card:hover {
-    background: rgb(225, 225, 225);
+.preview-img:hover .img-overlay {
+    visibility: visible;
 }
 
-.project-card:hover img.preview-img-png {
-    display: none;
+.img-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.7);
+    bottom: 0px;
+    visibility: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
-.project-card:hover img.no-gif {
-    display: inline-block;
-}
-
-.project-card:hover img.preview-img-gif {
-    display: inline-block;
+.img-overlay > .project-title {
+    text-decoration: underline;
+    font-size: 28pt;
+    font-family: 'Arial Narrow';
+    text-align: center;
+    width: 100%;
 }
