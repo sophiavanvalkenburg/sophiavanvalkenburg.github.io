@@ -1,7 +1,7 @@
-let container = $('#project-container');
+let container = document.getElementById('project-container');
 for ( let i = 0; i < PROJECT_DATA.length; i++ ){
   let projectCardHtml = generateProjectCard(PROJECT_DATA[i]);
-  container.append(projectCardHtml);
+  container.innerHTML += projectCardHtml;
 }
 
 function generateProjectCard(project) {

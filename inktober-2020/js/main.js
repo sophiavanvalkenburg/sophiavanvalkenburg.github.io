@@ -1,8 +1,10 @@
-let container = $('#container');
+let container = document.getElementById('container');
+let containerHtml = '';
 for ( let i = 0; i < PORTFOLIO_DATA.length; i++ ){
   let portfolioCardHtml = generatePortfolioCard(PORTFOLIO_DATA[i]);
-  container.append(portfolioCardHtml);
+  containerHtml += portfolioCardHtml;
 }
+container.innerHTML = containerHtml;
 
 function generatePortfolioCard(portfolio) {
   const materialCaption = portfolio.material ? ` - ${portfolio.material}` : '';
