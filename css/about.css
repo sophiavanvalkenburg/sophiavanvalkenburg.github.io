@@ -30,6 +30,7 @@
 
 .about-text {
     margin-bottom: 10%;
+    font-size: 1.5em;
 }
 
 .about-header, .find-me-header {
@@ -49,7 +50,7 @@
     }
 
     .me-img-container {
-        height: 40vh;
-        width: auto;
+        height: 25vh;
+        width: 25vh;
     }
 }
