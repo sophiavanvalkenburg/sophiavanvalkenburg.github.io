@@ -28,6 +28,11 @@ footer {
     line-height: 1em;
 }
 
+.navbar-link-container {
+    display: flex ;
+    flex-direction: row;
+}
+
 .nav-link  {
     border: 1px solid white;
 }
