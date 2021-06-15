@@ -1,9 +1,17 @@
 const PROJECT_DATA = [
+  /**** ILLUSTRATION */
   {
-    title: 'Illustration',
-    description: 'Recent work in a variety of styles.',
-    projectUrl: 'https://sophiaceleste.com/illustration/',
-    previewImgUrl: 'previews/illustration.png',
+    projectUrl: '/img/illustration/go-bug-or-go-home.png',
+    previewImgUrl: '/img/illustration/go-bug-or-go-home-sm.png',
+    title: 'Go Bug or Go Home (Cover)',
+    description: 'inked, digitally colored',
+    category: 'illustration'
+  },
+  {
+    projectUrl: '/img/illustration/boscord-streaming.png',
+    previewImgUrl: '/img/illustration/boscord-streaming-sm.png',
+    title: 'The Boscord Twitch Stream Background',
+    description: 'digital (Photoshop)',
     category: 'illustration'
   },
   {
@@ -14,42 +22,18 @@ const PROJECT_DATA = [
     category: 'illustration'
   },
   {
-    title: 'Super Cat: Defender of the Realm',
-    description: 'Super Cat takes on her strongest foe yet... but there\'s a twist!',
-    projectUrl: 'https://sophiaceleste.com/comics/super-cat-defender-of-the-realm.png',
-    previewImgUrl: 'previews/super-cat-defender-of-the-realm-sm.png',
-    category: 'comic'
-  },
-  {
     title: 'Inktober 2019',
     description: 'Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.',
     projectUrl: 'https://sophiaceleste.com/inktober-2019/',
     previewImgUrl: 'previews/inktober-2019.png',
     category: 'illustration'
   },
-
   {
-    title: 'Amaryllis Blooming',
-    description: 'Short animation of an amaryllis blooming, in watercolor',
-    projectUrl: 'https://sophiaceleste.com/amaryllis-blooming/',
-    previewImgUrl: 'previews/amaryllis.png',
-    category: 'animation'
-  },
-  {
-    title: 'Ant World',
-    description: 'Concept illustration of a fantastical ant hill with 3D prototype of ant, created with three.js',
-    projectUrl: 'https://sophiaceleste.com/ant-world-3d/',
-    codeUrl: 'https://github.com/sophiavanvalkenburg/ant-world-3d',
-    previewImgUrl: 'previews/ant-world.png',
-    category: 'interactive'
-  },
-  {
-    title: 'Halloween Haus',
-    description: 'Many moons ago, 28 souls gathered at a haunted haus on all hallow\'s eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...',
-    projectUrl: 'https://sophiaceleste.com/halloween-haus/',
-    codeUrl: 'https://github.com/sophiavanvalkenburg/halloween-haus/',
-    previewImgUrl: 'previews/halloween-haus.png',
-    category: 'interactive'
+    projectUrl: '/img/illustration/the-doll-house-poster.jpg',
+    previewImgUrl: '/img/illustration/the-doll-house-poster-sm.jpg',
+    title: 'The Doll House (Movie Poster)',
+    description: 'graphite pencil, digitally composited',
+    category: 'illustration'
   },
   {
     title: 'Canopy Cat Rescue',
@@ -66,11 +50,90 @@ const PROJECT_DATA = [
     category: 'illustration'
   },
   {
+    projectUrl: '/img/illustration/graphic-still-life.png',
+    previewImgUrl: '/img/illustration/graphic-still-life-sm.png',
+    title: 'Mango and Knife',
+    description: 'digital (Photoshop)',
+    category: 'illustration'
+  },
+  {
+    projectUrl: '/img/illustration/sunflower-eloise.jpg',
+    previewImgUrl: '/img/illustration/sunflower-eloise-sm.jpg',
+    title: 'Eloise in Sunflower',
+    description: 'oil on canvas',
+    category: 'illustration'
+  },
+  {
     title: 'Mole Cricket',
     description: 'Detailed drawing of a mole cricket in various styles.',
     projectUrl: 'https://sophiaceleste.com/mole-cricket/',
     previewImgUrl: 'previews/mole-cricket.png',
     category: 'illustration'
+  },
+  {
+    projectUrl: '/img/illustration/film-noir.jpg',
+    previewImgUrl: '/img/illustration/film-noir-sm.jpg',
+    title: 'A Film Noir Scene',
+    description: 'watercolor & ink',
+    category: 'illustration'
+  },
+  {
+    projectUrl: '/img/illustration/queen-of-plants.jpg',
+    previewImgUrl: '/img/illustration/queen-of-plants-sm.jpg',
+    title: 'Queen of Plants',
+    description: 'Sculpey, mixed media',
+    category: 'illustration'
+  },
+  {
+    projectUrl: '/img/illustration/rollerskating-isa.png',
+    previewImgUrl: '/img/illustration/rollerskating-isa-sm.png',
+    title: 'Rollerskating Izzy',
+    description: 'digital (Photoshop)',
+    category: 'illustration'
+  },
+  {
+    projectUrl: '/img/illustration/scuba-bull.png',
+    previewImgUrl: '/img/illustration/scuba-bull-sm.jpg',
+    title: 'The Raging Bull Submerged',
+    description: 'digital (Photoshop)',
+    category: 'illustration'
+  },
+  {
+    projectUrl: '/img/illustration/soft-dragon.jpg',
+    previewImgUrl: '/img/illustration/soft-dragon-sm.jpeg',
+    title: 'Soft Dragon',
+    description: 'sanguine chalk',
+    category: 'illustration'
+  },
+  {
+    projectUrl: '/img/illustration/ant-hill.jpg',
+    previewImgUrl: '/img/illustration/ant-hill-sm.jpg',
+    title: 'Ant Hill',
+    description: 'ink, color pencil, marker',
+    category: 'illustration'
+  },
+  {
+    projectUrl: '/img/illustration/our-livingroom.jpg',
+    previewImgUrl: '/img/illustration/our-livingroom-sm.jpg',
+    title: 'Our Livingroom',
+    description: 'digital (Illustrator)',
+    category: 'illustration'
+  },
+
+  /**** MISC */
+  {
+    title: 'Super Cat: Defender of the Realm',
+    description: 'Super Cat takes on her strongest foe yet... but there\'s a twist!',
+    projectUrl: 'https://sophiaceleste.com/comics/super-cat-defender-of-the-realm.png',
+    previewImgUrl: 'previews/super-cat-defender-of-the-realm-sm.png',
+    category: 'comic'
+  },
+  {
+    title: 'Amaryllis Blooming',
+    description: 'Short animation of an amaryllis blooming, in watercolor',
+    projectUrl: 'https://sophiaceleste.com/amaryllis-blooming/',
+    previewImgUrl: 'previews/amaryllis.png',
+    category: 'animation'
   },
   {
     title: 'My Favorite Toy',
@@ -79,6 +142,33 @@ const PROJECT_DATA = [
     previewImgUrl: 'comics/my-favorite-toy/img/my_favorite_toy_title_sm.png',
     category: 'comic'
   },
+  {
+    title: '"funkpeter (beta)" MV',
+    description: 'A music video for "funkpeter (beta)" by Psilodump',
+    projectUrl: 'https://vimeo.com/383631135',
+    previewImgUrl: 'previews/funkpeter-beta.png',
+    category: 'animation'
+  },
+
+
+  /**** INTERACTIVES */
+  {
+    title: 'Halloween Haus',
+    description: 'Many moons ago, 28 souls gathered at a haunted haus on all hallow\'s eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...',
+    projectUrl: 'https://sophiaceleste.com/halloween-haus/',
+    codeUrl: 'https://github.com/sophiavanvalkenburg/halloween-haus/',
+    previewImgUrl: 'previews/halloween-haus.png',
+    category: 'interactive'
+  },
+  {
+    title: 'Ant World',
+    description: 'Concept illustration of a fantastical ant hill with 3D prototype of ant, created with three.js',
+    projectUrl: 'https://sophiaceleste.com/ant-world-3d/',
+    codeUrl: 'https://github.com/sophiavanvalkenburg/ant-world-3d',
+    previewImgUrl: 'previews/ant-world.png',
+    category: 'interactive'
+  },
+  
   {
     title: 'Eyeball Forest',
     description: 'A forest of eyeballs...',
@@ -94,13 +184,6 @@ const PROJECT_DATA = [
     codeUrl: 'https://github.com/sophiavanvalkenburg/music-doodles/',
     previewImgUrl: 'previews/funk.png',
     category: 'interactive'
-  },
-  {
-    title: '"funkpeter (beta)" MV',
-    description: 'A music video for "funkpeter (beta)" by Psilodump',
-    projectUrl: 'https://vimeo.com/383631135',
-    previewImgUrl: 'previews/funkpeter-beta.png',
-    category: 'animation'
   },
   {
     title: 'Bug Mandala',
@@ -132,7 +215,6 @@ const PROJECT_DATA = [
     previewImgUrl: 'previews/rubiks-cube-demo.png',
     category: 'interactive'
   },
-
 
   /**** FINE ART */
   {
