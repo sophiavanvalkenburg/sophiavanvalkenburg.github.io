@@ -1,0 +1,55 @@
+.nav-about-link {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.me-img-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 5%;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.about-section {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text {
+    margin-bottom: 10%;
+}
+
+.about-header, .find-me-header {
+    text-decoration: underline;
+    font-family: 'Arial Narrow';
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.social-media-section {
+    margin-bottom:10%;
+}
+
+@media screen and (max-width:600px) {
+    footer {
+        display: none;
+    }
+
+    .me-img-container {
+        height: 40vh;
+        width: auto;
+    }
+}
