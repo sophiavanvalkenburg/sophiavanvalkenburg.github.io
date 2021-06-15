@@ -17,14 +17,14 @@ const PROJECT_DATA = [
   {
     title: 'Inktober 2020 (Drawlloween)',
     description: 'Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.',
-    projectUrl: 'https://sophiaceleste.com/inktober-2020/',
+    projectUrl: 'https://sophiaceleste.com/about/inktober-2020/',
     previewImgUrl: 'previews/inktober-2020.png',
     category: 'illustration'
   },
   {
     title: 'Inktober 2019',
     description: 'Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.',
-    projectUrl: 'https://sophiaceleste.com/inktober-2019/',
+    projectUrl: 'https://sophiaceleste.com/about/inktober-2019/',
     previewImgUrl: 'previews/inktober-2019.png',
     category: 'illustration'
   },
@@ -38,14 +38,14 @@ const PROJECT_DATA = [
   {
     title: 'Canopy Cat Rescue',
     description: 'My Submission for Canopy Cat Rescue\'s T-Shirt Contest',
-    projectUrl: 'https://sophiaceleste.com/canopy-cat/',
+    projectUrl: 'https://sophiaceleste.com/about/canopy-cat/',
     previewImgUrl: 'previews/canopy-cat.png',
     category: 'illustration'
   },
   {
     title: 'Once Upon A Fairytale',
     description: 'Book Cover design for a modern-day fairytale anthology',
-    projectUrl: 'https://sophiaceleste.com/once-upon-a-fairytale/',
+    projectUrl: 'https://sophiaceleste.com/about/once-upon-a-fairytale/',
     previewImgUrl: 'previews/once-upon-a-fairytale.png',
     category: 'illustration'
   },
@@ -66,7 +66,7 @@ const PROJECT_DATA = [
   {
     title: 'Mole Cricket',
     description: 'Detailed drawing of a mole cricket in various styles.',
-    projectUrl: 'https://sophiaceleste.com/mole-cricket/',
+    projectUrl: 'https://sophiaceleste.com/about/mole-cricket/',
     previewImgUrl: 'previews/mole-cricket.png',
     category: 'illustration'
   },
@@ -131,7 +131,7 @@ const PROJECT_DATA = [
   {
     title: 'Amaryllis Blooming',
     description: 'Short animation of an amaryllis blooming, in watercolor',
-    projectUrl: 'https://sophiaceleste.com/amaryllis-blooming/',
+    projectUrl: 'https://sophiaceleste.com/about/amaryllis-blooming/',
     previewImgUrl: 'previews/amaryllis.png',
     category: 'animation'
   },
@@ -188,7 +188,7 @@ const PROJECT_DATA = [
   {
     title: 'Bug Mandala',
     description: 'A psychedelic animated illustration of dancing bugs',
-    projectUrl: 'https://sophiaceleste.com/bug-mandala',
+    projectUrl: 'https://sophiaceleste.com/about/bug-mandala',
     previewImgUrl: 'previews/bug-mandala.png',
     category: 'animation'
   },
