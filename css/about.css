@@ -44,11 +44,12 @@
     margin-bottom:10%;
 }
 
-@media screen and (max-width:600px) {
-    footer {
-        display: none;
-    }
 
+footer {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
     .me-img-container {
         height: 25vh;
         width: 25vh;
