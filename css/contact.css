@@ -1,0 +1,28 @@
+.nav-contact-link {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.find-me-header {
+    text-decoration: underline;
+    font-family: 'Arial Narrow';
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.social-media-section {
+    margin-bottom:10%;
+}
+
+@media screen and (max-width:600px) {
+    footer {
+        display: none;
+    }
+}
