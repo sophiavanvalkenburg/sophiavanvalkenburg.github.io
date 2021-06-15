@@ -8,8 +8,8 @@ function generateProjectCard(project) {
   let cardHtml = '' +
         '<div class="preview-img-container filterDiv ' + project.category + '">' +
               '<div class="preview-img">';
-    cardHtml += '<a href="' + project.projectUrl + '">';
-    cardHtml += '<img class="preview-img-png" src="' + project.previewImgUrl + '.png" />'
+    cardHtml += '<a target="_blank" href="' + project.projectUrl + '">';
+    cardHtml += '<img class="preview-img-png" src="' + project.previewImgUrl + '" />'
     cardHtml += '<div class="img-overlay"><h5 class="project-title">' + project.title + '</h5></div>'
     cardHtml += '</a></div></div>';
   return cardHtml;
