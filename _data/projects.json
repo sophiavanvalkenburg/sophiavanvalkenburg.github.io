@@ -1,7 +1,7 @@
 [
   {
     "slug": "go-bug-or-go-home",
-    "projectUrl": "/img/illustration/go-bug-or-go-home.png",
+    "imgUrl": "/img/illustration/go-bug-or-go-home.png",
     "previewImgUrl": "/img/illustration/go-bug-or-go-home-sm.png",
     "title": "Go Bug or Go Home (Cover)",
     "description": "inked, digitally colored",
@@ -9,7 +9,7 @@
   },
   {
     "slug": "boscord-streaming",
-    "projectUrl": "/img/illustration/boscord-streaming.png",
+    "imgUrl": "/img/illustration/boscord-streaming.png",
     "previewImgUrl": "/img/illustration/boscord-streaming-sm.png",
     "title": "The Boscord Twitch Stream Background",
     "description": "digital (Photoshop)",
@@ -19,7 +19,7 @@
     "slug": "inktober-2020",
     "title": "Inktober 2020 (Drawlloween)",
     "description": "Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.",
-    "projectUrl": "https://sophiaceleste.com/project/inktober-2020/",
+    "projectPreviewUrl": "https://sophiaceleste.com/project/inktober-2020/",
     "previewImgUrl": "/img/previews/inktober-2020.png",
     "category": "illustration"
   },
@@ -27,13 +27,13 @@
     "slug": "inktober-2019",
     "title": "Inktober 2019",
     "description": "Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.",
-    "projectUrl": "https://sophiaceleste.com/project/inktober-2019/",
+    "projectPreviewUrl": "https://sophiaceleste.com/project/inktober-2019/",
     "previewImgUrl": "/img/previews/inktober-2019.png",
     "category": "illustration"
   },
   {
     "slug": "the-doll-house-poster",
-    "projectUrl": "/img/illustration/the-doll-house-poster.jpg",
+    "imgUrl": "/img/illustration/the-doll-house-poster.jpg",
     "previewImgUrl": "/img/illustration/the-doll-house-poster-sm.jpg",
     "title": "The Doll House (Movie Poster)",
     "description": "graphite pencil, digitally composited",
@@ -43,7 +43,7 @@
     "slug": "canopy-cat",
     "title": "Canopy Cat Rescue",
     "description": "My Submission for Canopy Cat Rescue's T-Shirt Contest",
-    "projectUrl": "https://sophiaceleste.com/project/canopy-cat/",
+    "projectPreviewUrl": "https://sophiaceleste.com/project/canopy-cat/",
     "previewImgUrl": "/img/previews/canopy-cat.png",
     "category": "illustration"
   },
@@ -51,13 +51,13 @@
     "slug": "once-upon-a-fairytale",
     "title": "Once Upon A Fairytale",
     "description": "Book Cover design for a modern-day fairytale anthology",
-    "projectUrl": "https://sophiaceleste.com/project/once-upon-a-fairytale/",
+    "projectPreviewUrl": "https://sophiaceleste.com/project/once-upon-a-fairytale/",
     "previewImgUrl": "/img/previews/once-upon-a-fairytale.png",
     "category": "illustration"
   },
   {
     "slug": "graphic-still-life",
-    "projectUrl": "/img/illustration/graphic-still-life.png",
+    "imgUrl": "/img/illustration/graphic-still-life.png",
     "previewImgUrl": "/img/illustration/graphic-still-life-sm.png",
     "title": "Mango and Knife",
     "description": "digital (Photoshop)",
@@ -65,7 +65,7 @@
   },
   {
     "slug": "sunflower-eloise",
-    "projectUrl": "/img/illustration/sunflower-eloise.jpg",
+    "imgUrl": "/img/illustration/sunflower-eloise.jpg",
     "previewImgUrl": "/img/illustration/sunflower-eloise-sm.jpg",
     "title": "Eloise in Sunflower",
     "description": "oil on canvas",
@@ -75,13 +75,13 @@
     "slug": "mole-cricket",
     "title": "Mole Cricket",
     "description": "Detailed drawing of a mole cricket in various styles.",
-    "projectUrl": "https://sophiaceleste.com/project/mole-cricket/",
+    "projectPreviewUrl": "https://sophiaceleste.com/project/mole-cricket/",
     "previewImgUrl": "/img/previews/mole-cricket.png",
     "category": "illustration"
   },
   {
     "slug": "film-noir",
-    "projectUrl": "/img/illustration/film-noir.jpg",
+    "imgUrl": "/img/illustration/film-noir.jpg",
     "previewImgUrl": "/img/illustration/film-noir-sm.jpg",
     "title": "A Film Noir Scene",
     "description": "watercolor & ink",
@@ -89,7 +89,7 @@
   },
   {
     "slug": "queen-of-plants",
-    "projectUrl": "/img/illustration/queen-of-plants.jpg",
+    "imgUrl": "/img/illustration/queen-of-plants.jpg",
     "previewImgUrl": "/img/illustration/queen-of-plants-sm.jpg",
     "title": "Queen of Plants",
     "description": "Sculpey, mixed media",
@@ -97,7 +97,7 @@
   },
   {
     "slug": "rollerskating-isa",
-    "projectUrl": "/img/illustration/rollerskating-isa.png",
+    "imgUrl": "/img/illustration/rollerskating-isa.png",
     "previewImgUrl": "/img/illustration/rollerskating-isa-sm.png",
     "title": "Rollerskating Izzy",
     "description": "digital (Photoshop)",
@@ -105,7 +105,7 @@
   },
   {
     "slug": "scuba-bull",
-    "projectUrl": "/img/illustration/scuba-bull.png",
+    "imgUrl": "/img/illustration/scuba-bull.png",
     "previewImgUrl": "/img/illustration/scuba-bull-sm.jpg",
     "title": "The Raging Bull Submerged",
     "description": "digital (Photoshop)",
@@ -113,7 +113,7 @@
   },
   {
     "slug": "soft-dragon",
-    "projectUrl": "/img/illustration/soft-dragon.jpg",
+    "imgUrl": "/img/illustration/soft-dragon.jpg",
     "previewImgUrl": "/img/illustration/soft-dragon-sm.jpeg",
     "title": "Soft Dragon",
     "description": "sanguine chalk",
@@ -121,7 +121,7 @@
   },
   {
     "slug": "ant-hill",
-    "projectUrl": "/img/illustration/ant-hill.jpg",
+    "imgUrl": "/img/illustration/ant-hill.jpg",
     "previewImgUrl": "/img/illustration/ant-hill-sm.jpg",
     "title": "Ant Hill",
     "description": "ink, color pencil, marker",
@@ -129,7 +129,7 @@
   },
   {
     "slug": "our-livingroom",
-    "projectUrl": "/img/illustration/our-livingroom.jpg",
+    "imgUrl": "/img/illustration/our-livingroom.jpg",
     "previewImgUrl": "/img/illustration/our-livingroom-sm.jpg",
     "title": "Our Livingroom",
     "description": "digital (Illustrator)",
@@ -139,7 +139,7 @@
     "slug": "super-cat-defender-of-the-realm",
     "title": "Super Cat: Defender of the Realm",
     "description": "Super Cat takes on her strongest foe yet... but there's a twist!",
-    "projectUrl": "https://sophiaceleste.com/comics/super-cat-defender-of-the-realm.png",
+    "imgUrl": "https://sophiaceleste.com/comics/super-cat-defender-of-the-realm.png",
     "previewImgUrl": "/img/previews/super-cat-defender-of-the-realm-sm.png",
     "category": "comic"
   },
@@ -147,7 +147,7 @@
     "slug": "amaryllis-blooming",
     "title": "Amaryllis Blooming",
     "description": "Short animation of an amaryllis blooming, in watercolor",
-    "projectUrl": "https://sophiaceleste.com/project/amaryllis-blooming/",
+    "projectPreviewUrl": "https://sophiaceleste.com/project/amaryllis-blooming/",
     "previewImgUrl": "/img/previews/amaryllis.png",
     "category": "animation"
   },
@@ -155,7 +155,7 @@
     "slug": "my-favorite-toy",
     "title": "My Favorite Toy",
     "description": "A short graphic memoir",
-    "projectUrl": "https://sophiaceleste.com/comics/my-favorite-toy/",
+    "imgUrl": "https://sophiaceleste.com/comics/my-favorite-toy/",
     "previewImgUrl": "comics/my-favorite-toy/img/my_favorite_toy_title_sm.png",
     "category": "comic"
   },
@@ -207,7 +207,7 @@
     "slug": "bug-mandala",
     "title": "Bug Mandala",
     "description": "A psychedelic animated illustration of dancing bugs",
-    "projectUrl": "https://sophiaceleste.com/project/bug-mandala",
+    "projectPreviewUrl": "https://sophiaceleste.com/project/bug-mandala",
     "previewImgUrl": "/img/previews/bug-mandala.png",
     "category": "animation"
   },
@@ -233,13 +233,13 @@
     "slug": "rubiks-cube",
     "title": "Rubiks Cube",
     "description": "Model of a Rubiks Cube written in C++ and OpenGL from scratch.",
-    "projectUrl": "https://github.com/sophiavanvalkenburg/rubiks-cube/",
+    "codeUrl": "https://github.com/sophiavanvalkenburg/rubiks-cube/",
     "previewImgUrl": "/img/previews/rubiks-cube-demo.png",
     "category": "interactive"
   },
   {
     "slug": "plum-and-pear",
-    "projectUrl": "/img/fine-art/plum-and-pear.jpg",
+    "imgUrl": "/img/fine-art/plum-and-pear.jpg",
     "previewImgUrl": "/img/fine-art/plum-and-pear-sm.jpg",
     "title": "Plum and Pear",
     "description": "oil on shellacked paper.png",
@@ -247,7 +247,7 @@
   },
   {
     "slug": "hacker-brian",
-    "projectUrl": "/img/fine-art/hacker-brian.jpg",
+    "imgUrl": "/img/fine-art/hacker-brian.jpg",
     "previewImgUrl": "/img/fine-art/hacker-brian-sm.jpg",
     "title": "Brian the Hacker",
     "description": "charcoal pencil",
@@ -255,7 +255,7 @@
   },
   {
     "slug": "girl-with-pearl-earring",
-    "projectUrl": "/img/fine-art/girl-with-pearl-earring.jpg",
+    "imgUrl": "/img/fine-art/girl-with-pearl-earring.jpg",
     "previewImgUrl": "/img/fine-art/girl-with-pearl-earring-sm.jpg",
     "title": "Copy of 'Girl With A Pearl Earring'",
     "description": "oil on canvas board",
@@ -263,7 +263,7 @@
   },
   {
     "slug": "man-facing-away-with-staff",
-    "projectUrl": "/img/fine-art/man-facing-away-with-staff.jpg",
+    "imgUrl": "/img/fine-art/man-facing-away-with-staff.jpg",
     "previewImgUrl": "/img/fine-art/man-facing-away-with-staff-sm.jpg",
     "title": "Man Facing Away",
     "description": "charcoal pencil",
@@ -271,7 +271,7 @@
   },
   {
     "slug": "heavy-woman-portrait",
-    "projectUrl": "/img/fine-art/heavy-woman-portrait.jpg",
+    "imgUrl": "/img/fine-art/heavy-woman-portrait.jpg",
     "previewImgUrl": "/img/fine-art/heavy-woman-portrait-sm.jpg",
     "title": "Portrait of Woman",
     "description": "charcoal pencil",
@@ -279,7 +279,7 @@
   },
   {
     "slug": "delicata-squash",
-    "projectUrl": "/img/fine-art/delicata-squash.jpg",
+    "imgUrl": "/img/fine-art/delicata-squash.jpg",
     "previewImgUrl": "/img/fine-art/delicata-squash-sm.jpg",
     "title": "Delicata Squash",
     "description": "watercolor",
@@ -287,7 +287,7 @@
   },
   {
     "slug": "firefighter-dad",
-    "projectUrl": "/img/fine-art/firefighter-dad.jpg",
+    "imgUrl": "/img/fine-art/firefighter-dad.jpg",
     "previewImgUrl": "/img/fine-art/firefighter-dad-sm.jpg",
     "title": "My Dad the Firefighter",
     "description": "graphite pencil",
@@ -295,7 +295,7 @@
   },
   {
     "slug": "flask-and-spoon",
-    "projectUrl": "/img/fine-art/flask-and-spoon.jpg",
+    "imgUrl": "/img/fine-art/flask-and-spoon.jpg",
     "previewImgUrl": "/img/fine-art/flask-and-spoon-sm.jpg",
     "title": "Flask and Spoon",
     "description": "watercolor",
@@ -303,7 +303,7 @@
   },
   {
     "slug": "autumn-path",
-    "projectUrl": "/img/fine-art/autumn-path.jpg",
+    "imgUrl": "/img/fine-art/autumn-path.jpg",
     "previewImgUrl": "/img/fine-art/autumn-path-sm.jpg",
     "title": "Autumn Path",
     "description": "digital (Photoshop)",
@@ -311,7 +311,7 @@
   },
   {
     "slug": "eartha-kitt",
-    "projectUrl": "/img/fine-art/eartha-kitt.jpg",
+    "imgUrl": "/img/fine-art/eartha-kitt.jpg",
     "previewImgUrl": "/img/fine-art/eartha-kitt-sm.jpg",
     "title": "Portrait of Eartha Kitt",
     "description": "watercolor",
@@ -319,7 +319,7 @@
   },
   {
     "slug": "devin-portrait",
-    "projectUrl": "/img/fine-art/devin-portrait.jpg",
+    "imgUrl": "/img/fine-art/devin-portrait.jpg",
     "previewImgUrl": "/img/fine-art/devin-portrait-sm.jpg",
     "title": "Portrait of Devin",
     "description": "oil on canvas",
@@ -327,7 +327,7 @@
   },
   {
     "slug": "red-hat",
-    "projectUrl": "/img/fine-art/red-hat.jpg",
+    "imgUrl": "/img/fine-art/red-hat.jpg",
     "previewImgUrl": "/img/fine-art/red-hat-sm.jpg",
     "title": "Portrait of Steve",
     "description": "oil on canvas board",
@@ -335,7 +335,7 @@
   },
   {
     "slug": "elena-portrait",
-    "projectUrl": "/img/fine-art/elena-portrait.jpg",
+    "imgUrl": "/img/fine-art/elena-portrait.jpg",
     "previewImgUrl": "/img/fine-art/elena-portrait-sm.jpg",
     "title": "Portrait of Elena",
     "description": "oil on canvas board",
@@ -343,7 +343,7 @@
   },
   {
     "slug": "devin-sitting",
-    "projectUrl": "/img/fine-art/devin-sitting.jpg",
+    "imgUrl": "/img/fine-art/devin-sitting.jpg",
     "previewImgUrl": "/img/fine-art/devin-sitting-sm.jpg",
     "title": "Portrait of Devin Sitting",
     "description": "charcoal",
@@ -351,7 +351,7 @@
   },
   {
     "slug": "copper-cup-still-life",
-    "projectUrl": "/img/fine-art/copper-cup-still-life.jpg",
+    "imgUrl": "/img/fine-art/copper-cup-still-life.jpg",
     "previewImgUrl": "/img/fine-art/copper-cup-still-life-sm.jpeg",
     "title": "Copper Cup",
     "description": "oil on canvas board",
@@ -359,7 +359,7 @@
   },
   {
     "slug": "joe-portrait",
-    "projectUrl": "/img/fine-art/joe-portrait.jpg",
+    "imgUrl": "/img/fine-art/joe-portrait.jpg",
     "previewImgUrl": "/img/fine-art/joe-portrait-sm.jpeg",
     "title": "Portrait of Joe",
     "description": "oil on canvas board",
@@ -367,7 +367,7 @@
   },
   {
     "slug": "lilypad-pond",
-    "projectUrl": "/img/fine-art/lilypad-pond.jpg",
+    "imgUrl": "/img/fine-art/lilypad-pond.jpg",
     "previewImgUrl": "/img/fine-art/lilypad-pond-sm.jpg",
     "title": "Lilypad Landscape",
     "description": "watercolor",
@@ -375,7 +375,7 @@
   },
   {
     "slug": "man-with-staff",
-    "projectUrl": "/img/fine-art/man-with-staff.jpg",
+    "imgUrl": "/img/fine-art/man-with-staff.jpg",
     "previewImgUrl": "/img/fine-art/man-with-staff-sm.jpg",
     "title": "Man with Staff",
     "description": "charcoal",
@@ -383,7 +383,7 @@
   },
   {
     "slug": "woman-with-earring",
-    "projectUrl": "/img/fine-art/woman-with-earring.jpg",
+    "imgUrl": "/img/fine-art/woman-with-earring.jpg",
     "previewImgUrl": "/img/fine-art/woman-with-earring-sm.jpeg",
     "title": "Woman with Earring",
     "description": "charcoal pencil",
@@ -391,7 +391,7 @@
   },
   {
     "slug": "sitting-woman-in-ink",
-    "projectUrl": "/img/fine-art/sitting-woman-in-ink.jpg",
+    "imgUrl": "/img/fine-art/sitting-woman-in-ink.jpg",
     "previewImgUrl": "/img/fine-art/sitting-woman-in-ink-sm.jpeg",
     "title": "Sitting Woman #2",
     "description": "ink wash",
@@ -399,7 +399,7 @@
   },
   {
     "slug": "anatomical-woman",
-    "projectUrl": "/img/fine-art/anatomical-woman.jpg",
+    "imgUrl": "/img/fine-art/anatomical-woman.jpg",
     "previewImgUrl": "/img/fine-art/anatomical-woman-sm.jpeg",
     "title": "Anatomy Study #1",
     "description": "pencil",
@@ -407,7 +407,7 @@
   },
   {
     "slug": "darcy-standing",
-    "projectUrl": "/img/fine-art/darcy-standing.jpg",
+    "imgUrl": "/img/fine-art/darcy-standing.jpg",
     "previewImgUrl": "/img/fine-art/darcy-standing-sm.jpeg",
     "title": "Darcy Standing",
     "description": "pencil",
@@ -415,7 +415,7 @@
   },
   {
     "slug": "cadaver-hand-foot-study",
-    "projectUrl": "/img/fine-art/cadaver-hand-foot-study.jpg",
+    "imgUrl": "/img/fine-art/cadaver-hand-foot-study.jpg",
     "previewImgUrl": "/img/fine-art/cadaver-hand-foot-study-sm.jpeg",
     "title": "Study of a Cadaver's Hand and Foot",
     "description": "graphite",
@@ -423,7 +423,7 @@
   },
   {
     "slug": "mans-chest",
-    "projectUrl": "/img/fine-art/mans-chest.jpg",
+    "imgUrl": "/img/fine-art/mans-chest.jpg",
     "previewImgUrl": "/img/fine-art/mans-chest-sm.jpeg",
     "title": "A Man's Chest",
     "description": "sanguine chalk",
@@ -431,7 +431,7 @@
   },
   {
     "slug": "sitting-man-in-wax-resist",
-    "projectUrl": "/img/fine-art/sitting-man-in-wax-resist.jpg",
+    "imgUrl": "/img/fine-art/sitting-man-in-wax-resist.jpg",
     "previewImgUrl": "/img/fine-art/sitting-man-in-wax-resist-sm.jpeg",
     "title": "Sitting Man #2",
     "description": "wax, ink, char-kole",
@@ -439,7 +439,7 @@
   },
   {
     "slug": "george-washington-bridge-cloudy-day",
-    "projectUrl": "/img/fine-art/gwb-cloudy-day.jpg",
+    "imgUrl": "/img/fine-art/gwb-cloudy-day.jpg",
     "previewImgUrl": "/img/fine-art/gwb-cloudy-day-sm.jpeg",
     "title": "George Washington Bridge on a Cloudy Day",
     "description": "ink wash",
@@ -447,7 +447,7 @@
   },
   {
     "slug": "womans-torso",
-    "projectUrl": "/img/fine-art/womans-torso.jpg",
+    "imgUrl": "/img/fine-art/womans-torso.jpg",
     "previewImgUrl": "/img/fine-art/womans-torso-sm.jpeg",
     "title": "A Woman's Torso",
     "description": "sanguine chalk",
@@ -455,7 +455,7 @@
   },
   {
     "slug": "reclining-woman",
-    "projectUrl": "/img/fine-art/reclining-woman.jpg",
+    "imgUrl": "/img/fine-art/reclining-woman.jpg",
     "previewImgUrl": "/img/fine-art/reclining-woman-sm.jpeg",
     "title": "Reclining Woman",
     "description": "pastel",

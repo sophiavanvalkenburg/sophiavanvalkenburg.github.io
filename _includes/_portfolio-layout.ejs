@@ -4,10 +4,6 @@ title: Sophia Celeste - Artist
 page_css: work.css
 ---
 
-<!--<div id="vimeo-player-container" class="container">
-  <iframe src="https://player.vimeo.com/video/440104318" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>-->
-
 <div id="filter-button-container" class="container">
   <button class="btn active" onclick="filterSelection('illustration')">ILLUSTRATION</button>
   <button class="btn" onclick="filterSelection('interactive')">INTERACTIVES</button>
@@ -17,9 +13,10 @@ page_css: work.css
   
 <div id="project-container" class="container">
     <% for ( let i = 0; i < projects.length; i++ ){ %>
+        <% let projectPreviewUrl = projects[i].projectPreviewUrl || "/project/" + projects[i].slug; %>
         <div class="preview-img-container filterDiv <%- projects[i].category %>">
             <div class="preview-img">
-                <a target="_blank" href="<%- projects[i].projectUrl %>">
+                <a target="_blank" href="<%= projectPreviewUrl %>">
                     <img class="preview-img-png" src="<%- projects[i].previewImgUrl %>" />
                     <div class="img-overlay">
                         <h5 class="project-title"><%- projects[i].title %></h5>
