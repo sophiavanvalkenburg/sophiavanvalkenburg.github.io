@@ -8,19 +8,26 @@ permalink: "project/{{ project.slug }}/index.html"
 title: SophiaCeleste - project.title
 page_css: project-preview.css
 ---
-<a href="/"> &lt; Back </a>
-<br>
+<div class="project-preview-container container">
 
-<% if (typeof project.projectPreview !== 'undefined') { %>
-    <%- include(project.projectPreview.template); %>
-<%} else {%>
-    <section class="project-preview-container container">
-        <h2><%- project.title %></h2>
-        <a target="_blank" href="<%- project.imgUrl %>"> 
-            <img src="<%- project.previewImgUrl %>">
-        </a>
-        <% if (typeof project.description !== 'undefined') { %>
-            <p><%- project.description %></p>
-        <%}%>
-    </section>
-<%}%>
+    <a class="back-link" href="/">
+        <svg class="back-link-icon" width="40" height="40" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z"/></svg>
+    </a>
+    
+    <% if (typeof project.projectPreview !== 'undefined') { %>
+        <%- include(project.projectPreview.template); %>
+    <%} else {%>
+        <section class="project-preview-content">
+            <a target="_blank" href="<%- project.imgUrl %>"> 
+                <img class="project-preview-img" src="<%- project.imgUrl %>">
+            </a>
+            <div class="project-about-container">
+                <% if (typeof project.description !== 'undefined') { %>
+                    <p>"<%- project.title %>"<br>
+                    <%- project.description %></p>
+                <%}%>
+            </div>
+        </section>
+    <%}%>
+
+</div>
