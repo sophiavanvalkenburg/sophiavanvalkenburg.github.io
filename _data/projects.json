@@ -3,8 +3,8 @@
     "slug": "go-bug-or-go-home",
     "imgUrl": "/img/illustration/go-bug-or-go-home.png",
     "previewImgUrl": "/img/illustration/go-bug-or-go-home-sm.png",
-    "title": "Go Bug or Go Home (Cover)",
-    "description": "inked, digitally colored",
+    "title": "Go Bug or Go Home",
+    "description": "Comic book cover. Inked and digitally colored",
     "category": "illustration"
   },
   {
@@ -19,7 +19,9 @@
     "slug": "inktober-2020",
     "title": "Inktober 2020 (Drawlloween)",
     "description": "Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.",
-    "projectPreviewUrl": "https://sophiaceleste.com/project/inktober-2020/",
+    "projectPreview": {
+      "template": "projects/_inktober-2020.ejs"
+    },
     "previewImgUrl": "/img/previews/inktober-2020.png",
     "category": "illustration"
   },
@@ -27,7 +29,9 @@
     "slug": "inktober-2019",
     "title": "Inktober 2019",
     "description": "Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.",
-    "projectPreviewUrl": "https://sophiaceleste.com/project/inktober-2019/",
+    "projectPreview": {
+      "template": "projects/_inktober-2019.ejs"
+    },
     "previewImgUrl": "/img/previews/inktober-2019.png",
     "category": "illustration"
   },
@@ -43,7 +47,9 @@
     "slug": "canopy-cat",
     "title": "Canopy Cat Rescue",
     "description": "My Submission for Canopy Cat Rescue's T-Shirt Contest",
-    "projectPreviewUrl": "https://sophiaceleste.com/project/canopy-cat/",
+    "projectPreview": {
+      "template": "projects/_canopy-cat.ejs"
+    },
     "previewImgUrl": "/img/previews/canopy-cat.png",
     "category": "illustration"
   },
@@ -51,7 +57,9 @@
     "slug": "once-upon-a-fairytale",
     "title": "Once Upon A Fairytale",
     "description": "Book Cover design for a modern-day fairytale anthology",
-    "projectPreviewUrl": "https://sophiaceleste.com/project/once-upon-a-fairytale/",
+    "projectPreview": {
+      "template": "projects/_once-upon-a-fairytale.ejs"
+    },
     "previewImgUrl": "/img/previews/once-upon-a-fairytale.png",
     "category": "illustration"
   },
@@ -75,7 +83,9 @@
     "slug": "mole-cricket",
     "title": "Mole Cricket",
     "description": "Detailed drawing of a mole cricket in various styles.",
-    "projectPreviewUrl": "https://sophiaceleste.com/project/mole-cricket/",
+    "projectPreview": {
+      "template": "projects/_mole-cricket.ejs"
+    },
     "previewImgUrl": "/img/previews/mole-cricket.png",
     "category": "illustration"
   },
@@ -147,7 +157,9 @@
     "slug": "amaryllis-blooming",
     "title": "Amaryllis Blooming",
     "description": "Short animation of an amaryllis blooming, in watercolor",
-    "projectPreviewUrl": "https://sophiaceleste.com/project/amaryllis-blooming/",
+    "projectPreview": {
+      "template": "projects/_amaryllis-blooming.ejs"
+    },
     "previewImgUrl": "/img/previews/amaryllis.png",
     "category": "animation"
   },
@@ -207,7 +219,9 @@
     "slug": "bug-mandala",
     "title": "Bug Mandala",
     "description": "A psychedelic animated illustration of dancing bugs",
-    "projectPreviewUrl": "https://sophiaceleste.com/project/bug-mandala",
+    "projectPreview": {
+      "template": "projects/_bug-mandala.ejs"
+    },
     "previewImgUrl": "/img/previews/bug-mandala.png",
     "category": "animation"
   },

@@ -6,12 +6,21 @@ pagination:
     alias: project
 permalink: "project/{{ project.slug }}/index.html"
 title: SophiaCeleste - project.title
+page_css: project-preview.css
 ---
 <a href="/"> &lt; Back </a>
 <br>
 
-<% if (typeof project.projectPreviewUrl !== 'undefined') { 
-    include('projects/_' + project.slug + '.ejs');
-} else {%>
-    <h2><%- project.title %></h2>
+<% if (typeof project.projectPreview !== 'undefined') { %>
+    <%- include(project.projectPreview.template); %>
+<%} else {%>
+    <section class="project-preview-container container">
+        <h2><%- project.title %></h2>
+        <a target="_blank" href="<%- project.imgUrl %>"> 
+            <img src="<%- project.previewImgUrl %>">
+        </a>
+        <% if (typeof project.description !== 'undefined') { %>
+            <p><%- project.description %></p>
+        <%}%>
+    </section>
 <%}%>
