@@ -28,6 +28,17 @@ footer {
     line-height: 1em;
 }
 
+@media screen and (max-width:600px) {
+    .navbar-brand {
+        font-size: 3em;
+    }
+}
+
+.project-preview-img {
+   max-height: 75vh;
+   width: auto;
+}
+
 .navbar-link-container {
     display: flex ;
     flex-direction: row;
@@ -93,14 +104,10 @@ footer {
 
 #project-container {
     margin-top: 1.5%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
     padding: 0;
 }
 
 .preview-img-container {
-    padding-bottom: 3.5%;
     display: none;
 }
 
@@ -108,15 +115,22 @@ footer {
     display: block;
 }
 
-.preview-img {
-    position: relative;
-}
-
 .preview-img img {
-    height: 300px;
-    width: auto;
+    padding: 1.5%;
+    width: 100%;
 }
 
+.masonry-grid-item, .masonry-grid-sizer {
+    width: 33%;
+}
+
+@media screen and (max-width:600px) {
+    .masonry-grid-item, .masonry-grid-sizer {
+      width: 50%;
+    }
+}
+
+/*
 .preview-img:hover .img-overlay {
     visibility: visible;
 }
@@ -124,6 +138,7 @@ footer {
 .preview-img:focus, .img-overlay {
     visibility: visible;
 }
+*/
 
 .preview-img > a:focus {
     outline: 0;

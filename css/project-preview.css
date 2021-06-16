@@ -18,9 +18,22 @@
     color: grey;
 }
 
+@media screen and (max-width:600px) {
+    .project-about-container {
+      font-size: 1em;
+    }
+  }
+
 .project-preview-img {
    max-height: 75vh;
    width: auto;
+}
+
+@media screen and (max-width:600px) {
+  .project-preview-img {
+    height: auto;
+    max-width: 90vw;
+  }
 }
 
 .back-link-icon {
@@ -33,4 +46,10 @@
 
 .back-link:hover > .back-link-icon {
     fill:black;
+}
+
+@media screen and (max-width:600px) {
+    .back-link {
+        display: none;
+    }
 }

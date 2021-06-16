@@ -1,3 +1,17 @@
+// init Masonry
+var grid = document.querySelector('.masonry-grid');
+
+var msnry = new Masonry( grid, {
+  itemSelector: '.masonry-grid-item',
+  columnWidth: '.masonry-grid-sizer',
+  percentPosition: true,
+  transitionDuration: 0
+});
+
+imagesLoaded( grid ).on( 'progress', function() {
+  // layout Masonry after each image loads
+  msnry.layout();
+});
 
 // from w3Schools.com
 
@@ -11,6 +25,7 @@ function filterSelection(c) {
     w3RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
   }
+  msnry.layout();
 }
 
 // Show filtered elements

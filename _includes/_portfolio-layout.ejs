@@ -11,10 +11,11 @@ page_css: work.css
   <button class="btn" onclick="filterSelection('all')">ALL</button>
 </div>
   
-<div id="project-container" class="container">
+<div id="project-container" class="container masonry-grid">
+    <div class="masonry-grid-sizer"></div>
     <% for ( let i = 0; i < projects.length; i++ ){ %>
         <% let projectPreviewUrl = projects[i].projectPreviewUrl || "/project/" + projects[i].slug; %>
-        <div class="preview-img-container filterDiv <%- projects[i].category %>">
+        <div class="preview-img-container masonry-grid-item filterDiv <%- projects[i].category %>">
             <div class="preview-img">
                 <a href="<%= projectPreviewUrl %>">
                     <img class="preview-img-png" src="<%- projects[i].previewImgUrl %>" />
