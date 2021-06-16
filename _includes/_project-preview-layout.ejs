@@ -1,7 +1,17 @@
 ---
 layout: _base-layout.ejs
+pagination:
+    data: projects
+    size: 1
+    alias: project
+permalink: "project/{{ project.slug }}/index.html"
+title: SophiaCeleste - project.title
 ---
 <a href="/"> &lt; Back </a>
 <br>
 
-<%- content %>
+<% if (typeof project.projectPreviewUrl !== 'undefined') { 
+    include('projects/_' + project.slug + '.ejs');
+} else {%>
+    <h2><%- project.title %></h2>
+<%}%>

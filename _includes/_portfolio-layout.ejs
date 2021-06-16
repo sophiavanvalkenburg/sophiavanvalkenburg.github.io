@@ -16,7 +16,7 @@ page_css: work.css
         <% let projectPreviewUrl = projects[i].projectPreviewUrl || "/project/" + projects[i].slug; %>
         <div class="preview-img-container filterDiv <%- projects[i].category %>">
             <div class="preview-img">
-                <a target="_blank" href="<%= projectPreviewUrl %>">
+                <a href="<%= projectPreviewUrl %>">
                     <img class="preview-img-png" src="<%- projects[i].previewImgUrl %>" />
                     <div class="img-overlay">
                         <h5 class="project-title"><%- projects[i].title %></h5>
