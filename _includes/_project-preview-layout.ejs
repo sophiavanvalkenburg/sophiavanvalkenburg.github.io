@@ -19,29 +19,37 @@ page_css: project-preview.css
     <% if ( hasProjectPreviewSettings && typeof project.projectPreview.template !== 'undefined') { %>
         <%- include(project.projectPreview.template); %>
     <%} else if (hasProjectPreviewSettings && project.projectPreview.type === 'gallery') { %>
-        <section class="masonry-grid">
-            <div class="masonry-grid-sizer"></div>
-            <% for ( let i = 0; i < project.gallery.length; i++ ){ %>
-                <% let galleryImg = project.gallery[i]; %>
-                <div class="preview-img-container masonry-grid-item">
-                    <div class="preview-img">
-                        <a href="<%- project.galleryUrl + galleryImg.file %>">
-                            <img class="preview-img-png" src="<%- project.galleryUrl + galleryImg.preview %>" />
-                        </a>
-                    </div>
-                </div>
-            <% } %>
-        </section>
-    <%} else {%>
-        <section class="project-preview-content">
-            <a target="_blank" href="<%- project.imgUrl %>"> 
-                <img class="project-preview-img" src="<%- project.imgUrl %>">
-            </a>
-            <div class="project-about-container">
+        <section class='gallery-section'>
+            <div class="about-gallery">
                 <% if (typeof project.description !== 'undefined') { %>
-                    <p>"<%- project.title %>"<br>
-                    <%- project.description %></p>
+                    <h4><%- project.title %></h4>
+                    <p><%- project.description %></p>
                 <%}%>
+            </div>
+            <div class="gallery-container masonry-grid">
+                <div class="masonry-grid-sizer"></div>
+                <% for ( let i = 0; i < project.gallery.length; i++ ){ %>
+                    <% let galleryImg = project.gallery[i]; %>
+                    <div class="preview-img-container masonry-grid-item">
+                        <div class="preview-img">
+                            <a target="_blank" href="<%- project.galleryUrl + galleryImg.file %>">
+                                <img class="preview-img-png" src="<%- project.galleryUrl + galleryImg.preview %>" />
+                            </a>
+                        </div>
+                    </div>
+                <% } %>
+            </section>
+        <%} else {%>
+            <section class="single-image-section">
+                <a target="_blank" href="<%- project.imgUrl %>"> 
+                    <img class="single-image-preview" src="<%- project.imgUrl %>">
+                </a>
+                <div class="about-single-image">
+                    <% if (typeof project.description !== 'undefined') { %>
+                        <p>"<%- project.title %>"<br>
+                        <%- project.description %></p>
+                    <%}%>
+                </div>
             </div>
         </section>
     <%}%>

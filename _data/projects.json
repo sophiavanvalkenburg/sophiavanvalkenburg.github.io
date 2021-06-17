@@ -22,6 +22,8 @@
     "projectPreview": {
       "type": "gallery"
     },
+    "previewImgUrl": "/img/previews/inktober-2020.png",
+    "category": "illustration",
     "galleryUrl": "/img/projects/inktober-2020/",
     "gallery": [
       {
@@ -179,19 +181,175 @@
         "preview": "31-sm.jpg",
         "title": "Day 31 (\"Trick or Treat\")"
       }
-    ],
-    "previewImgUrl": "/img/previews/inktober-2020.png",
-    "category": "illustration"
+    ]
   },
   {
     "slug": "inktober-2019",
     "title": "Inktober 2019",
     "description": "Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.",
     "projectPreview": {
-      "template": "projects/_inktober-2019.ejs"
+      "type": "gallery"
     },
     "previewImgUrl": "/img/previews/inktober-2019.png",
-    "category": "illustration"
+    "category": "illustration",
+    "galleryUrl":"/img/projects/inktober-2019/",
+    "gallery":[
+      {
+        "file": "inktober-2019-day-1.jpg",
+        "preview": "inktober-2019-day-1-sm.jpeg",
+        "title": "Day 1 (\"Ring\")"
+      },
+      {
+        "file": "inktober-2019-day-2.jpg",
+        "preview": "inktober-2019-day-2-sm.jpeg",
+        "title": "Day 2 (\"Mindless\")"
+      },
+      {
+        "file": "inktober-2019-day-3.jpg",
+        "preview": "inktober-2019-day-3-sm.jpeg",
+        "title": "Day 3 (\"Bait\")"
+      },
+      {
+        "file": "inktober-2019-day-4.jpg",
+        "preview": "inktober-2019-day-4-sm.jpeg",
+        "title": "Day 4 (\"Freeze\")"
+      },
+      {
+        "file": "inktober-2019-day-5.jpg",
+        "preview": "inktober-2019-day-5-sm.jpeg",
+        "title": "Day 5 (\"Build\")"
+      },
+      {
+        "file": "inktober-2019-day-6.jpg",
+        "preview": "inktober-2019-day-6-sm.jpeg",
+        "title": "Day 6 (\"Husky\")"
+      },
+      {
+        "file": "inktober-2019-day-7.jpg",
+        "preview": "inktober-2019-day-7-sm.jpeg",
+        "title": "Day 7 (\"Enchanted\")"
+      },
+      {
+        "file": "inktober-2019-day-8.jpg",
+        "preview": "inktober-2019-day-8-sm.jpeg",
+        "title": "Day 8 (\"Frail\")"
+      },
+      {
+        "file": "inktober-2019-day-9.jpg",
+        "preview": "inktober-2019-day-9-sm.jpeg",
+        "title": "Day 9 (\"Swing\")"
+      },
+      {
+        "file": "inktober-2019-day-10.jpg",
+        "preview": "inktober-2019-day-10-sm.jpeg",
+        "title": " Day 10 (\"Pattern\")"
+      },
+      {
+        "file": "inktober-2019-day-11.jpg",
+        "preview": "inktober-2019-day-11-sm.jpeg",
+        "title": "Day 11 (\"Snow\")"
+      },
+      {
+        "file": "inktober-2019-day-12.jpg",
+        "preview": "inktober-2019-day-12-sm.jpeg",
+        "title": "Day 12 (\"Dragon\")"
+      },
+      {
+        "file": "inktober-2019-day-13.jpg",
+        "preview": "inktober-2019-day-13-sm.jpeg",
+        "title": "Day 13 (\"Ash\")"
+      },
+      {
+        "file": "inktober-2019-day-14.jpg",
+        "preview": "inktober-2019-day-14-sm.jpeg",
+        "title": "Day 14 (\"Overgrown\")"
+      },
+      {
+        "file": "inktober-2019-day-15.jpg",
+        "preview": "inktober-2019-day-15-sm.jpeg",
+        "title": "Day 15 (\"Legend\")"
+      },
+      {
+        "file": "inktober-2019-day-16.jpg",
+        "preview": "inktober-2019-day-16-sm.jpeg",
+        "title": "Day 16 (\"Wild\")"
+      },
+      {
+        "file": "inktober-2019-day-17.jpg",
+        "preview": "inktober-2019-day-17-sm.jpeg",
+        "title": "Day 17 (\"Ornament\")"
+      },
+      {
+        "file": "inktober-2019-day-18.jpg",
+        "preview": "inktober-2019-day-18-sm.jpeg",
+        "title": "Day 18 (\"Misfit\")"
+      },
+      {
+        "file": "inktober-2019-day-19.jpg",
+        "preview": "inktober-2019-day-19-sm.jpeg",
+        "title": "Day 19 (\"Sling\")"
+      },
+      {
+        "file": "inktober-2019-day-20.jpg",
+        "preview": "inktober-2019-day-20-sm.jpeg",
+        "title": "Day 20 (\"Tread\")"
+      },
+      {
+        "file": "inktober-2019-day-21.jpg",
+        "preview": "inktober-2019-day-21-sm.jpeg",
+        "title": "Day 21 (\"Treasure\")"
+      },
+      {
+        "file": "inktober-2019-day-22.jpg",
+        "preview": "inktober-2019-day-22-sm.jpeg",
+        "title": "Day 22 (\"Ghost\")"
+      },
+      {
+        "file": "inktober-2019-day-23.jpg",
+        "preview": "inktober-2019-day-23-sm.jpeg",
+        "title": "Day 23 (\"Ancient\")"
+      },
+      {
+        "file": "inktober-2019-day-24.jpg",
+        "preview": "inktober-2019-day-24-sm.jpeg",
+        "title": "Day 24 (\"Dizzy\")"
+      },
+      {
+        "file": "inktober-2019-day-25.jpg",
+        "preview": "inktober-2019-day-25-sm.jpeg",
+        "title": "Day 25 (\"Tasty\")"
+      },
+      {
+        "file": "inktober-2019-day-26.jpg",
+        "preview": "inktober-2019-day-26-sm.jpeg",
+        "title": "Day 26 (\"Dark\")"
+      },
+      {
+        "file": "inktober-2019-day-27.jpg",
+        "preview": "inktober-2019-day-27-sm.jpeg",
+        "title": "Day 27 (\"Coat\")"
+      },
+      {
+        "file": "inktober-2019-day-28.jpg",
+        "preview": "inktober-2019-day-28-sm.jpeg",
+        "title": "Day 28 (\"Ride\")"
+      },
+      {
+        "file": "inktober-2019-day-29.jpg",
+        "preview": "inktober-2019-day-29-sm.jpeg",
+        "title": "Day 29 (\"Injured\")"
+      },
+      {
+        "file": "inktober-2019-day-30.jpg",
+        "preview": "inktober-2019-day-30-sm.jpeg",
+        "title": "Day 30 (\"Catch\")"
+      },
+      {
+        "file": "inktober-2019-day-31.jpg",
+        "preview": "inktober-2019-day-31-sm.jpeg",
+        "title": "Day 31 (\"Ripe\")"
+      }
+    ]
   },
   {
     "slug": "the-doll-house-poster",
@@ -204,20 +362,33 @@
   {
     "slug": "canopy-cat",
     "title": "Canopy Cat Rescue",
-    "description": "My Submission for Canopy Cat Rescue's T-Shirt Contest",
+    "description": "My Submission for <a target='_blank' href='https://www.canopycatrescue.com/'>Canopy Cat Rescue</a>'s T-Shirt Contest. Canopy Cat Rescue is a Northwest US-based nonprofit dedicated to saving cats who get stuck in trees.",
     "projectPreview": {
-      "template": "projects/_canopy-cat.ejs"
+      "type": "gallery"
     },
     "previewImgUrl": "/img/previews/canopy-cat.png",
-    "category": "illustration"
+    "category": "illustration",
+    "galleryUrl": "/img/projects/canopy-cat/",
+    "gallery": [
+      {
+        "file": "canopy-cat-rescue.png",
+        "preview": "canopy-cat-rescue.png"
+      },
+      {
+        "file": "canopy-cat-rescue-tshirt-examples.jpg",
+        "preview": "canopy-cat-rescue-tshirt-examples.jpg"
+      },
+      {
+        "file": "canopy-cat-rescue-tshirt-examples-2.jpg",
+        "preview": "canopy-cat-rescue-tshirt-examples-2.jpg"
+      }
+    ]
   },
   {
     "slug": "once-upon-a-fairytale",
-    "title": "Once Upon A Fairytale",
-    "description": "Book Cover design for a modern-day fairytale anthology",
-    "projectPreview": {
-      "template": "projects/_once-upon-a-fairytale.ejs"
-    },
+    "title": "Book Cover Design for <a target='_blank' href='https://www.amazon.com/Once-Upon-Fairytale-Harvardwood-Anthologies/dp/1098353226/'><i>Once Upon A Fairytale</i></a>",
+    "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally.",
+    "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
     "previewImgUrl": "/img/previews/once-upon-a-fairytale.png",
     "category": "illustration"
   },
@@ -242,10 +413,29 @@
     "title": "Mole Cricket",
     "description": "Detailed drawing of a mole cricket in various styles.",
     "projectPreview": {
-      "template": "projects/_mole-cricket.ejs"
+      "type": "gallery"
     },
     "previewImgUrl": "/img/previews/mole-cricket.png",
-    "category": "illustration"
+    "category": "illustration",
+    "galleryUrl": "/img/projects/mole-cricket/",
+    "gallery" :[
+      {
+        "file": "mole-cricket-pencil.jpg",
+        "preview": "mole-cricket-pencil.jpg"
+      },
+      {
+        "file": "mole-cricket-watercolor.jpg",
+        "preview": "mole-cricket-watercolor.jpg"
+      },
+      {
+        "file": "mole-cricket-ink.jpg",
+        "preview": "mole-cricket-ink.jpg"
+      },
+      {
+        "file": "mole-cricket-coloringbook.jpg",
+        "preview": "mole-cricket-coloringbook.jpg"
+      }
+    ]
   },
   {
     "slug": "film-noir",
