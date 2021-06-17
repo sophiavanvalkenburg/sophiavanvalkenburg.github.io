@@ -37,8 +37,8 @@ page_css: project-preview.css
             </div>
             <div class="gallery-container masonry-grid">
                 <div class="masonry-grid-sizer"></div>
-                <% for ( let i = 0; i < project.gallery.length; i++ ){ %>
-                    <% let galleryImg = project.gallery[i]; %>
+                <% for ( let i = 0; i < project.projectPreview.gallery.length; i++ ){ %>
+                    <% let galleryImg = project.projectPreview.gallery[i]; %>
                     <div class="preview-img-container masonry-grid-item">
                         <div class="preview-img">
                             <a target="_blank" href="<%- project.projectPreview.galleryUrl + galleryImg.file %>">
@@ -59,8 +59,7 @@ page_css: project-preview.css
                         <%- project.description %></p>
                     <%}%>
                 </div>
-            </div>
-        </section>
+            </section>
     <%}%>
 
 </div>
