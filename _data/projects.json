@@ -523,9 +523,12 @@
     "slug": "funkpeter-beta",
     "title": "'funkpeter (beta)' MV",
     "description": "A music video for 'funkpeter (beta)' by Psilodump",
-    "projectUrl": "https://vimeo.com/383631135",
+    "url": "https://player.vimeo.com/video/383631135",
     "previewImgUrl": "/img/previews/funkpeter-beta.png",
-    "category": "animation"
+    "category": "animation",
+    "projectPreview": {
+      "type": "video"
+    }
   },
   {
     "slug": "halloween-haus",
@@ -566,12 +569,14 @@
   {
     "slug": "bug-mandala",
     "title": "Bug Mandala",
-    "description": "A psychedelic animated illustration of dancing bugs",
-    "projectPreview": {
-      "template": "projects/_bug-mandala.ejs"
-    },
+    "description": "A psychedelic animated illustration of dancing bugs. Music credit: 'Kom Tillbakaa' by Psilodump",
+    "url": "https://player.vimeo.com/video/564264080",
     "previewImgUrl": "/img/previews/bug-mandala.png",
-    "category": "animation"
+    "category": "animation",
+    "projectPreview": {
+      "type": "video",
+      "videoLoop": true
+    }
   },
   {
     "slug": "ar-builders",

@@ -15,11 +15,20 @@ page_css: project-preview.css
     </a>
 
     <% let hasProjectPreviewSettings = typeof project.projectPreview !== 'undefined'; %>
-
     <% if ( hasProjectPreviewSettings && typeof project.projectPreview.template !== 'undefined') { %>
         <%- include(project.projectPreview.template); %>
+    <%} else if (hasProjectPreviewSettings && project.projectPreview.type === 'video') {%>
+        <section class="video-section">
+            <iframe class="video-iframe" src="<%- project.url %>?loop=<%- project.projectPreview.videoLoop ? 1 : 0 %>&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Funkpeter (beta) MV - Psilodump"></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+            <div class="about-video">
+                <% if (typeof project.description !== 'undefined') { %>
+                    <p><%- project.description %></p>
+                <%}%>
+            </div>
+        </section>
     <%} else if (hasProjectPreviewSettings && project.projectPreview.type === 'gallery') { %>
-        <section class='gallery-section'>
+        <section class='gallery-section project-section'>
             <div class="about-gallery">
                 <% if (typeof project.description !== 'undefined') { %>
                     <h4><%- project.title %></h4>
@@ -40,7 +49,7 @@ page_css: project-preview.css
                 <% } %>
             </section>
         <%} else {%>
-            <section class="single-image-section">
+            <section class="single-image-section project-section">
                 <a target="_blank" href="<%- project.imgUrl %>"> 
                     <img class="single-image-preview" src="<%- project.imgUrl %>">
                 </a>
