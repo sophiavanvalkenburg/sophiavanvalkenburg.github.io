@@ -17,6 +17,27 @@ page_css: project-preview.css
     <% let hasProjectPreviewSettings = typeof project.projectPreview !== 'undefined'; %>
     <% if ( hasProjectPreviewSettings && typeof project.projectPreview.template !== 'undefined') { %>
         <%- include(project.projectPreview.template); %>
+    <%} else if (hasProjectPreviewSettings && project.projectPreview.type === 'external') { %>
+        <section class="external-section">
+            <a class="external-project-preview" target="_blank" href="<%- project.projectPreview.projectUrl %>"> 
+                <img src="<%- project.projectPreview.previewUrl %>">
+            </a>
+            <div class="about-external-project">
+                <h4><%- project.title %></h4>
+                <% if (typeof project.description !== 'undefined') { %>
+                    <p><%- project.description %></p>
+                <%}%>
+                <div class="external-project-link">
+                    <% if (typeof project.projectPreview.projectUrl !== 'undefined') { %>
+                    <a target="_blank" href="<%- project.projectPreview.projectUrl %>">> View Project</a><br>
+                    <%}%>
+                    <% if (typeof project.projectPreview.codeUrl !== 'undefined') { %>
+                        <a target="_blank" href="<%- project.projectPreview.codeUrl %>">> View code on Github</a>
+                    <%}%> 
+                </div>
+            </div>
+        </div>
+        </section>
     <%} else if (hasProjectPreviewSettings && project.projectPreview.type === 'video') {%>
         <section class="video-section">
             <iframe class="video-iframe" src="<%- project.projectPreview.videoUrl %>?loop=<%- project.projectPreview.videoLoop ? 1 : 0 %>&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

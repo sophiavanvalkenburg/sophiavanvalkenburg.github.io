@@ -527,44 +527,60 @@
     "category": "animation",
     "projectPreview": {
       "type": "video",
-      "videoUrl": "https://player.vimeo.com/video/383631135",
+      "videoUrl": "https://player.vimeo.com/video/383631135"
     }
   },
   {
     "slug": "halloween-haus",
     "title": "Halloween Haus",
     "description": "Many moons ago, 28 souls gathered at a haunted haus on all hallow's eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...",
-    "projectUrl": "https://sophiaceleste.com/halloween-haus/",
-    "codeUrl": "https://github.com/sophiavanvalkenburg/halloween-haus/",
     "previewImgUrl": "/img/previews/halloween-haus.png",
-    "category": "interactive"
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "/img/previews/halloween-haus.gif",
+      "projectUrl": "https://sophiaceleste.com/halloween-haus/",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/halloween-haus/"
+    }
   },
   {
     "slug": "ant-world-3d",
     "title": "Ant World",
     "description": "Concept illustration of a fantastical ant hill with 3D prototype of ant, created with three.js",
-    "projectUrl": "https://sophiaceleste.com/ant-world-3d/",
-    "codeUrl": "https://github.com/sophiavanvalkenburg/ant-world-3d",
     "previewImgUrl": "/img/previews/ant-world.png",
-    "category": "interactive"
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "/img/previews/ant-world.gif",
+      "projectUrl": "https://sophiaceleste.com/ant-world-3d/",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/ant-world-3d"
+    }
   },
   {
     "slug": "eyeball-forest",
     "title": "Eyeball Forest",
     "description": "A forest of eyeballs...",
-    "projectUrl": "https://sophiaceleste.com/eyeball-forest/",
-    "codeUrl": "https://github.com/sophiavanvalkenburg/eyeball-forest/",
     "previewImgUrl": "/img/previews/eyeball-forest-demo.png",
-    "category": "interactive"
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "/img/previews/eyeball-forest-demo.gif",
+      "projectUrl": "https://sophiaceleste.com/eyeball-forest/",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/eyeball-forest/"
+    }
   },
   {
     "slug": "music-doodles",
     "title": "Music Doodles",
     "description": "Experiments with visualizing music",
-    "projectUrl": "https://sophiaceleste.com/music-doodles/",
-    "codeUrl": "https://github.com/sophiavanvalkenburg/music-doodles/",
     "previewImgUrl": "/img/previews/funk.png",
-    "category": "interactive"
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "/img/previews/funk.gif",
+      "projectUrl": "https://sophiaceleste.com/music-doodles/",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/music-doodles/"
+    }
   },
   {
     "slug": "bug-mandala",
@@ -575,34 +591,46 @@
     "projectPreview": {
       "type": "video",
       "videoLoop": true,
-      "videoUrl": "https://player.vimeo.com/video/564264080",
+      "videoUrl": "https://player.vimeo.com/video/564264080"
     }
   },
   {
     "slug": "ar-builders",
     "title": "AR Builders",
     "description": "Talk to CBRE Build's 'Builders' in Augmented Reality! They've lost some of their favorite items ... can you help? (Need to download & print the AR marker images in the code link below).",
-    "projectUrl": "https://floored.github.io/ar-builders",
-    "codeUrl": "https://github.com/sophiavanvalkenburg/ar-builders/",
     "previewImgUrl": "/img/previews/ar-builders-demo.png",
-    "category": "interactive"
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "/img/previews/ar-builders-demo.gif",
+      "projectUrl": "https://floored.github.io/ar-builders",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/ar-builders/"
+    } 
   },
   {
     "slug": "the-wrigglies",
     "title": "The Wrigglies",
     "description": "ITP Camp 2017 Project<br>music credit: Psilodump",
-    "projectUrl": "https://sophiaceleste.com/wrigglies-itp-2017",
-    "codeUrl": "https://github.com/sophiavanvalkenburg/wrigglies-itp-2017",
     "previewImgUrl": "/img/previews/wrigglies-demo.png",
-    "category": "interactive"
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "/img/previews/wrigglies-demo.gif",
+      "projectUrl": "https://sophiaceleste.com/wrigglies-itp-2017",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/wrigglies-itp-2017"
+    }
   },
   {
     "slug": "rubiks-cube",
     "title": "Rubiks Cube",
-    "description": "Model of a Rubiks Cube written in C++ and OpenGL from scratch.",
-    "codeUrl": "https://github.com/sophiavanvalkenburg/rubiks-cube/",
+    "description": "Model of a Rubiks Cube written in C++ and OpenGL from scratch. Not available to view online.",
     "previewImgUrl": "/img/previews/rubiks-cube-demo.png",
-    "category": "interactive"
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "/img/previews/rubiks-cube-demo.gif",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/rubiks-cube/"
+    }
   },
   {
     "slug": "plum-and-pear",
