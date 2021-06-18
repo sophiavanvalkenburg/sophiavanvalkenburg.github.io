@@ -105,6 +105,15 @@
     width: 100%;
 }
 
+.my-favorite-toy-p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-favorite-toy-p > img {
+    width: 24%;
+}
+
 @media screen and (max-width:600px) {
     .back-link {
         display: none;
@@ -132,6 +141,9 @@
     }
     .amaryllis-frame-sheets > a {
         width: 30%;
+    }
+    .my-favorite-toy-p > img {
+        width: 90%;
     }
 }
 

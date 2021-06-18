@@ -497,7 +497,7 @@
     "slug": "super-cat-defender-of-the-realm",
     "title": "Super Cat: Defender of the Realm",
     "description": "Super Cat takes on her strongest foe yet... but there's a twist!",
-    "imgUrl": "https://sophiaceleste.com/comics/super-cat-defender-of-the-realm.png",
+    "imgUrl": "/img/comics/super-cat-defender-of-the-realm.png",
     "previewImgUrl": "/img/previews/super-cat-defender-of-the-realm-sm.png",
     "category": "comic"
   },
@@ -515,9 +515,11 @@
     "slug": "my-favorite-toy",
     "title": "My Favorite Toy",
     "description": "A short graphic memoir",
-    "imgUrl": "https://sophiaceleste.com/comics/my-favorite-toy/",
-    "previewImgUrl": "comics/my-favorite-toy/img/my_favorite_toy_title_sm.png",
-    "category": "comic"
+    "previewImgUrl": "/img/comics/my-favorite-toy/my_favorite_toy_title_sm.png",
+    "category": "comic",
+    "projectPreview": {
+      "template": "projects/_my-favorite-toy.ejs"
+    }
   },
   {
     "slug": "funkpeter-beta",
