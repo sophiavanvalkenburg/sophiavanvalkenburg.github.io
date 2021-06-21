@@ -11,4 +11,5 @@ var msnry = new Masonry( grid, {
 imagesLoaded( grid ).on( 'progress', function() {
   // layout Masonry after each image loads
   msnry.layout();
+  history.replaceState(null, null, ' ');  // remove hash for easier sharing
 });

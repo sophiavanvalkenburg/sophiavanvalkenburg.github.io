@@ -15,7 +15,7 @@ page_css: work.css
     <% for ( let i = 0; i < projects.length; i++ ){ %>
         <% if (!categories.includes(projects[i].category)) continue; %>
         <% let projectPreviewUrl = projects[i].projectPreviewUrl || "/project/" + projects[i].slug; %>
-        <div class="preview-img-container masonry-grid-item filterDiv <%- projects[i].category %>">
+        <div id="<%- projects[i].slug %>" class="preview-img-container masonry-grid-item filterDiv <%- projects[i].category %>">
             <div class="preview-img">
                 <a href="<%= projectPreviewUrl %>">
                     <img class="preview-img-png" src="<%- projects[i].previewImgUrl %>" />
