@@ -1,0 +1,9 @@
+{
+    "category_to_project_page": {
+        "illustration": "illustration",
+        "interactive": "interactives",
+        "comic": "comics-animation",
+        "animation": "comics-animation",
+        "fine-art": "fine-art"
+    }
+}
