@@ -45,7 +45,7 @@ footer {
 }
 
 .nav-link  {
-    border: 1px solid white;
+    border: 1px solid rgba(255,255,255,0);
 }
 
 .nav-link, .nav-link:hover {
@@ -84,7 +84,7 @@ footer {
 }
 
 .social-media-link > img {
-    border: 1px solid white;
+    border: 1px solid rgba(255,255,255,0);
     border-radius: 0;
 }
 
@@ -127,7 +127,7 @@ footer {
 }
 
 .preview-img > a > img {
-    border: 1px solid white;
+    border: 1px solid rgba(255,255,255,0);
     border-radius: 0;
 }
 
@@ -158,10 +158,10 @@ footer {
 
 
 #filter-button-container > .btn {
-    background-color: white;
+    background-color: rgba(255,255,255,0);
     border: 0;
     color: #646464;
-    border: 1px solid white;
+    border: 1px solid rgba(255,255,255,0);
     border-radius: 0;
 }
 
