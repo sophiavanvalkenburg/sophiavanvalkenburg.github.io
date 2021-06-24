@@ -28,12 +28,6 @@ footer {
     line-height: 1em;
 }
 
-@media screen and (max-width:600px) {
-    .navbar-brand {
-        font-size: 3em;
-    }
-}
-
 .project-preview-img {
    max-height: 75vh;
    width: auto;
@@ -116,12 +110,6 @@ footer {
     width: 33%;
 }
 
-@media screen and (max-width:600px) {
-    .masonry-grid-item, .masonry-grid-sizer {
-      width: 50%;
-    }
-}
-
 .preview-img > a:focus {
     outline: 0;
 }
@@ -177,4 +165,29 @@ footer {
 #filter-button-container > .btn:focus {
     text-decoration: underline;
     color: black;
+}
+
+.filterBtn.hide {
+    visibility: hidden;
+}
+
+.show-filter-button.hide, .hide-filter-button.hide {
+    display: none;
+}
+
+.show-filter-button, .hide-filter-button {
+    font-size: .75em;
+}
+
+
+@media screen and (max-width:600px) {
+    .navbar-brand {
+        font-size: 3em;
+    }
+    .masonry-grid-item, .masonry-grid-sizer {
+        width: 50%;
+    } 
+    .filterBtn.hide {
+        display: none;
+    }
 }

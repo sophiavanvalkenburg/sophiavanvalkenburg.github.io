@@ -5,10 +5,12 @@ page_css: work.css
 ---
 
 <div id="filter-button-container" class="container">
-  <a class="btn <%= categoryLink === 'illustration' ? 'active': '' %>" href="/illustration">ILLUSTRATION</a>
-  <a class="btn <%= categoryLink === 'interactives' ? 'active': '' %>" href="/interactives">INTERACTIVES</a>
-  <a class="btn <%= categoryLink === 'comics-animation' ? 'active': '' %>" href="/comics-animation">COMICS & ANIMATION</a>
-  <a class="btn <%= categoryLink === 'fine-art' ? 'active': '' %>" href="/fine-art">FINE ART</a>
+  <button onClick="hideFilters()" class="btn hide-filter-button">hide filters</button>
+  <button onClick="showFilters()" class="btn show-filter-button hide">show filters</button>
+  <a class="btn filterBtn <%= categoryLink === 'illustration' ? 'active': '' %>" href="/illustration">ILLUSTRATION</a>
+  <a class="btn filterBtn <%= categoryLink === 'interactives' ? 'active': '' %>" href="/interactives">INTERACTIVES</a>
+  <a class="btn filterBtn <%= categoryLink === 'comics-animation' ? 'active': '' %>" href="/comics-animation">COMICS & ANIMATION</a>
+  <a class="btn filterBtn <%= categoryLink === 'fine-art' ? 'active': '' %>" href="/fine-art">FINE ART</a>
 </div>
 <div id="project-container" class="container masonry-grid">
     <div class="masonry-grid-sizer"></div>
@@ -27,4 +29,27 @@ page_css: work.css
 </div>
 
 <script src="/js/masonry-init.js"></script>
+<script>
+    function hideFilters(){
+        let hideBtn = document.getElementsByClassName('hide-filter-button')[0];
+        let showBtn = document.getElementsByClassName('show-filter-button')[0];
+        hideBtn.classList.add('hide');
+        showBtn.classList.remove('hide');
+        filterBtns = document.getElementsByClassName('filterBtn');
+        for (let i = 0; i < filterBtns.length; i++) {
+            filterBtns[i].classList.add('hide');
+        }
+    }
+
+    function showFilters() {
+        let hideBtn = document.getElementsByClassName('hide-filter-button')[0];
+        let showBtn = document.getElementsByClassName('show-filter-button')[0];
+        hideBtn.classList.remove('hide');
+        showBtn.classList.add('hide');
+        filterBtns = document.getElementsByClassName('filterBtn');
+        for (let i = 0; i < filterBtns.length; i++) {
+            filterBtns[i].classList.remove('hide');
+        }
+    }
+</script>
 
