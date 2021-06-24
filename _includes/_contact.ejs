@@ -1,0 +1,73 @@
+---
+layout: _base-layout.ejs
+title: SophiaCeleste.com - Contact
+page_css: contact.css
+---
+<div class="contact-container container">
+  <form id="contact-form" method="post">
+    <h4>Name</h4>
+      <input type="text" id="name-input" placeholder="Enter name here…" class="form-control" /><br/>
+      <h4>Email</h4>
+      <input type="email" id="email-input" placeholder="Enter email here…" class="form-control" /><br/>
+      <h4>Message</h4>
+      <textarea id="description-input" rows="3" placeholder="Enter your message…" class="form-control" ></textarea><br/>
+      <button type="button" onClick="submitToAPI(event)" class="btn btn-lg">Send</button>
+    </form>
+</div>
+   
+<script>
+  function submitToAPI(e) {
+       e.preventDefault();
+       var URL = "https://jkq7tufrof.execute-api.us-east-1.amazonaws.com/prod/contact";
+
+            var Namere = /[A-Za-z]{1}[A-Za-z]/;
+            if (!Namere.test($("#name-input").val())) {
+                         alert ("Name can not less than 2 char");
+                return;
+            }
+            if ($("#email-input").val()=="") {
+                alert ("Please enter your email");
+                return;
+            }
+
+            var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+            if (!reeamil.test($("#email-input").val())) {
+                alert ("Please enter valid email address");
+                return;
+            }
+
+            if ($("#description-input").val()=="") {
+                alert ("Please enter a message");
+                return;
+            }
+
+       var name = $("#name-input").val();
+       var email = $("#email-input").val();
+       var desc = $("#description-input").val();
+       var data = {
+          name : name,
+          email : email,
+          desc : desc
+        };
+
+       $.ajax({
+         type: "POST",
+         url : "https://jkq7tufrof.execute-api.us-east-1.amazonaws.com/prod/contact",
+         dataType: "json",
+         crossDomain: "true",
+         contentType: "application/json; charset=utf-8",
+         data: JSON.stringify(data),
+
+         
+         success: function () {
+           // clear form and show a success message
+           alert("Successfull");
+           document.getElementById("contact-form").reset();
+       location.reload();
+         },
+         error: function () {
+           // show an error message
+           alert("UnSuccessfull");
+         }});
+     }
+</script>
