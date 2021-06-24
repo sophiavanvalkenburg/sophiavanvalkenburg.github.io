@@ -1,0 +1,23 @@
+---
+layout: _base-layout.ejs
+title: Sophia Celeste - Artist
+featured: true
+---
+
+<div id="project-container" class="container masonry-grid">
+    <div class="masonry-grid-sizer"></div>
+    <% for ( let i = 0; i < projects.length; i++ ){ %>
+        <% if (!projects[i].featured) continue; %>
+        <% let projectPreviewUrl = projects[i].projectPreviewUrl || "/project/" + projects[i].slug; %>
+        <div id="<%- projects[i].slug %>" class="preview-img-container masonry-grid-item filterDiv <%- projects[i].category %>">
+            <div class="preview-img">
+                <a href="<%= projectPreviewUrl %>">
+                    <img class="preview-img-png" src="<%- projects[i].previewImgUrl %>" />
+                </a>
+            </div>
+        </div>
+    <% } %>
+</div>
+
+<script src="/js/masonry-init.js"></script>
+

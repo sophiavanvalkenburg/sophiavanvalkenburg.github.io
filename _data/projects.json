@@ -5,7 +5,8 @@
     "previewImgUrl": "/img/illustration/go-bug-or-go-home-sm.png",
     "title": "Go Bug or Go Home",
     "description": "Comic book cover. Inked and digitally colored",
-    "category": "illustration"
+    "category": "illustration",
+    "featured": true
   },
   {
     "slug": "boscord-streaming",
@@ -13,7 +14,8 @@
     "previewImgUrl": "/img/illustration/boscord-streaming-sm.png",
     "title": "The Boscord Twitch Stream Background",
     "description": "digital (Photoshop)",
-    "category": "illustration"
+    "category": "illustration",
+    "featured": true
   },
   {
     "slug": "inktober-2020",
@@ -357,7 +359,8 @@
     "previewImgUrl": "/img/illustration/the-doll-house-poster-sm.jpg",
     "title": "The Doll House (Movie Poster)",
     "description": "graphite pencil, digitally composited",
-    "category": "illustration"
+    "category": "illustration",
+    "featured": true
   },
   {
     "slug": "canopy-cat",
@@ -390,7 +393,8 @@
     "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally.",
     "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
     "previewImgUrl": "/img/previews/once-upon-a-fairytale.png",
-    "category": "illustration"
+    "category": "illustration",
+    "featured": true
   },
   {
     "slug": "graphic-still-life",
@@ -543,7 +547,8 @@
       "previewUrl": "/img/previews/halloween-haus.gif",
       "projectUrl": "https://sophiaceleste.com/halloween-haus/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/halloween-haus/"
-    }
+    },
+    "featured": true
   },
   {
     "slug": "ant-world-3d",
@@ -640,7 +645,8 @@
     "previewImgUrl": "/img/fine-art/plum-and-pear-sm.jpg",
     "title": "Plum and Pear",
     "description": "oil on shellacked paper.png",
-    "category": "fine-art"
+    "category": "fine-art",
+    "featured": true
   },
   {
     "slug": "hacker-brian",
@@ -648,7 +654,8 @@
     "previewImgUrl": "/img/fine-art/hacker-brian-sm.jpg",
     "title": "Brian the Hacker",
     "description": "charcoal pencil",
-    "category": "fine-art"
+    "category": "fine-art",
+    "featured": true
   },
   {
     "slug": "girl-with-pearl-earring",

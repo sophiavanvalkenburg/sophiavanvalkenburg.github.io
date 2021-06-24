@@ -84,12 +84,30 @@
     fill: grey;
 }
 
-.back-link {
+.back-link-container {
     margin-right: 2%;
 }
 
 .back-link:hover > .back-link-icon {
     fill:black;
+}
+
+.back-link {
+    display: flex;
+    flex-flow: flex-start;
+    background-color: rgba(255,255,255,0);
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 1px solid rgba(225, 255, 255, 0);
+}
+
+.back-link:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 1px solid black;
+    border-radius: 0;
 }
 
 .preview-img-container {
