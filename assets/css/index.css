@@ -197,4 +197,8 @@ footer {
     .show-filter-button.hide, .hide-filter-button.hide {
         display: none;
     }
+    .navbar-link-container {
+        width: 90%;
+        justify-content: center;
+    }
 }
