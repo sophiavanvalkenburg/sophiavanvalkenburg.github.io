@@ -29,6 +29,31 @@
     border-radius: 0;
 }
 
+#contact-form > .error-text {
+    color: red;
+    display: none;
+}
+
+#form-pending-text {
+    display: none;
+    color:grey;
+}
+
+#contact-form > .error-text.show, #form-pending-text.show {
+    display: block;
+}
+
+#form-success-text.show {
+    opacity: 1;
+    transition: opacity 0s;
+}
+
+#form-success-text {
+    color: green;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
 @media screen and (max-width:600px){
     #contact-form {
         width: 90%;

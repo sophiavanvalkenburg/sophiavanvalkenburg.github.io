@@ -6,12 +6,18 @@ page_css: contact.css
 <div class="contact-container container">
   <form id="contact-form" method="post">
     <h4>Name</h4>
+      <p id="name-error-text" class="error-text">Please enter a name.</p>
       <input type="text" id="name-input" placeholder="Enter name here…" class="form-control" /><br/>
       <h4>Email</h4>
+      <p id="email-error-text" class="error-text">Please enter a valid email.</p>
       <input type="email" id="email-input" placeholder="Enter email here…" class="form-control" /><br/>
       <h4>Message</h4>
+      <p id="msg-error-text" class="error-text">Please enter a message.</p>
       <textarea id="description-input" rows="3" placeholder="Enter your message…" class="form-control" ></textarea><br/>
       <button type="button" onClick="submitToAPI(event)" class="btn btn-lg">Send</button>
+      <p id="form-pending-text" class="status-text">Sending message...</p>
+      <p id="form-success-text" class="status-text">Message sent!</p>
+      <p id="form-failure-text" class="error-text">Message failed (Please try again)</p>
     </form>
 </div>
    
@@ -20,26 +26,28 @@ page_css: contact.css
        e.preventDefault();
        var URL = "https://jkq7tufrof.execute-api.us-east-1.amazonaws.com/prod/contact";
 
-            var Namere = /[A-Za-z]{1}[A-Za-z]/;
-            if (!Namere.test($("#name-input").val())) {
-                         alert ("Name can not less than 2 char");
-                return;
-            }
-            if ($("#email-input").val()=="") {
-                alert ("Please enter your email");
-                return;
-            }
+      let nameErrorElem = $("#name-error-text");
+      let emailErrorElem = $("#email-error-text");
+      let msgErrorElem = $("#msg-error-text");
 
-            var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
-            if (!reeamil.test($("#email-input").val())) {
-                alert ("Please enter valid email address");
-                return;
-            }
+      $('.error-text').removeClass('show');
+      $('.status-text').removeClass('show');
 
-            if ($("#description-input").val()=="") {
-                alert ("Please enter a message");
-                return;
-            }
+      if (($("#name-input").val() === "")) {
+        nameErrorElem.addClass('show');
+        return;
+      }
+
+      var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+      if ($("#email-input").val() === "" || !reeamil.test($("#email-input").val())) {
+        emailErrorElem.addClass('show');
+        return;
+      }
+
+      if ($("#description-input").val() === "") {
+        msgErrorElem.addClass('show');
+        return;
+      }
 
        var name = $("#name-input").val();
        var email = $("#email-input").val();
@@ -49,6 +57,8 @@ page_css: contact.css
           email : email,
           desc : desc
         };
+
+        $('#form-pending-text').addClass('show');
 
        $.ajax({
          type: "POST",
@@ -61,13 +71,17 @@ page_css: contact.css
          
          success: function () {
            // clear form and show a success message
-           alert("Successfull");
+           $('#form-pending-text').removeClass('show');
+           $('#form-success-text').addClass('show'); 
            document.getElementById("contact-form").reset();
-       location.reload();
+           setTimeout(function(){
+            $('#form-success-text').removeClass('show'); 
+           }, 1000);
          },
          error: function () {
            // show an error message
-           alert("UnSuccessfull");
+           $('#form-pending-text').removeClass('show');
+           $('#form-failure-text').addClass('show');
          }});
      }
 </script>
