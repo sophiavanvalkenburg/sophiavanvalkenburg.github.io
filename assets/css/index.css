@@ -35,6 +35,7 @@ footer {
 .navbar-link-container {
     display: flex ;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 .nav-link  {
@@ -55,6 +56,15 @@ footer {
     outline: 0;
     border: 1px solid black;
     border-radius: 0;
+}
+
+.navbar-toggler-container > .navbar-toggler {
+    border-radius: 0;
+    border-color: black;
+}
+
+.navbar-toggler-container > button:focus {
+    outline: 1px solid black;
 }
 
 .social-media-link {
@@ -164,15 +174,8 @@ footer {
     font-weight: bold;
 }
 
-.filterBtn.hide {
-    visibility: hidden;
-}
-
-.show-filter-button.hide, .hide-filter-button.hide {
-    display: none;
-}
-
 .show-filter-button, .hide-filter-button {
+    display: none;
     font-size: .75em;
 }
 
@@ -186,6 +189,12 @@ footer {
         width: 50%;
     } 
     .filterBtn.hide {
+        display: none;
+    }
+    .show-filter-button, .hide-filter-button {
+        display: block;
+    }
+    .show-filter-button.hide, .hide-filter-button.hide {
         display: none;
     }
 }
