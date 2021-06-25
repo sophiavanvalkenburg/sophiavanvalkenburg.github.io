@@ -1,6 +1,7 @@
 .nav-about-link {
     font-style: italic;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .me-img-container {
@@ -35,7 +36,7 @@
 
 .about-header, .find-me-header {
     text-decoration: underline;
-    font-family: 'Arial Narrow';
+    font-family: 'Optima', 'Arial Narrow';
     text-align: center;
     margin-bottom: 5%;
 }

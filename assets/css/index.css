@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    font-family: Arial,sans-serif;
+    font-family: 'Optima',Arial,sans-serif;
     font-size: 0.8em;
     min-height: 100vh;
     display: flex;
@@ -22,10 +22,9 @@ footer {
     padding: 2% 3.5% 2% 3.5%;
 }
 
-.navbar-brand {
-    font-size: 5em;
-    white-space: normal;
-    line-height: 1em;
+.navbar-brand > img {
+    height: 64px;
+    width: auto;
 }
 
 .project-preview-img {
@@ -45,7 +44,7 @@ footer {
 .nav-link, .nav-link:hover {
     color: black;
     font-size: 2em;
-    font-family: 'Arial Narrow'
+    font-family: 'Optima', 'Arial Narrow'
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -56,12 +55,6 @@ footer {
     outline: 0;
     border: 1px solid black;
     border-radius: 0;
-}
-
-
-.page-title {
-    padding-right: 2em;
-    font-style: italic;
 }
 
 .social-media-link {
@@ -139,7 +132,7 @@ footer {
 .img-overlay > .project-title {
     text-decoration: underline;
     font-size: 3em;
-    font-family: 'Arial Narrow';
+    font-family: 'Optima', 'Arial Narrow';
     text-align: center;
     width: 100%;
 }
@@ -167,6 +160,10 @@ footer {
     color: black;
 }
 
+#filter-button-container > .btn.active {
+    font-weight: bold;
+}
+
 .filterBtn.hide {
     visibility: hidden;
 }
@@ -181,8 +178,9 @@ footer {
 
 
 @media screen and (max-width:600px) {
-    .navbar-brand {
-        font-size: 3em;
+    .navbar-brand > img {
+        height: 38px;
+        width: auto;
     }
     .masonry-grid-item, .masonry-grid-sizer {
         width: 50%;

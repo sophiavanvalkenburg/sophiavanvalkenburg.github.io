@@ -1,6 +1,7 @@
 .nav-contact-link {
     font-style: italic;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .contact-container {
@@ -12,7 +13,7 @@
 }
 
 #contact-form  {
-    font-family: 'Arial Narrow';
+    font-family: 'Optima', 'Arial Narrow';
     width: 50%;
 }
 
