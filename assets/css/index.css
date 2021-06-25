@@ -148,7 +148,7 @@ footer {
 }
 
 
-#filter-button-container > .btn {
+.toggle-filter-btn, #toggleFilters > .btn {
     background-color: rgba(255,255,255,0);
     border: 0;
     color: #646464;
@@ -156,25 +156,26 @@ footer {
     border-radius: 0;
 }
 
-#filter-button-container > .btn:focus {
+.toggle-filter-btn:focus, #toggleFilters > .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0;
     border: 1px solid black;
     border-radius: 0;
 }
 
-#filter-button-container > .btn:hover, 
-#filter-button-container > .btn.active,
-#filter-button-container > .btn:focus {
+.toggle-filter-btn,
+#toggleFilters > .btn:hover, 
+#toggleFilters > .btn.active,
+#toggleFilters > .btn:focus {
     text-decoration: underline;
     color: black;
 }
 
-#filter-button-container > .btn.active {
+#toggleFilters > .btn.active {
     font-weight: bold;
 }
 
-.show-filter-button, .hide-filter-button {
+.toggle-filter-btn {
     display: none;
     font-size: .75em;
 }
@@ -188,14 +189,8 @@ footer {
     .masonry-grid-item, .masonry-grid-sizer {
         width: 50%;
     } 
-    .filterBtn.hide {
-        display: none;
-    }
-    .show-filter-button, .hide-filter-button {
+    .toggle-filter-btn {
         display: block;
-    }
-    .show-filter-button.hide, .hide-filter-button.hide {
-        display: none;
     }
     .navbar-link-container {
         width: 90%;
