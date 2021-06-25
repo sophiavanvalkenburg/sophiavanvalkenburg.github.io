@@ -55,7 +55,7 @@
     transition: opacity 2s;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:767px){
     #contact-form {
         width: 90%;
     }

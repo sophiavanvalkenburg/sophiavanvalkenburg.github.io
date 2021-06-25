@@ -180,21 +180,27 @@ footer {
     font-size: .75em;
 }
 
-
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .navbar-brand > img {
         height: 38px;
         width: auto;
     }
-    .masonry-grid-item, .masonry-grid-sizer {
-        width: 50%;
-    } 
-    .toggle-filter-btn {
-        display: block;
-    }
     .navbar-link-container {
         width: 90%;
         justify-content: center;
+    }
+    .masonry-grid-item, .masonry-grid-sizer {
+        width: 50%;
+    } 
+}
+
+
+@media screen and (max-width:767px) {
+    .toggle-filter-btn {
+        display: block;
+    }
+    #toggleFilters > a {
+        font-size: 1em;
     }
 }
 
