@@ -54,9 +54,13 @@
     font-size: 1em;
 }
 
+.single-image-title {
+    font-style: italic;
+}
+
 .about-single-image {
     padding: 1%;
-    font-size: 0.75em;
+    font-size: 1em;
     display: flex;
 }
 

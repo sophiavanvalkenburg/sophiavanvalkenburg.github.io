@@ -79,8 +79,8 @@ page_css: project-preview.css
                     <img class="single-image-preview" src="<%- project.imgUrl %>">
                 </a>
                 <div class="about-single-image">
+                    <p><span class="single-image-title"><%- project.title %></span><br>
                     <% if (typeof project.description !== 'undefined') { %>
-                        <p>"<%- project.title %>"<br>
                         <%- project.description %></p>
                     <%}%>
                 </div>
