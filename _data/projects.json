@@ -21,11 +21,11 @@
     "slug": "inktober-2020",
     "title": "Inktober 2020 (Drawlloween)",
     "description": "Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.",
-    "previewImgUrl": "/img/previews/inktober-2020.png",
+    "previewImgUrl": "/img/illustration/inktober-2020.png",
     "category": "illustration",
     "projectPreview": {
       "type": "gallery",
-      "galleryUrl": "/img/projects/inktober-2020/",
+      "galleryUrl": "/img/illustration/inktober-2020/",
     "gallery": [
       {
         "file": "01.jpg",
@@ -189,7 +189,7 @@
     "slug": "inktober-2019",
     "title": "Inktober 2019",
     "description": "Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.",
-    "previewImgUrl": "/img/previews/inktober-2019.png",
+    "previewImgUrl": "/img/illustration/inktober-2019.png",
     "category": "illustration",
     "projectPreview": {
       "type": "gallery",
@@ -366,7 +366,7 @@
     "slug": "canopy-cat",
     "title": "Canopy Cat Rescue",
     "description": "My Submission for <a target='_blank' href='https://www.canopycatrescue.com/'>Canopy Cat Rescue</a>'s T-Shirt Contest. Canopy Cat Rescue is a Northwest US-based nonprofit dedicated to saving cats who get stuck in trees.",
-    "previewImgUrl": "/img/previews/canopy-cat.png",
+    "previewImgUrl": "/img/illustration/canopy-cat.png",
     "category": "illustration",
     "projectPreview": {
       "type": "gallery",
@@ -392,7 +392,7 @@
     "title": "Book Cover Design for <a target='_blank' href='https://www.amazon.com/Once-Upon-Fairytale-Harvardwood-Anthologies/dp/1098353226/'><i>Once Upon A Fairytale</i></a>",
     "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally.",
     "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
-    "previewImgUrl": "/img/previews/once-upon-a-fairytale.png",
+    "previewImgUrl": "/img/illustration/once-upon-a-fairytale.png",
     "category": "illustration",
     "featured": true
   },
@@ -502,14 +502,14 @@
     "title": "Super Cat: Defender of the Realm",
     "description": "Super Cat takes on her strongest foe yet... but there's a twist!",
     "imgUrl": "/img/comics/super-cat-defender-of-the-realm.png",
-    "previewImgUrl": "/img/previews/super-cat-defender-of-the-realm-sm.png",
+    "previewImgUrl": "/img/comics/super-cat-defender-of-the-realm-sm.png",
     "category": "comic"
   },
   {
     "slug": "amaryllis-blooming",
     "title": "Amaryllis Blooming",
     "description": "Short animation of an amaryllis blooming, in watercolor",
-    "previewImgUrl": "/img/previews/amaryllis.png",
+    "previewImgUrl": "/img/animation/amaryllis.png",
     "category": "animation",
     "projectPreview": {
       "template": "projects/_amaryllis-blooming.ejs"
@@ -554,11 +554,11 @@
     "slug": "ant-world-3d",
     "title": "Ant World",
     "description": "Concept illustration of a fantastical ant hill with 3D prototype of ant, created with three.js",
-    "previewImgUrl": "/img/previews/ant-world.png",
+    "previewImgUrl": "/img/interactives/ant-world.png",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/previews/ant-world.gif",
+      "previewUrl": "/img/interactives/ant-world.gif",
       "projectUrl": "https://sophiaceleste.com/ant-world-3d/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/ant-world-3d"
     }
@@ -567,11 +567,11 @@
     "slug": "eyeball-forest",
     "title": "Eyeball Forest",
     "description": "A forest of eyeballs...",
-    "previewImgUrl": "/img/previews/eyeball-forest-demo.png",
+    "previewImgUrl": "/img/interactives/eyeball-forest-demo.png",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/previews/eyeball-forest-demo.gif",
+      "previewUrl": "/img/interactives/eyeball-forest-demo.gif",
       "projectUrl": "https://sophiaceleste.com/eyeball-forest/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/eyeball-forest/"
     }
@@ -580,11 +580,11 @@
     "slug": "music-doodles",
     "title": "Music Doodles",
     "description": "Experiments with visualizing music",
-    "previewImgUrl": "/img/previews/funk.png",
+    "previewImgUrl": "/img/interactives/funk.png",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/previews/funk.gif",
+      "previewUrl": "/img/interactives/funk.gif",
       "projectUrl": "https://sophiaceleste.com/music-doodles/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/music-doodles/"
     }
@@ -593,7 +593,7 @@
     "slug": "bug-mandala",
     "title": "Bug Mandala",
     "description": "A psychedelic animated illustration of dancing bugs. Music credit: 'Kom Tillbakaa' by Psilodump",   
-    "previewImgUrl": "/img/previews/bug-mandala.png",
+    "previewImgUrl": "/img/animation/bug-mandala.png",
     "category": "animation",
     "projectPreview": {
       "type": "video",
@@ -618,11 +618,11 @@
     "slug": "the-wrigglies",
     "title": "The Wrigglies",
     "description": "ITP Camp 2017 Project<br>music credit: Psilodump",
-    "previewImgUrl": "/img/previews/wrigglies-demo.png",
+    "previewImgUrl": "/img/interactives/wrigglies-demo.png",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/previews/wrigglies-demo.gif",
+      "previewUrl": "/img/interactives/wrigglies-demo.gif",
       "projectUrl": "https://sophiaceleste.com/wrigglies-itp-2017",
       "codeUrl": "https://github.com/sophiavanvalkenburg/wrigglies-itp-2017"
     }
@@ -631,11 +631,11 @@
     "slug": "rubiks-cube",
     "title": "Rubiks Cube",
     "description": "Model of a Rubiks Cube written in C++ and OpenGL from scratch. Not available to view online.",
-    "previewImgUrl": "/img/previews/rubiks-cube-demo.png",
+    "previewImgUrl": "/img/interactives/rubiks-cube-demo.png",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/previews/rubiks-cube-demo.gif",
+      "previewUrl": "/img/interactives/rubiks-cube-demo.gif",
       "codeUrl": "https://github.com/sophiavanvalkenburg/rubiks-cube/"
     }
   },
