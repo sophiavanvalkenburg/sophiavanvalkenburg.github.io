@@ -416,7 +416,7 @@
     "slug": "mole-cricket",
     "title": "Mole Cricket",
     "description": "Detailed drawing of a mole cricket in various styles.",
-    "previewImgUrl": "/img/previews/mole-cricket.png",
+    "previewImgUrl": "/img/illustration/mole-cricket-sm.jpg",
     "category": "illustration",
     "projectPreview": {
       "type": "gallery",
@@ -529,7 +529,7 @@
     "slug": "funkpeter-beta",
     "title": "'funkpeter (beta)' MV",
     "description": "A music video for 'funkpeter (beta)' by Psilodump",
-    "previewImgUrl": "/img/previews/funkpeter-beta.png",
+    "previewImgUrl": "/img/animation/funkpeter-beta.png",
     "category": "animation",
     "projectPreview": {
       "type": "video",
@@ -540,11 +540,11 @@
     "slug": "halloween-haus",
     "title": "Halloween Haus",
     "description": "Many moons ago, 28 souls gathered at a haunted haus on all hallow's eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...",
-    "previewImgUrl": "/img/previews/halloween-haus.png",
+    "previewImgUrl": "/img/interactives/halloween-haus.png",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/previews/halloween-haus.gif",
+      "previewUrl": "/img/interactives/halloween-haus.gif",
       "projectUrl": "https://sophiaceleste.com/halloween-haus/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/halloween-haus/"
     },
@@ -605,11 +605,11 @@
     "slug": "ar-builders",
     "title": "AR Builders",
     "description": "Talk to CBRE Build's 'Builders' in Augmented Reality! They've lost some of their favorite items ... can you help? (Need to download & print the AR marker images in the code link below).",
-    "previewImgUrl": "/img/previews/ar-builders-demo.png",
+    "previewImgUrl": "/img/interactives/ar-builders-demo.jpg",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/previews/ar-builders-demo.gif",
+      "previewUrl": "/img/interactives/ar-builders-demo.gif",
       "projectUrl": "https://floored.github.io/ar-builders",
       "codeUrl": "https://github.com/sophiavanvalkenburg/ar-builders/"
     } 
@@ -719,7 +719,7 @@
     "previewImgUrl": "/img/fine-art/eartha-kitt-sm.jpg",
     "title": "Portrait of Eartha Kitt",
     "description": "watercolor",
-    "category": "fine-art"
+    "category": "illustration"
   },
   {
     "slug": "devin-portrait",
@@ -812,7 +812,7 @@
   {
     "slug": "darcy-standing",
     "imgUrl": "/img/fine-art/darcy-standing.jpg",
-    "previewImgUrl": "/img/fine-art/darcy-standing-sm.jpeg",
+    "previewImgUrl": "/img/fine-art/darcy-standing-sm.jpg",
     "title": "Darcy Standing",
     "description": "pencil",
     "category": "fine-art"
@@ -847,7 +847,7 @@
     "previewImgUrl": "/img/fine-art/gwb-cloudy-day-sm.jpeg",
     "title": "George Washington Bridge on a Cloudy Day",
     "description": "ink wash",
-    "category": "fine-art"
+    "category": "illustration"
   },
   {
     "slug": "womans-torso",
