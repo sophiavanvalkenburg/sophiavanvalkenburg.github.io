@@ -1,0 +1,4 @@
+[submodule "_site"]
+	path = _site
+	url = git@github.com:sophiavanvalkenburg/sophiavanvalkenburg.github.io.git
+	branch = gh-pages
