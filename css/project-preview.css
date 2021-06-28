@@ -1,0 +1,172 @@
+.project-preview-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: grey;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.external-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.external-project-preview {
+    padding: 2%;
+}
+.external-project-preview > img {
+    width: 100%;
+}
+
+.gallery-section {
+    width: 100%;
+}
+
+.gallery-container {
+    width: 100%; 
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-iframe {
+    width: 70vw;
+    height: 70vh;
+}
+
+.about-video, .about-external-project {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.about-gallery, .about-video, .about-external-project {
+    font-size: 1em;
+}
+
+.single-image-title {
+    font-style: italic;
+}
+
+.about-single-image {
+    padding: 1%;
+    font-size: 1em;
+    display: flex;
+}
+
+.about-single-image > *, .about-video > * {
+    flex-grow: 1;
+    width: 0;
+}
+
+.about-external-project {
+    flex-direction: column;
+    width: 25%;
+    margin-left: 2%;
+}
+
+.external-project-link {
+    text-align: left;
+}
+
+.single-image-preview{
+   max-height: 75vh;
+   width: auto;
+}
+
+.back-link-icon {
+    fill: grey;
+}
+
+.back-link-container {
+    margin-right: 2%;
+}
+
+.back-link:hover > .back-link-icon {
+    fill:black;
+}
+
+.back-link {
+    display: flex;
+    flex-flow: flex-start;
+    background-color: rgba(255,255,255,0);
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 1px solid rgba(225, 255, 255, 0);
+}
+
+.back-link:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.preview-img-container {
+    display: block;
+}
+
+.amaryllis-frame-sheets {
+    display:flex; 
+    flex-direction: row; 
+}
+
+.amaryllis-frame-sheets > a > img {
+    width: 100%;
+}
+
+.my-favorite-toy-p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-favorite-toy-p > img {
+    width: 24%;
+}
+
+@media screen and (max-width:767px) {
+    .back-link {
+        display: none;
+    }
+    .single-image-preview {
+        height: auto;
+        max-width: 90vw;
+    }
+    .about-single-image {
+        font-size: 1em;
+    }
+    .about-video {
+        margin-top: -25%;
+        font-size: 1.5em;
+    }
+    .external-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-external-project {
+        width: 90%;
+    }
+    .external-project-link {
+        font-size: 2em;
+    }
+    .amaryllis-frame-sheets > a {
+        width: 30%;
+    }
+    .my-favorite-toy-p > img {
+        width: 90%;
+    }
+}
+
+

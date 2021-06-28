@@ -1,0 +1,62 @@
+.nav-contact-link {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    min-width: 50%;
+}
+
+#contact-form  {
+    font-family: 'Optima', 'Arial Narrow';
+    width: 50%;
+}
+
+#contact-form > h4 {
+    font-size: 1.5em;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+#contact-form > button {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+#contact-form > .error-text {
+    color: red;
+    display: none;
+}
+
+#form-pending-text {
+    display: none;
+    color:grey;
+}
+
+#contact-form > .error-text.show, #form-pending-text.show {
+    display: block;
+}
+
+#form-success-text.show {
+    opacity: 1;
+    transition: opacity 0s;
+}
+
+#form-success-text {
+    color: green;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+@media screen and (max-width:767px){
+    #contact-form {
+        width: 90%;
+    }
+}

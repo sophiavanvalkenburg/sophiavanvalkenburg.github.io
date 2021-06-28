@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>SophiaCeleste.com</title>
+<meta charset="utf-8">
+<meta property="og:title" content="SophiaCeleste.com - Contact">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
+<link rel="stylesheet" href="/lib/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/index.css" />
+
+<link rel="stylesheet" href="/css/contact.css" />
+
+<script src="/lib/js/jquery-3.6.0.min.js"></script>
+<script src="/lib/js/bootstrap.min.js"></script>
+<script src="/lib/js/masonry.pkgd.min.js"></script>
+<script src="/lib/js/imagesloaded.pkgd.min.js"></script>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-light navbar-expand-md">
+    <a class="navbar-brand" href="/"><img alt="Sophia Celeste" src="/img/brand.jpg"></a>
+    <div class="navbar-toggler-container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg viewBox="0 0 60 60" width="20" height="30">
+                <rect width="60" height="5"></rect>
+                <rect y="25" width="60" height="5"></rect>
+                <rect y="50" width="60" height="5"></rect>
+              </svg>
+        </button>
+    </div>
+    <div id="navbarToggleExternalContent" class="navbar-link-container collapse navbar-collapse">
+        <a class="link nav-link nav-work-link" href="/illustration">work</a>
+        <a class="link nav-link nav-about-link" href="/about">about</a>
+        <a class="link nav-link nav-contact-link" href="/contact">contact</a>
+    </div>
+</nav>
+    <div class="contact-container container">
+  <form id="contact-form" method="post">
+    <h4>name</h4>
+      <p id="name-error-text" class="error-text">please enter a name.</p>
+      <input type="text" id="name-input" placeholder="Enter name here…" class="form-control" /><br/>
+      <h4>email</h4>
+      <p id="email-error-text" class="error-text">please enter a valid email.</p>
+      <input type="email" id="email-input" placeholder="Enter email here…" class="form-control" /><br/>
+      <h4>message</h4>
+      <p id="msg-error-text" class="error-text">please enter a message.</p>
+      <textarea id="description-input" rows="3" placeholder="Enter your message…" class="form-control" ></textarea><br/>
+      <button type="button" onClick="submitToAPI(event)" class="btn btn-lg">Send</button>
+      <p id="form-pending-text" class="status-text">sending message...</p>
+      <p id="form-success-text" class="status-text">message sent!</p>
+      <p id="form-failure-text" class="error-text">nessage failed (please try again)</p>
+    </form>
+</div>
+   
+<script>
+  function submitToAPI(e) {
+       e.preventDefault();
+       var URL = "https://jkq7tufrof.execute-api.us-east-1.amazonaws.com/prod/contact";
+
+      let nameErrorElem = $("#name-error-text");
+      let emailErrorElem = $("#email-error-text");
+      let msgErrorElem = $("#msg-error-text");
+
+      $('.error-text').removeClass('show');
+      $('.status-text').removeClass('show');
+
+      if (($("#name-input").val() === "")) {
+        nameErrorElem.addClass('show');
+        return;
+      }
+
+      var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+      if ($("#email-input").val() === "" || !reeamil.test($("#email-input").val())) {
+        emailErrorElem.addClass('show');
+        return;
+      }
+
+      if ($("#description-input").val() === "") {
+        msgErrorElem.addClass('show');
+        return;
+      }
+
+       var name = $("#name-input").val();
+       var email = $("#email-input").val();
+       var desc = $("#description-input").val();
+       var data = {
+          name : name,
+          email : email,
+          desc : desc
+        };
+
+        $('#form-pending-text').addClass('show');
+
+       $.ajax({
+         type: "POST",
+         url : "https://jkq7tufrof.execute-api.us-east-1.amazonaws.com/prod/contact",
+         dataType: "json",
+         crossDomain: "true",
+         contentType: "application/json; charset=utf-8",
+         data: JSON.stringify(data),
+
+         
+         success: function () {
+           // clear form and show a success message
+           $('#form-pending-text').removeClass('show');
+           $('#form-success-text').addClass('show'); 
+           document.getElementById("contact-form").reset();
+           setTimeout(function(){
+            $('#form-success-text').removeClass('show'); 
+           }, 1000);
+         },
+         error: function () {
+           // show an error message
+           $('#form-pending-text').removeClass('show');
+           $('#form-failure-text').addClass('show');
+         }});
+     }
+</script>
+
+    <footer>
+<a class="social-media-link" href="https://www.instagram.com/sophiaceleste.art" target="_blank">
+    <img src="/img/instagram-logo.png"/>
+</a>
+<a class="social-media-link" href="https://github.com/sophiavanvalkenburg/" target="_blank">
+    <img src="/img/github-logo.png"/>
+</a>
+<a class="social-media-link" href="https://www.linkedin.com/in/sophiavv/" target="_blank">
+    <img src="/img/linkedin-logo.png"/>
+</a>
+</footer>
+</body>
+</html>

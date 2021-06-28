@@ -1,0 +1,208 @@
+html, body {
+    overflow-x: clip;
+}
+
+body {
+    font-family: 'Optima',Arial,sans-serif;
+    font-size: 0.8em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+footer {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar, footer {
+    background-color: white;
+    padding: 2% 3.5% 2% 3.5%;
+}
+
+.navbar-brand > img {
+    height: 64px;
+    width: auto;
+}
+
+.project-preview-img {
+   max-height: 75vh;
+   width: auto;
+}
+
+.navbar-link-container {
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-link  {
+    border: 1px solid rgba(255,255,255,0);
+}
+
+.nav-link, .nav-link:hover {
+    color: black;
+    font-size: 2em;
+    font-family: 'Optima', 'Arial Narrow'
+}
+
+.nav-link:hover, .nav-link:focus {
+    text-decoration: underline;
+}
+
+.nav-link:focus {
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.navbar-toggler-container > .navbar-toggler {
+    border-radius: 0;
+    border-color: black;
+}
+
+.navbar-toggler-container > button:focus {
+    outline: 1px solid black;
+}
+
+.social-media-link {
+    padding: 0 4px;
+}
+
+.social-media-link:hover {
+    text-decoration: none;
+}
+
+.social-media-link:focus {
+    outline: 0;
+    
+}
+
+.social-media-link > img {
+    border: 1px solid rgba(255,255,255,0);
+    border-radius: 0;
+}
+
+.social-media-link:focus > img {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.code-link {
+    z-index: 1;
+}
+
+#vimeo-player-container {
+    margin-top: 25px;
+    max-width: 640px;
+}
+
+#project-container {
+    margin-top: 1.5%;
+    padding: 0;
+}
+
+.preview-img img {
+    padding: 1.5%;
+    width: 100%;
+}
+
+.masonry-grid-item, .masonry-grid-sizer {
+    width: 33%;
+}
+
+.preview-img > a:focus {
+    outline: 0;
+}
+
+.preview-img > a > img {
+    border: 1px solid rgba(255,255,255,0);
+    border-radius: 0;
+}
+
+.preview-img > a:focus > img, .preview-img > a:hover > img {
+    border: 1px solid black; 
+    border-radius: 0;
+}
+
+.img-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.7);
+    bottom: 0px;
+    visibility: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.img-overlay > .project-title {
+    text-decoration: underline;
+    font-size: 3em;
+    font-family: 'Optima', 'Arial Narrow';
+    text-align: center;
+    width: 100%;
+}
+
+
+.toggle-filter-btn, #toggleFilters > .btn {
+    background-color: rgba(255,255,255,0);
+    border: 0;
+    color: #646464;
+    border: 1px solid rgba(255,255,255,0);
+    border-radius: 0;
+}
+
+.toggle-filter-btn:focus, #toggleFilters > .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.toggle-filter-btn,
+#toggleFilters > .btn:hover, 
+#toggleFilters > .btn.active,
+#toggleFilters > .btn:focus {
+    text-decoration: underline;
+    color: black;
+}
+
+#toggleFilters > .btn.active {
+    font-weight: bold;
+}
+
+.toggle-filter-btn {
+    display: none;
+    font-size: .75em;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-brand > img {
+        height: 38px;
+        width: auto;
+    }
+    .navbar-link-container {
+        width: 90%;
+        justify-content: center;
+    }
+    .masonry-grid-item, .masonry-grid-sizer {
+        width: 50%;
+    } 
+}
+
+
+@media screen and (max-width:767px) {
+    .toggle-filter-btn {
+        display: block;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .navbar-link-container {
+        font-size: 0.75em;
+    }
+}
