@@ -2,3 +2,4 @@ bootstrap-4.5.3-dist/
 unprocessed/
 **/.DS_Store
 node_modules
+_site/
