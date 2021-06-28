@@ -516,6 +516,17 @@
     }
   },
   {
+    "slug": "school-of-motion-animation-bootcamp",
+    "title": "Animation Bootcamp Reel",
+    "description": "Examples of animations I worked, including School of Motion's Animation Bootcamp.",
+    "previewImgUrl": "/img/animation/som-animation-bootcamp.png",
+    "category": "animation",
+    "projectPreview": {
+      "type": "video",
+      "videoUrl": "https://player.vimeo.com/video/440104318"
+    }
+  },
+  {
     "slug": "my-favorite-toy",
     "title": "My Favorite Toy",
     "description": "A short graphic memoir",
