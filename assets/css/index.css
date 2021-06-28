@@ -180,6 +180,17 @@ footer {
     font-size: .75em;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.website-repo-link {
+    padding-top: 5%;
+    font-size: 0.85em;
+}
+
 @media screen and (max-width:768px) {
     .navbar-brand > img {
         height: 38px;
