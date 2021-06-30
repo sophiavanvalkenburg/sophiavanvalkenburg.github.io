@@ -1,6 +1,15 @@
+<% let previewTitle = typeof(project) !== 'undefined' ? project.title : title; %>
+<% let previewImg = typeof(project) !== 'undefined' ? project.previewImgUrl : '/img/previewImg.png'; %>
 <title>SophiaCeleste.com</title>
 <meta charset="utf-8">
-<meta property="og:title" content="SophiaCeleste.com - <%- typeof(project) !== 'undefined' ? project.title : title %>">
+<meta property="og:site_name" content="SophiaCeleste.com">
+<meta property="og:title" content="SophiaCeleste.com - <%-  previewTitle %>">
+<meta property="og:description" content="Art & Tech by Sophia Celeste">
+<meta property="og:image" content="<%- previewImg %>">
+<meta name="twitter:title" content="SophiaCeleste.com - <%-  previewTitle %>">
+<meta name="twitter:description" content="Art & Tech by Sophia Celeste">
+<meta name="twitter:image" content="<%- previewImg %>">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
 <link rel="stylesheet" href="/lib/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/css/index.css" />
