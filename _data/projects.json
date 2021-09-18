@@ -23,6 +23,7 @@
     "description": "Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.",
     "previewImgUrl": "/img/illustration/inktober-2020.png",
     "category": "illustration",
+    "featured": true,
     "projectPreview": {
       "type": "gallery",
       "galleryUrl": "/img/projects/inktober-2020/",
@@ -354,6 +355,15 @@
     }
   },
   {
+    "slug": "once-upon-a-fairytale",
+    "title": "Book Cover Design for <a target='_blank' href='https://www.amazon.com/Once-Upon-Fairytale-Harvardwood-Anthologies/dp/1098353226/'><i>Once Upon A Fairytale</i></a>",
+    "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally.",
+    "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
+    "previewImgUrl": "/img/illustration/once-upon-a-fairytale.png",
+    "category": "illustration",
+    "featured": true
+  },
+  {
     "slug": "the-doll-house-poster",
     "imgUrl": "/img/illustration/the-doll-house-poster.jpg",
     "previewImgUrl": "/img/illustration/the-doll-house-poster-sm.jpg",
@@ -386,15 +396,6 @@
         }
       ]
     }
-  },
-  {
-    "slug": "once-upon-a-fairytale",
-    "title": "Book Cover Design for <a target='_blank' href='https://www.amazon.com/Once-Upon-Fairytale-Harvardwood-Anthologies/dp/1098353226/'><i>Once Upon A Fairytale</i></a>",
-    "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally.",
-    "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
-    "previewImgUrl": "/img/illustration/once-upon-a-fairytale.png",
-    "category": "illustration",
-    "featured": true
   },
   {
     "slug": "graphic-still-life",
@@ -698,7 +699,8 @@
     "previewImgUrl": "/img/fine-art/delicata-squash-sm.jpg",
     "title": "Delicata Squash",
     "description": "watercolor",
-    "category": "fine-art"
+    "category": "fine-art",
+    "featured": true
   },
   {
     "slug": "firefighter-dad",
