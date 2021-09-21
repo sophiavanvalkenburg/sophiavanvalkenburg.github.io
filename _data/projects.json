@@ -373,6 +373,14 @@
     "featured": true
   },
   {
+    "slug": "arianna-rosenbluth",
+    "title": "Arianna Rosenbluth Obituary Portrait",
+    "imgUrl": "/img/illustration/arianna-rosenbluth.png",
+    "previewImgUrl": "/img/illustration/arianna-rosenbluth-sm.png",
+    "description": "Arianna Rosenbluth designed the Metropolis algorithm, the basis of modern day Markov Chain Monte Carlo methods. I was inspired to create a portrait of her using a graphical representation of the Markov Chain (nodes connected by lines). Learn more about Arianna <a href='https://www.nytimes.com/2021/02/09/science/arianna-wright-dead.html'>here.</a>",
+    "category": "illustration"
+  },
+  {
     "slug": "canopy-cat",
     "title": "Canopy Cat Rescue",
     "description": "My Submission for <a target='_blank' href='https://www.canopycatrescue.com/'>Canopy Cat Rescue</a>'s T-Shirt Contest. Canopy Cat Rescue is a Northwest US-based nonprofit dedicated to saving cats who get stuck in trees.",
