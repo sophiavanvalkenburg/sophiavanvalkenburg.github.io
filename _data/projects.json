@@ -377,7 +377,7 @@
     "title": "Arianna Rosenbluth Obituary Portrait",
     "imgUrl": "/img/illustration/arianna-rosenbluth.png",
     "previewImgUrl": "/img/illustration/arianna-rosenbluth-sm.png",
-    "description": "Arianna Rosenbluth designed the Metropolis algorithm, the basis of modern day Markov Chain Monte Carlo methods. I was inspired to create a portrait of her using a graphical representation of the Markov Chain (nodes connected by lines). Learn more about Arianna <a href='https://www.nytimes.com/2021/02/09/science/arianna-wright-dead.html'>here.</a>",
+    "description": "Arianna Rosenbluth designed the Metropolis algorithm, the basis of modern day Markov Chain Monte Carlo methods. I was inspired to create a portrait of her using a graphical representation of the Markov Chain (nodes connected by lines). Learn more about Arianna <a target='_blank' href='https://www.nytimes.com/2021/02/09/science/arianna-wright-dead.html'>here.</a>",
     "category": "illustration"
   },
   {
