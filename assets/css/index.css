@@ -67,6 +67,12 @@ footer {
     outline: 1px solid black;
 }
 
+.social-media-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .social-media-link {
     padding: 0 4px;
 }
