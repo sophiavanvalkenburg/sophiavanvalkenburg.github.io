@@ -1,4 +1,5 @@
 [
+
   {
     "slug": "go-bug-or-go-home",
     "imgUrl": "/img/illustration/go-bug-or-go-home.png",
@@ -8,10 +9,50 @@
     "category": "illustration"
   },
   {
-    "slug": "boscord-streaming",
-    "imgUrl": "/img/illustration/boscord-streaming.png",
-    "previewImgUrl": "/img/illustration/boscord-streaming-sm.png",
-    "title": "The Boscord Twitch Stream Background",
+    "slug": "ghouls-just-wanna-have-fun",
+    "imgUrl": "/img/projects/inktober-2020/11.jpg",
+    "previewImgUrl": "/img/projects/inktober-2020/11-sm.jpg",
+    "title": "Ghouls Just Wanna Have Fun!",
+    "description": "Ghouls night out! From Drawlloween 2020, an annual October drawing event. Ink on watercolor paper.",
+    "category": "illustration"
+  },
+  {
+    "slug": "enchanted-2019",
+    "imgUrl": "/img/projects/inktober-2019/inktober-2019-day-7.jpg",
+    "previewImgUrl": "/img/projects/inktober-2019/inktober-2019-day-7-sm.jpg",
+    "title": "Enchanted (Inktober 2019)",
+    "description": "An enchanting evening with the cat. From Inktober 2019, an annual October drawing event. Black watercolor & Ink.",
+    "category": "illustration"
+  },
+  {
+    "slug": "once-upon-a-fairytale",
+    "title": "Book Cover Design for <a target='_blank' href='https://www.amazon.com/Once-Upon-Fairytale-Harvardwood-Anthologies/dp/1098353226/'><i>Once Upon A Fairytale</i></a>",
+    "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally.",
+    "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
+    "previewImgUrl": "/img/illustration/once-upon-a-fairytale.png",
+    "category": "illustration"
+  },
+  {
+    "slug": "tomb-bop",
+    "imgUrl": "/img/projects/inktober-2020/23.jpg",
+    "previewImgUrl": "/img/projects/inktober-2020/23-sm.jpg",
+    "title": "Tomb Bop",
+    "description": "Come one, come all, down to the sarcophagus! From Drawlloween 2020, an annual October drawing event. Black watercolor & Ink.",
+    "category": "illustration"
+  },
+  {
+    "slug": "sasquatch-watch",
+    "imgUrl": "/img/projects/inktober-2020/06.jpg",
+    "previewImgUrl": "/img/projects/inktober-2020/06-sm.jpg",
+    "title": "Sasquatch Watch",
+    "description": "A fancy watch for all creatures! From Drawlloween 2020, an annual October drawing event. Black watercolor & Ink.",
+    "category": "illustration"
+  },
+  {
+    "slug": "scuba-bull",
+    "imgUrl": "/img/illustration/scuba-bull.png",
+    "previewImgUrl": "/img/illustration/scuba-bull-sm.jpg",
+    "title": "The Raging Bull Submerged",
     "description": "digital (Photoshop)",
     "category": "illustration"
   },
@@ -20,7 +61,7 @@
     "title": "Inktober 2020 (Drawlloween)",
     "description": "Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.",
     "previewImgUrl": "/img/illustration/inktober-2020.png",
-    "category": "illustration",
+    "category": "archive",
     "projectPreview": {
       "type": "gallery",
       "galleryUrl": "/img/projects/inktober-2020/",
@@ -184,11 +225,19 @@
     }
   },
   {
+    "slug": "catch-2019",
+    "imgUrl": "/img/projects/inktober-2019/inktober-2019-day-30.jpg",
+    "previewImgUrl": "/img/projects/inktober-2019/inktober-2019-day-30-sm.jpg",
+    "title": "Catch (Inktober 2019)",
+    "description": "How the tables have turned! From Inktober 2019, an annual October drawing event. Ink on watercolor paper.",
+    "category": "illustration"
+  }, 
+  {
     "slug": "inktober-2019",
     "title": "Inktober 2019",
     "description": "Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.",
     "previewImgUrl": "/img/illustration/inktober-2019.png",
-    "category": "illustration",
+    "category": "archive",
     "projectPreview": {
       "type": "gallery",
       "galleryUrl":"/img/projects/inktober-2019/",
@@ -352,11 +401,11 @@
     }
   },
   {
-    "slug": "once-upon-a-fairytale",
-    "title": "Book Cover Design for <a target='_blank' href='https://www.amazon.com/Once-Upon-Fairytale-Harvardwood-Anthologies/dp/1098353226/'><i>Once Upon A Fairytale</i></a>",
-    "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally.",
-    "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
-    "previewImgUrl": "/img/illustration/once-upon-a-fairytale.png",
+    "slug": "super-cat-defender-of-the-realm",
+    "title": "Super Cat: Defender of the Realm",
+    "description": "Super Cat takes on her strongest foe yet... but there's a twist!",
+    "imgUrl": "/img/comics/super-cat-defender-of-the-realm.png",
+    "previewImgUrl": "/img/comics/super-cat-defender-of-the-realm-sm.png",
     "category": "illustration"
   },
   {
@@ -368,19 +417,11 @@
     "category": "illustration"
   },
   {
-    "slug": "arianna-rosenbluth",
-    "title": "Arianna Rosenbluth Obituary Portrait",
-    "imgUrl": "/img/illustration/arianna-rosenbluth.png",
-    "previewImgUrl": "/img/illustration/arianna-rosenbluth-sm.png",
-    "description": "Arianna Rosenbluth designed the Metropolis algorithm, the basis of modern day Markov Chain Monte Carlo methods. I was inspired to create a portrait of her using a graphical representation of the Markov Chain (nodes connected by lines). Learn more about Arianna <a target='_blank' href='https://www.nytimes.com/2021/02/09/science/arianna-wright-dead.html'>here.</a>",
-    "category": "illustration"
-  },
-  {
     "slug": "canopy-cat",
     "title": "Canopy Cat Rescue",
     "description": "My Submission for <a target='_blank' href='https://www.canopycatrescue.com/'>Canopy Cat Rescue</a>'s T-Shirt Contest. Canopy Cat Rescue is a Northwest US-based nonprofit dedicated to saving cats who get stuck in trees.",
     "previewImgUrl": "/img/illustration/canopy-cat.png",
-    "category": "illustration",
+    "category": "archive",
     "projectPreview": {
       "type": "gallery",
       "galleryUrl": "/img/projects/canopy-cat/",
@@ -406,7 +447,7 @@
     "previewImgUrl": "/img/illustration/graphic-still-life-sm.png",
     "title": "Mango and Knife",
     "description": "digital (Photoshop)",
-    "category": "illustration"
+    "category": "archive"
   },
   {
     "slug": "sunflower-eloise",
@@ -414,14 +455,14 @@
     "previewImgUrl": "/img/illustration/sunflower-eloise-sm.jpg",
     "title": "Eloise in Sunflower",
     "description": "oil on canvas",
-    "category": "illustration"
+    "category": "archive"
   },
   {
     "slug": "mole-cricket",
     "title": "Mole Cricket",
     "description": "Detailed drawing of a mole cricket in various styles.",
     "previewImgUrl": "/img/illustration/mole-cricket-sm.jpg",
-    "category": "illustration",
+    "category": "archive",
     "projectPreview": {
       "type": "gallery",
       "galleryUrl": "/img/projects/mole-cricket/",
@@ -459,7 +500,7 @@
     "previewImgUrl": "/img/illustration/queen-of-plants-sm.jpg",
     "title": "Queen of Plants",
     "description": "Sculpey, mixed media",
-    "category": "illustration"
+    "category": "archive"
   },
   {
     "slug": "rollerskating-isa",
@@ -467,23 +508,16 @@
     "previewImgUrl": "/img/illustration/rollerskating-isa-sm.png",
     "title": "Rollerskating Izzy",
     "description": "digital (Photoshop)",
-    "category": "illustration"
+    "category": "archive"
   },
-  {
-    "slug": "scuba-bull",
-    "imgUrl": "/img/illustration/scuba-bull.png",
-    "previewImgUrl": "/img/illustration/scuba-bull-sm.jpg",
-    "title": "The Raging Bull Submerged",
-    "description": "digital (Photoshop)",
-    "category": "illustration"
-  },
+  
   {
     "slug": "soft-dragon",
     "imgUrl": "/img/illustration/soft-dragon.jpg",
     "previewImgUrl": "/img/illustration/soft-dragon-sm.jpeg",
     "title": "Soft Dragon",
     "description": "sanguine chalk",
-    "category": "illustration"
+    "category": "archive"
   },
   {
     "slug": "ant-hill",
@@ -491,7 +525,7 @@
     "previewImgUrl": "/img/illustration/ant-hill-sm.jpg",
     "title": "Ant Hill",
     "description": "ink, color pencil, marker",
-    "category": "illustration"
+    "category": "archive"
   },
   {
     "slug": "our-livingroom",
@@ -502,12 +536,12 @@
     "category": "illustration"
   },
   {
-    "slug": "super-cat-defender-of-the-realm",
-    "title": "Super Cat: Defender of the Realm",
-    "description": "Super Cat takes on her strongest foe yet... but there's a twist!",
-    "imgUrl": "/img/comics/super-cat-defender-of-the-realm.png",
-    "previewImgUrl": "/img/comics/super-cat-defender-of-the-realm-sm.png",
-    "category": "comic"
+    "slug": "boscord-streaming",
+    "imgUrl": "/img/illustration/boscord-streaming.png",
+    "previewImgUrl": "/img/illustration/boscord-streaming-sm.png",
+    "title": "The Boscord Twitch Stream Background",
+    "description": "digital (Photoshop)",
+    "category": "illustration"
   },
   {
     "slug": "amaryllis-blooming",
@@ -731,7 +765,7 @@
     "previewImgUrl": "/img/fine-art/eartha-kitt-sm.jpg",
     "title": "Portrait of Eartha Kitt",
     "description": "watercolor",
-    "category": "illustration"
+    "category": "fine-art"
   },
   {
     "slug": "devin-portrait",
@@ -859,7 +893,7 @@
     "previewImgUrl": "/img/fine-art/gwb-cloudy-day-sm.jpeg",
     "title": "George Washington Bridge on a Cloudy Day",
     "description": "ink wash",
-    "category": "illustration"
+    "category": "fine-art"
   },
   {
     "slug": "womans-torso",
