@@ -3,3 +3,28 @@
     text-decoration: underline;
     font-weight: bold;
 }
+
+.work-categories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.work-categories-container .preview-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-categories-container .preview-img:hover {
+    text-decoration: underline;
+}
+
+.work-categories-container .preview-img img {
+    height: 350px;
+    width: auto;
+}
+
+.work-categories-container .preview-img h4 {
+    font-size: 1.5em;
+}

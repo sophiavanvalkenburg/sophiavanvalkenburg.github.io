@@ -1,23 +1,28 @@
 ---
 layout: _base-layout.ejs
-title: Artist
-featured: true
+title: Works
 ---
 
-<div id="project-container" class="container masonry-grid">
-    <div class="masonry-grid-sizer"></div>
-    <% for ( let i = 0; i < projects.length; i++ ){ %>
-        <% if (!projects[i].featured) continue; %>
-        <% let projectPreviewUrl = projects[i].projectPreviewUrl || "/project/" + projects[i].slug; %>
-        <div id="<%- projects[i].slug %>" class="preview-img-container masonry-grid-item filterDiv <%- projects[i].category %>">
-            <div class="preview-img">
-                <a href="<%= projectPreviewUrl %>">
-                    <img class="preview-img-png" src="<%- projects[i].previewImgUrl %>" />
-                </a>
-            </div>
+<div id="project-container" class="container">
+    <div class="work-categories-container">
+        <div class="preview-img">
+            <a href="/illustration">
+                <img class="preview-img-png" src="/img/category-previews/color-illustration.png" />
+            </a>
+            <h4>Color Illustration</h4>
         </div>
-    <% } %>
+        <div class="preview-img">
+            <a href="/illustration">
+                <img class="preview-img-png" src="/img/category-previews/bw-illustration.png" />
+            </a>
+            <h4>Black & White Illustration</h4>
+        </div>
+        <div class="preview-img">
+            <a href="/interactives">
+                <img class="preview-img-png" src="/img/category-previews/interactives.png" />
+            </a>
+            <h4>Interactives</h4>
+        </div>
+    </div>
 </div>
-
-<script src="/js/masonry-init.js"></script>
 
