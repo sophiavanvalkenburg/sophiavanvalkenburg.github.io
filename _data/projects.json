@@ -6,7 +6,7 @@
     "previewImgUrl": "/img/illustration/go-bug-or-go-home-sm.png",
     "title": "Go Bug or Go Home",
     "description": "Comic book cover. Inked and digitally colored",
-    "category": "illustration"
+    "category": "color-illustration"
   },
   {
     "slug": "ghouls-just-wanna-have-fun",
@@ -14,7 +14,7 @@
     "previewImgUrl": "/img/projects/inktober-2020/11-sm.jpg",
     "title": "Ghouls Just Wanna Have Fun!",
     "description": "Ghouls night out! From Drawlloween 2020, an annual October drawing event. Ink on watercolor paper.",
-    "category": "illustration"
+    "category": "bw-illustration"
   },
   {
     "slug": "enchanted-2019",
@@ -22,7 +22,7 @@
     "previewImgUrl": "/img/projects/inktober-2019/inktober-2019-day-7-sm.jpg",
     "title": "Enchanted (Inktober 2019)",
     "description": "An enchanting evening with the cat. From Inktober 2019, an annual October drawing event. Black watercolor & Ink.",
-    "category": "illustration"
+    "category": "bw-illustration"
   },
   {
     "slug": "once-upon-a-fairytale",
@@ -30,7 +30,7 @@
     "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally.",
     "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
     "previewImgUrl": "/img/illustration/once-upon-a-fairytale.png",
-    "category": "illustration"
+    "category": "color-illustration"
   },
   {
     "slug": "tomb-bop",
@@ -38,7 +38,7 @@
     "previewImgUrl": "/img/projects/inktober-2020/23-sm.jpg",
     "title": "Tomb Bop",
     "description": "Come one, come all, down to the sarcophagus! From Drawlloween 2020, an annual October drawing event. Black watercolor & Ink.",
-    "category": "illustration"
+    "category": "bw-illustration"
   },
   {
     "slug": "sasquatch-watch",
@@ -46,7 +46,7 @@
     "previewImgUrl": "/img/projects/inktober-2020/06-sm.jpg",
     "title": "Sasquatch Watch",
     "description": "A fancy watch for all creatures! From Drawlloween 2020, an annual October drawing event. Black watercolor & Ink.",
-    "category": "illustration"
+    "category": "bw-illustration"
   },
   {
     "slug": "scuba-bull",
@@ -54,7 +54,7 @@
     "previewImgUrl": "/img/illustration/scuba-bull-sm.jpg",
     "title": "The Raging Bull Submerged",
     "description": "digital (Photoshop)",
-    "category": "illustration"
+    "category": "color-illustration"
   },
   {
     "slug": "inktober-2020",
@@ -230,7 +230,7 @@
     "previewImgUrl": "/img/projects/inktober-2019/inktober-2019-day-30-sm.jpg",
     "title": "Catch (Inktober 2019)",
     "description": "How the tables have turned! From Inktober 2019, an annual October drawing event. Ink on watercolor paper.",
-    "category": "illustration"
+    "category": "bw-illustration"
   }, 
   {
     "slug": "inktober-2019",
@@ -406,7 +406,7 @@
     "description": "Super Cat takes on her strongest foe yet... but there's a twist!",
     "imgUrl": "/img/comics/super-cat-defender-of-the-realm.png",
     "previewImgUrl": "/img/comics/super-cat-defender-of-the-realm-sm.png",
-    "category": "illustration"
+    "category": "bw-illustration"
   },
   {
     "slug": "the-doll-house-poster",
@@ -414,7 +414,7 @@
     "previewImgUrl": "/img/illustration/the-doll-house-poster-sm.jpg",
     "title": "The Doll House (Movie Poster)",
     "description": "graphite pencil, digitally composited",
-    "category": "illustration"
+    "category": "bw-illustration"
   },
   {
     "slug": "canopy-cat",
@@ -492,7 +492,7 @@
     "previewImgUrl": "/img/illustration/film-noir-sm.jpg",
     "title": "A Film Noir Scene",
     "description": "watercolor & ink",
-    "category": "illustration"
+    "category": "archive"
   },
   {
     "slug": "queen-of-plants",
@@ -533,7 +533,7 @@
     "previewImgUrl": "/img/illustration/our-livingroom-sm.jpg",
     "title": "Our Livingroom",
     "description": "digital (Illustrator)",
-    "category": "illustration"
+    "category": "bw-illustration"
   },
   {
     "slug": "boscord-streaming",
@@ -541,7 +541,7 @@
     "previewImgUrl": "/img/illustration/boscord-streaming-sm.png",
     "title": "The Boscord Twitch Stream Background",
     "description": "digital (Photoshop)",
-    "category": "illustration"
+    "category": "color-illustration"
   },
   {
     "slug": "amaryllis-blooming",
