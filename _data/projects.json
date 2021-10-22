@@ -447,7 +447,7 @@
     "previewImgUrl": "/img/illustration/graphic-still-life-sm.png",
     "title": "Mango and Knife",
     "description": "digital (Photoshop)",
-    "category": "archive"
+    "category": "color-illustration"
   },
   {
     "slug": "sunflower-eloise",
@@ -455,7 +455,7 @@
     "previewImgUrl": "/img/illustration/sunflower-eloise-sm.jpg",
     "title": "Eloise in Sunflower",
     "description": "oil on canvas",
-    "category": "archive"
+    "category": "color-illustration"
   },
   {
     "slug": "mole-cricket",
@@ -525,7 +525,7 @@
     "previewImgUrl": "/img/illustration/ant-hill-sm.jpg",
     "title": "Ant Hill",
     "description": "ink, color pencil, marker",
-    "category": "archive"
+    "category": "color-illustration"
   },
   {
     "slug": "our-livingroom",
@@ -635,18 +635,6 @@
       "previewUrl": "/img/interactives/funk.gif",
       "projectUrl": "https://sophiaceleste.com/music-doodles/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/music-doodles/"
-    }
-  },
-  {
-    "slug": "bug-mandala",
-    "title": "Bug Mandala",
-    "description": "A psychedelic animated illustration of dancing bugs. Music credit: 'Kom Tillbakaa' by Psilodump",   
-    "previewImgUrl": "/img/animation/bug-mandala.png",
-    "category": "animation",
-    "projectPreview": {
-      "type": "video",
-      "videoLoop": true,
-      "videoUrl": "https://player.vimeo.com/video/564264080"
     }
   },
   {
