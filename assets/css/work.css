@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 5vh 1vw;
+    text-align: center;
 }
 
 .work-categories-container .preview-img {
@@ -21,10 +23,20 @@
 }
 
 .work-categories-container .preview-img img {
-    height: 350px;
-    width: auto;
+    width: 25vw;
+    height: auto;
 }
 
 .work-categories-container .preview-img h4 {
     font-size: 1.5em;
+}
+
+@media screen and (orientation: portrait) {
+    .work-categories-container .preview-img img {
+        height: 40vh;
+        width: auto;
+    }
+    .work-categories-container {
+        flex-direction: column;
+    }
 }
