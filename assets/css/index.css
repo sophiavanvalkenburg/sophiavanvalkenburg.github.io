@@ -203,8 +203,16 @@ footer {
         width: auto;
     }
     .navbar-link-container {
-        width: 90%;
-        justify-content: center;
+        font-size: 1em;
+    }
+
+    .nav-link {
+        padding-bottom: 0;
+    }
+
+    .navbar-link-container {
+        display: block;
+        text-align: right;
     }
     .masonry-grid-item, .masonry-grid-sizer {
         width: 50%;
