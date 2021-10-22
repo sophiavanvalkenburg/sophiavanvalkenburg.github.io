@@ -2,18 +2,6 @@
 layout: _base-layout.ejs
 ---
 
-<div class="container navbar-expand-md">
-    <button class="btn toggle-filter-btn" data-toggle="collapse" data-target="#toggleFilters" aria-controls="toggleFilters" aria-expanded="false" aria-label="Toggle filters">
-        show/hide filters
-    </button>
-    <div id="toggleFilters" class="collapse navbar-collapse col-sm">
-        <a class="btn <%= categoryLink === 'illustration' ? 'active': '' %>" href="/illustration">illustration</a>
-        <a class="btn  <%= categoryLink === 'interactives' ? 'active': '' %>" href="/interactives">interactives</a>
-        <!--<a class="btn <%= categoryLink === 'comics-animation' ? 'active': '' %>" href="/comics-animation">comics & animation</a>
-        <a class="btn  <%= categoryLink === 'fine-art' ? 'active': '' %>" href="/fine-art">fine art</a>-->
-    </div>
-</div>
-
 <div id="project-container" class="container masonry-grid">
     <div class="masonry-grid-sizer"></div>
     <% for ( let i = 0; i < projects.length; i++ ){ %>

@@ -1,7 +1,7 @@
 {
     "category_to_project_page": {
-        "bw-illustration": "",
-        "color-illustration": "",
+        "bw-illustration": "illustration-bw",
+        "color-illustration": "illustration-color",
         "interactive": "interactives",
         "comic": "comics-animation",
         "animation": "comics-animation",
