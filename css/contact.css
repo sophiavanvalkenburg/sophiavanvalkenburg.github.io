@@ -12,6 +12,11 @@
     min-width: 50%;
 }
 
+.email-me {
+    font-size: 1.25em;
+    text-align: center;
+}
+
 #contact-form  {
     font-family: 'Optima', 'Arial Narrow';
     width: 50%;
