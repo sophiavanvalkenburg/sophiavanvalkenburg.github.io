@@ -1,5 +1,20 @@
 [
-
+  {
+    "slug": "october-new-december",
+    "imgUrl": "/img/illustration/oct-new-dec.jpg",
+    "previewImgUrl": "/img/illustration/oct-new-dec-sm.jpg",
+    "title": "October is the New December",
+    "description": "Poster created for <a href='https://www.wordupbooks.com/'>Word Up Community Bookshop</a> to encourage early holiday shopping. I created both the illustration & graphic design.",
+    "category": "color-illustration"
+  },
+  {
+    "slug": "day-28-ride",
+    "imgUrl": "/img/illustration/day-28-ride.gif",
+    "previewImgUrl": "/img/illustration/day-28-ride-sm.gif",
+    "title": "Roadtrip!",
+    "description": "Originally based on a sketch from Inktober 2019. Digitally colored & animated in photoshop.",
+    "category": "color-illustration"
+  },
   {
     "slug": "go-bug-or-go-home",
     "imgUrl": "/img/illustration/go-bug-or-go-home.png",
@@ -27,7 +42,7 @@
   {
     "slug": "once-upon-a-fairytale",
     "title": "Book Cover Design for <a target='_blank' href='https://www.amazon.com/Once-Upon-Fairytale-Harvardwood-Anthologies/dp/1098353226/'><i>Once Upon A Fairytale</i></a>",
-    "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally.",
+    "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally. I also designed the book jacket.",
     "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
     "previewImgUrl": "/img/illustration/once-upon-a-fairytale.png",
     "category": "color-illustration"
@@ -589,7 +604,7 @@
     "slug": "halloween-haus",
     "title": "Halloween Haus",
     "description": "Many moons ago, 28 souls gathered at a haunted haus on all hallow's eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...",
-    "previewImgUrl": "/img/interactives/halloween-haus.png",
+    "previewImgUrl": "/img/interactives/halloween-haus.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
@@ -602,7 +617,7 @@
     "slug": "ant-world-3d",
     "title": "Ant World",
     "description": "Concept illustration of a fantastical ant hill with 3D prototype of ant, created with three.js",
-    "previewImgUrl": "/img/interactives/ant-world.png",
+    "previewImgUrl": "/img/interactives/ant-world.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
@@ -615,7 +630,7 @@
     "slug": "eyeball-forest",
     "title": "Eyeball Forest",
     "description": "A forest of eyeballs...",
-    "previewImgUrl": "/img/interactives/eyeball-forest-demo.png",
+    "previewImgUrl": "/img/interactives/eyeball-forest-demo.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
@@ -628,7 +643,7 @@
     "slug": "music-doodles",
     "title": "Music Doodles",
     "description": "Experiments with visualizing music",
-    "previewImgUrl": "/img/interactives/funk.png",
+    "previewImgUrl": "/img/interactives/funk.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
@@ -641,7 +656,7 @@
     "slug": "ar-builders",
     "title": "AR Builders",
     "description": "Talk to CBRE Build's 'Builders' in Augmented Reality! They've lost some of their favorite items ... can you help? (Need to download & print the AR marker images in the code link below).",
-    "previewImgUrl": "/img/interactives/ar-builders-demo.jpg",
+    "previewImgUrl": "/img/interactives/ar-builders-demo.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
@@ -654,25 +669,13 @@
     "slug": "the-wrigglies",
     "title": "The Wrigglies",
     "description": "ITP Camp 2017 Project<br>music credit: Psilodump",
-    "previewImgUrl": "/img/interactives/wrigglies-demo.png",
+    "previewImgUrl": "/img/interactives/wrigglies-demo.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
       "previewUrl": "/img/interactives/wrigglies-demo.gif",
       "projectUrl": "https://sophiaceleste.com/wrigglies-itp-2017",
       "codeUrl": "https://github.com/sophiavanvalkenburg/wrigglies-itp-2017"
-    }
-  },
-  {
-    "slug": "rubiks-cube",
-    "title": "Rubiks Cube",
-    "description": "Model of a Rubiks Cube written in C++ and OpenGL from scratch. Not available to view online.",
-    "previewImgUrl": "/img/interactives/rubiks-cube-demo.png",
-    "category": "interactive",
-    "projectPreview": {
-      "type": "external",
-      "previewUrl": "/img/interactives/rubiks-cube-demo.gif",
-      "codeUrl": "https://github.com/sophiavanvalkenburg/rubiks-cube/"
     }
   },
   {
