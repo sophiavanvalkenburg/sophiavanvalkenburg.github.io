@@ -45,7 +45,7 @@ page_css: project-preview.css
         </section>
     <%} else if (hasProjectPreviewSettings && project.projectPreview.type === 'video') {%>
         <section class="video-section">
-            <iframe class="video-iframe" src="<%- project.projectPreview.videoUrl %>?loop=<%- project.projectPreview.videoLoop ? 1 : 0 %>&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-iframe" src="<%- project.projectPreview.videoUrl %>?loop=<%- project.projectPreview.videoLoop ? 1 : 0 %>&autoplay=<%- project.projectPreview.videoAutoPlay ? 1 : 0 %>&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
             <script src="https://player.vimeo.com/api/player.js"></script>
             <div class="about-video">
                 <% if (typeof project.description !== 'undefined') { %>
@@ -68,7 +68,7 @@ page_css: project-preview.css
                     <div class="preview-img-container masonry-grid-item">
                         <div class="preview-img">
                             <a target="_blank" href="<%- project.projectPreview.galleryUrl + galleryImg.file %>">
-                                <img class="preview-img-png" src="<%- project.projectPreview.galleryUrl + galleryImg.preview %>" />
+                                <img class="preview-img-content" src="<%- project.projectPreview.galleryUrl + galleryImg.preview %>" />
                             </a>
                         </div>
                     </div>

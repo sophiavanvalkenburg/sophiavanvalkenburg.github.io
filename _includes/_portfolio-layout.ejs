@@ -10,8 +10,13 @@ layout: _base-layout.ejs
         <div id="<%- projects[i].slug %>" class="preview-img-container masonry-grid-item filterDiv <%- projects[i].category %>">
             <div class="preview-img">
                 <a href="<%= projectPreviewUrl %>">
-                    <img class="preview-img-png" src="<%- projects[i].previewImgUrl %>" />
-                    <!--<div class="img-overlay"></div>-->
+                    <% if (projects[i].previewImgUrl.endsWith(".mp4")) { %>
+                        <video autoplay loop class="preview-img-content">
+                            <source src="<%- projects[i].previewImgUrl %>" type="video/mp4">
+                        </video>
+                    <% } else { %> 
+                        <img class="preview-img-content" src="<%- projects[i].previewImgUrl %>" />
+                    <% } %>
                 </a>
             </div>
         </div>

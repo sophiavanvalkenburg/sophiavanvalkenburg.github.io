@@ -22,7 +22,7 @@
     text-decoration: underline;
 }
 
-.work-categories-container .preview-img img {
+.work-categories-container .preview-img .preview-img-content {
     width: 25vw;
     height: auto;
 }
@@ -32,7 +32,7 @@
 }
 
 @media screen and (orientation: portrait) {
-    .work-categories-container .preview-img img {
+    .work-categories-container .preview-img .preview-img-content {
         height: 40vh;
         width: auto;
     }

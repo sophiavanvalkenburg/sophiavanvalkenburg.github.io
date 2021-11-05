@@ -1,5 +1,18 @@
 [
   {
+    "slug": "lil-lobster-dude",
+    "title": "Lil Lobster Dude",
+    "description": "A little lobster created in Illustrator and animated in After Effects.",
+    "previewImgUrl": "/img/animation/lobster-sm.mp4",
+    "category": "color-illustration",
+    "projectPreview": {
+      "type": "video",
+      "videoLoop": true,
+      "videoAutoPlay": true,
+      "videoUrl": "https://player.vimeo.com/video/642479929"
+    }
+  },
+  {
     "slug": "october-new-december",
     "imgUrl": "/img/illustration/oct-new-dec.jpg",
     "previewImgUrl": "/img/illustration/oct-new-dec-sm.jpg",
@@ -470,7 +483,7 @@
     "previewImgUrl": "/img/illustration/sunflower-eloise-sm.jpg",
     "title": "Eloise in Sunflower",
     "description": "oil on canvas",
-    "category": "color-illustration"
+    "category": "archive"
   },
   {
     "slug": "mole-cricket",
