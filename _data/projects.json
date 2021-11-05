@@ -3,7 +3,7 @@
     "slug": "lil-lobster-dude",
     "title": "Lil Lobster Dude",
     "description": "A little lobster created in Illustrator and animated in After Effects.",
-    "previewImgUrl": "/img/animation/lobster-sm.mp4",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/animation/lobster-sm.mp4",
     "category": "color-illustration",
     "projectPreview": {
       "type": "video",
@@ -14,40 +14,40 @@
   },
   {
     "slug": "october-new-december",
-    "imgUrl": "/img/illustration/oct-new-dec.jpg",
-    "previewImgUrl": "/img/illustration/oct-new-dec-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/oct-new-dec.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/oct-new-dec-sm.jpg",
     "title": "October is the New December",
     "description": "Poster created for <a href='https://www.wordupbooks.com/'>Word Up Community Bookshop</a> to encourage early holiday shopping. I created both the illustration & graphic design.",
     "category": "color-illustration"
   },
   {
     "slug": "day-28-ride",
-    "imgUrl": "/img/illustration/day-28-ride.gif",
-    "previewImgUrl": "/img/illustration/day-28-ride-sm.gif",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/day-28-ride.gif",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/day-28-ride-sm.gif",
     "title": "Roadtrip!",
     "description": "Originally based on a sketch from Inktober 2019. Digitally colored & animated in photoshop.",
     "category": "color-illustration"
   },
   {
     "slug": "go-bug-or-go-home",
-    "imgUrl": "/img/illustration/go-bug-or-go-home.png",
-    "previewImgUrl": "/img/illustration/go-bug-or-go-home-sm.png",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/go-bug-or-go-home.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/go-bug-or-go-home-sm.png",
     "title": "Go Bug or Go Home",
     "description": "Comic book cover. Inked and digitally colored",
     "category": "color-illustration"
   },
   {
     "slug": "ghouls-just-wanna-have-fun",
-    "imgUrl": "/img/projects/inktober-2020/11.jpg",
-    "previewImgUrl": "/img/projects/inktober-2020/11-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2020/11.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2020/11-sm.jpg",
     "title": "Ghouls Just Wanna Have Fun!",
     "description": "Ghouls night out! From Drawlloween 2020, an annual October drawing event. Ink on watercolor paper.",
     "category": "bw-illustration"
   },
   {
     "slug": "enchanted-2019",
-    "imgUrl": "/img/projects/inktober-2019/inktober-2019-day-7.jpg",
-    "previewImgUrl": "/img/projects/inktober-2019/inktober-2019-day-7-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2019/inktober-2019-day-7.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2019/inktober-2019-day-7-sm.jpg",
     "title": "Enchanted (Inktober 2019)",
     "description": "An enchanting evening with the cat. From Inktober 2019, an annual October drawing event. Black watercolor & Ink.",
     "category": "bw-illustration"
@@ -56,30 +56,30 @@
     "slug": "once-upon-a-fairytale",
     "title": "Book Cover Design for <a target='_blank' href='https://www.amazon.com/Once-Upon-Fairytale-Harvardwood-Anthologies/dp/1098353226/'><i>Once Upon A Fairytale</i></a>",
     "description": "<i>Once Upon A Fairytale</i> is an anthology of modern-day fairytale stories. The editor, Patricia Danaher, approached me to do the cover design. To depict the book's contemporary theme, we decided on Hansel and Gretel running from a smartphone-toting witch, in a modern-day city instead of the forest. The illustration was inked on paper and colored digitally. I also designed the book jacket.",
-    "imgUrl": "/img/illustration/once-upon-a-fairytale.jpg",
-    "previewImgUrl": "/img/illustration/once-upon-a-fairytale.png",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/once-upon-a-fairytale.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/once-upon-a-fairytale.png",
     "category": "color-illustration"
   },
   {
     "slug": "tomb-bop",
-    "imgUrl": "/img/projects/inktober-2020/23.jpg",
-    "previewImgUrl": "/img/projects/inktober-2020/23-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2020/23.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2020/23-sm.jpg",
     "title": "Tomb Bop",
     "description": "Come one, come all, down to the sarcophagus! From Drawlloween 2020, an annual October drawing event. Black watercolor & Ink.",
     "category": "bw-illustration"
   },
   {
     "slug": "sasquatch-watch",
-    "imgUrl": "/img/projects/inktober-2020/06.jpg",
-    "previewImgUrl": "/img/projects/inktober-2020/06-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2020/06.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2020/06-sm.jpg",
     "title": "Sasquatch Watch",
     "description": "A fancy watch for all creatures! From Drawlloween 2020, an annual October drawing event. Black watercolor & Ink.",
     "category": "bw-illustration"
   },
   {
     "slug": "scuba-bull",
-    "imgUrl": "/img/illustration/scuba-bull.png",
-    "previewImgUrl": "/img/illustration/scuba-bull-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/scuba-bull.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/scuba-bull-sm.jpg",
     "title": "The Raging Bull Submerged",
     "description": "digital (Photoshop)",
     "category": "color-illustration"
@@ -88,11 +88,11 @@
     "slug": "inktober-2020",
     "title": "Inktober 2020 (Drawlloween)",
     "description": "Inktober is an annual illustration challenge held every October. In 2020 I used the Drawlloween prompts, so every drawing is halloween-themed.",
-    "previewImgUrl": "/img/illustration/inktober-2020.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/inktober-2020.png",
     "category": "archive",
     "projectPreview": {
       "type": "gallery",
-      "galleryUrl": "/img/projects/inktober-2020/",
+      "galleryUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2020/",
     "gallery": [
       {
         "file": "01.jpg",
@@ -254,8 +254,8 @@
   },
   {
     "slug": "catch-2019",
-    "imgUrl": "/img/projects/inktober-2019/inktober-2019-day-30.jpg",
-    "previewImgUrl": "/img/projects/inktober-2019/inktober-2019-day-30-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2019/inktober-2019-day-30.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2019/inktober-2019-day-30-sm.jpg",
     "title": "Catch (Inktober 2019)",
     "description": "How the tables have turned! From Inktober 2019, an annual October drawing event. Ink on watercolor paper.",
     "category": "bw-illustration"
@@ -264,11 +264,11 @@
     "slug": "inktober-2019",
     "title": "Inktober 2019",
     "description": "Inktober is an annual illustration challenge held every October. Each day has a different prompt. It is not a competition -- rather, the aim is to help foster creativity. This is my submission for 2019.",
-    "previewImgUrl": "/img/illustration/inktober-2019.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/inktober-2019.png",
     "category": "archive",
     "projectPreview": {
       "type": "gallery",
-      "galleryUrl":"/img/projects/inktober-2019/",
+      "galleryUrl":"https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2019/",
       "gallery":[
         {
           "file": "inktober-2019-day-1.jpg",
@@ -432,14 +432,14 @@
     "slug": "super-cat-defender-of-the-realm",
     "title": "Super Cat: Defender of the Realm",
     "description": "Super Cat takes on her strongest foe yet... but there's a twist!",
-    "imgUrl": "/img/comics/super-cat-defender-of-the-realm.png",
-    "previewImgUrl": "/img/comics/super-cat-defender-of-the-realm-sm.png",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/comics/super-cat-defender-of-the-realm.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/comics/super-cat-defender-of-the-realm-sm.png",
     "category": "bw-illustration"
   },
   {
     "slug": "the-doll-house-poster",
-    "imgUrl": "/img/illustration/the-doll-house-poster.jpg",
-    "previewImgUrl": "/img/illustration/the-doll-house-poster-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/the-doll-house-poster.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/the-doll-house-poster-sm.jpg",
     "title": "The Doll House (Movie Poster)",
     "description": "graphite pencil, digitally composited",
     "category": "bw-illustration"
@@ -448,11 +448,11 @@
     "slug": "canopy-cat",
     "title": "Canopy Cat Rescue",
     "description": "My Submission for <a target='_blank' href='https://www.canopycatrescue.com/'>Canopy Cat Rescue</a>'s T-Shirt Contest. Canopy Cat Rescue is a Northwest US-based nonprofit dedicated to saving cats who get stuck in trees.",
-    "previewImgUrl": "/img/illustration/canopy-cat.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/canopy-cat.png",
     "category": "archive",
     "projectPreview": {
       "type": "gallery",
-      "galleryUrl": "/img/projects/canopy-cat/",
+      "galleryUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/canopy-cat/",
       "gallery": [
         {
           "file": "canopy-cat-rescue.png",
@@ -471,16 +471,16 @@
   },
   {
     "slug": "graphic-still-life",
-    "imgUrl": "/img/illustration/graphic-still-life.png",
-    "previewImgUrl": "/img/illustration/graphic-still-life-sm.png",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/graphic-still-life.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/graphic-still-life-sm.png",
     "title": "Mango and Knife",
     "description": "digital (Photoshop)",
     "category": "color-illustration"
   },
   {
     "slug": "sunflower-eloise",
-    "imgUrl": "/img/illustration/sunflower-eloise.jpg",
-    "previewImgUrl": "/img/illustration/sunflower-eloise-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/sunflower-eloise.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/sunflower-eloise-sm.jpg",
     "title": "Eloise in Sunflower",
     "description": "oil on canvas",
     "category": "archive"
@@ -489,11 +489,11 @@
     "slug": "mole-cricket",
     "title": "Mole Cricket",
     "description": "Detailed drawing of a mole cricket in various styles.",
-    "previewImgUrl": "/img/illustration/mole-cricket-sm.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/mole-cricket-sm.jpg",
     "category": "archive",
     "projectPreview": {
       "type": "gallery",
-      "galleryUrl": "/img/projects/mole-cricket/",
+      "galleryUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/mole-cricket/",
     "gallery" :[
       {
         "file": "mole-cricket-pencil.jpg",
@@ -516,24 +516,24 @@
   },
   {
     "slug": "film-noir",
-    "imgUrl": "/img/illustration/film-noir.jpg",
-    "previewImgUrl": "/img/illustration/film-noir-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/film-noir.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/film-noir-sm.jpg",
     "title": "A Film Noir Scene",
     "description": "watercolor & ink",
     "category": "bw-illustration"
   },
   {
     "slug": "queen-of-plants",
-    "imgUrl": "/img/illustration/queen-of-plants.jpg",
-    "previewImgUrl": "/img/illustration/queen-of-plants-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/queen-of-plants.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/queen-of-plants-sm.jpg",
     "title": "Queen of Plants",
     "description": "Sculpey, mixed media",
     "category": "archive"
   },
   {
     "slug": "rollerskating-isa",
-    "imgUrl": "/img/illustration/rollerskating-isa.png",
-    "previewImgUrl": "/img/illustration/rollerskating-isa-sm.png",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/rollerskating-isa.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/rollerskating-isa-sm.png",
     "title": "Rollerskating Izzy",
     "description": "digital (Photoshop)",
     "category": "archive"
@@ -541,32 +541,32 @@
   
   {
     "slug": "soft-dragon",
-    "imgUrl": "/img/illustration/soft-dragon.jpg",
-    "previewImgUrl": "/img/illustration/soft-dragon-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/soft-dragon.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/soft-dragon-sm.jpeg",
     "title": "Soft Dragon",
     "description": "sanguine chalk",
     "category": "archive"
   },
   {
     "slug": "ant-hill",
-    "imgUrl": "/img/illustration/ant-hill.jpg",
-    "previewImgUrl": "/img/illustration/ant-hill-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/ant-hill.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/ant-hill-sm.jpg",
     "title": "Ant Hill",
     "description": "ink, color pencil, marker",
     "category": "color-illustration"
   },
   {
     "slug": "our-livingroom",
-    "imgUrl": "/img/illustration/our-livingroom.jpg",
-    "previewImgUrl": "/img/illustration/our-livingroom-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/our-livingroom.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/our-livingroom-sm.jpg",
     "title": "Our Livingroom",
     "description": "digital (Illustrator)",
     "category": "bw-illustration"
   },
   {
     "slug": "boscord-streaming",
-    "imgUrl": "/img/illustration/boscord-streaming.png",
-    "previewImgUrl": "/img/illustration/boscord-streaming-sm.png",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/boscord-streaming.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/boscord-streaming-sm.png",
     "title": "The Boscord Twitch Stream Background",
     "description": "digital (Photoshop)",
     "category": "color-illustration"
@@ -575,7 +575,7 @@
     "slug": "amaryllis-blooming",
     "title": "Amaryllis Blooming",
     "description": "Short animation of an amaryllis blooming, in watercolor",
-    "previewImgUrl": "/img/animation/amaryllis.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/animation/amaryllis.png",
     "category": "animation",
     "projectPreview": {
       "template": "projects/_amaryllis-blooming.ejs"
@@ -585,7 +585,7 @@
     "slug": "school-of-motion-animation-bootcamp",
     "title": "Animation Bootcamp Reel",
     "description": "Examples of animations I worked, including School of Motion's Animation Bootcamp.",
-    "previewImgUrl": "/img/animation/som-animation-bootcamp.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/animation/som-animation-bootcamp.png",
     "category": "animation",
     "projectPreview": {
       "type": "video",
@@ -596,7 +596,7 @@
     "slug": "my-favorite-toy",
     "title": "My Favorite Toy",
     "description": "A short graphic memoir",
-    "previewImgUrl": "/img/comics/my-favorite-toy/my_favorite_toy_title_sm.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/comics/my-favorite-toy/my_favorite_toy_title_sm.png",
     "category": "comic",
     "projectPreview": {
       "template": "projects/_my-favorite-toy.ejs"
@@ -606,7 +606,7 @@
     "slug": "funkpeter-beta",
     "title": "'funkpeter (beta)' MV",
     "description": "A music video for 'funkpeter (beta)' by Psilodump",
-    "previewImgUrl": "/img/animation/funkpeter-beta.png",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/animation/funkpeter-beta.png",
     "category": "animation",
     "projectPreview": {
       "type": "video",
@@ -617,11 +617,11 @@
     "slug": "halloween-haus",
     "title": "Halloween Haus",
     "description": "Many moons ago, 28 souls gathered at a haunted haus on all hallow's eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...",
-    "previewImgUrl": "/img/interactives/halloween-haus.gif",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/halloween-haus.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/interactives/halloween-haus.gif",
+      "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/halloween-haus.gif",
       "projectUrl": "https://sophiaceleste.com/halloween-haus/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/halloween-haus/"
     }
@@ -630,11 +630,11 @@
     "slug": "ant-world-3d",
     "title": "Ant World",
     "description": "Concept illustration of a fantastical ant hill with 3D prototype of ant, created with three.js",
-    "previewImgUrl": "/img/interactives/ant-world.gif",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/ant-world.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/interactives/ant-world.gif",
+      "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/ant-world.gif",
       "projectUrl": "https://sophiaceleste.com/ant-world-3d/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/ant-world-3d"
     }
@@ -643,11 +643,11 @@
     "slug": "eyeball-forest",
     "title": "Eyeball Forest",
     "description": "A forest of eyeballs...",
-    "previewImgUrl": "/img/interactives/eyeball-forest-demo.gif",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/eyeball-forest-demo.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/interactives/eyeball-forest-demo.gif",
+      "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/eyeball-forest-demo.gif",
       "projectUrl": "https://sophiaceleste.com/eyeball-forest/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/eyeball-forest/"
     }
@@ -656,11 +656,11 @@
     "slug": "music-doodles",
     "title": "Music Doodles",
     "description": "Experiments with visualizing music",
-    "previewImgUrl": "/img/interactives/funk.gif",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/funk.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/interactives/funk.gif",
+      "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/funk.gif",
       "projectUrl": "https://sophiaceleste.com/music-doodles/",
       "codeUrl": "https://github.com/sophiavanvalkenburg/music-doodles/"
     }
@@ -669,11 +669,11 @@
     "slug": "ar-builders",
     "title": "AR Builders",
     "description": "Talk to CBRE Build's 'Builders' in Augmented Reality! They've lost some of their favorite items ... can you help? (Need to download & print the AR marker images in the code link below).",
-    "previewImgUrl": "/img/interactives/ar-builders-demo.gif",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/ar-builders-demo.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/interactives/ar-builders-demo.gif",
+      "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/ar-builders-demo.gif",
       "projectUrl": "https://floored.github.io/ar-builders",
       "codeUrl": "https://github.com/sophiavanvalkenburg/ar-builders/"
     } 
@@ -682,235 +682,235 @@
     "slug": "the-wrigglies",
     "title": "The Wrigglies",
     "description": "ITP Camp 2017 Project<br>music credit: Psilodump",
-    "previewImgUrl": "/img/interactives/wrigglies-demo.gif",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/wrigglies-demo.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
-      "previewUrl": "/img/interactives/wrigglies-demo.gif",
+      "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/wrigglies-demo.gif",
       "projectUrl": "https://sophiaceleste.com/wrigglies-itp-2017",
       "codeUrl": "https://github.com/sophiavanvalkenburg/wrigglies-itp-2017"
     }
   },
   {
     "slug": "plum-and-pear",
-    "imgUrl": "/img/fine-art/plum-and-pear.jpg",
-    "previewImgUrl": "/img/fine-art/plum-and-pear-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/plum-and-pear.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/plum-and-pear-sm.jpg",
     "title": "Plum and Pear",
     "description": "oil on shellacked paper.png",
     "category": "fine-art"
   },
   {
     "slug": "hacker-brian",
-    "imgUrl": "/img/fine-art/hacker-brian.jpg",
-    "previewImgUrl": "/img/fine-art/hacker-brian-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/hacker-brian.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/hacker-brian-sm.jpg",
     "title": "Brian the Hacker",
     "description": "charcoal pencil",
     "category": "fine-art"
   },
   {
     "slug": "girl-with-pearl-earring",
-    "imgUrl": "/img/fine-art/girl-with-pearl-earring.jpg",
-    "previewImgUrl": "/img/fine-art/girl-with-pearl-earring-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/girl-with-pearl-earring.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/girl-with-pearl-earring-sm.jpg",
     "title": "Copy of 'Girl With A Pearl Earring'",
     "description": "oil on canvas board",
     "category": "fine-art"
   },
   {
     "slug": "man-facing-away-with-staff",
-    "imgUrl": "/img/fine-art/man-facing-away-with-staff.jpg",
-    "previewImgUrl": "/img/fine-art/man-facing-away-with-staff-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/man-facing-away-with-staff.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/man-facing-away-with-staff-sm.jpg",
     "title": "Man Facing Away",
     "description": "charcoal pencil",
     "category": "fine-art"
   },
   {
     "slug": "heavy-woman-portrait",
-    "imgUrl": "/img/fine-art/heavy-woman-portrait.jpg",
-    "previewImgUrl": "/img/fine-art/heavy-woman-portrait-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/heavy-woman-portrait.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/heavy-woman-portrait-sm.jpg",
     "title": "Portrait of Woman",
     "description": "charcoal pencil",
     "category": "fine-art"
   },
   {
     "slug": "delicata-squash",
-    "imgUrl": "/img/fine-art/delicata-squash.jpg",
-    "previewImgUrl": "/img/fine-art/delicata-squash-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/delicata-squash.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/delicata-squash-sm.jpg",
     "title": "Delicata Squash",
     "description": "watercolor",
     "category": "fine-art"
   },
   {
     "slug": "firefighter-dad",
-    "imgUrl": "/img/fine-art/firefighter-dad.jpg",
-    "previewImgUrl": "/img/fine-art/firefighter-dad-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/firefighter-dad.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/firefighter-dad-sm.jpg",
     "title": "My Dad the Firefighter",
     "description": "graphite pencil",
     "category": "fine-art"
   },
   {
     "slug": "flask-and-spoon",
-    "imgUrl": "/img/fine-art/flask-and-spoon.jpg",
-    "previewImgUrl": "/img/fine-art/flask-and-spoon-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/flask-and-spoon.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/flask-and-spoon-sm.jpg",
     "title": "Flask and Spoon",
     "description": "watercolor",
     "category": "fine-art"
   },
   {
     "slug": "autumn-path",
-    "imgUrl": "/img/fine-art/autumn-path.jpg",
-    "previewImgUrl": "/img/fine-art/autumn-path-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/autumn-path.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/autumn-path-sm.jpg",
     "title": "Autumn Path",
     "description": "digital (Photoshop)",
     "category": "fine-art"
   },
   {
     "slug": "eartha-kitt",
-    "imgUrl": "/img/fine-art/eartha-kitt.jpg",
-    "previewImgUrl": "/img/fine-art/eartha-kitt-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/eartha-kitt.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/eartha-kitt-sm.jpg",
     "title": "Portrait of Eartha Kitt",
     "description": "watercolor",
     "category": "fine-art"
   },
   {
     "slug": "devin-portrait",
-    "imgUrl": "/img/fine-art/devin-portrait.jpg",
-    "previewImgUrl": "/img/fine-art/devin-portrait-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/devin-portrait.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/devin-portrait-sm.jpg",
     "title": "Portrait of Devin",
     "description": "oil on canvas",
     "category": "fine-art"
   },
   {
     "slug": "red-hat",
-    "imgUrl": "/img/fine-art/red-hat.jpg",
-    "previewImgUrl": "/img/fine-art/red-hat-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/red-hat.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/red-hat-sm.jpg",
     "title": "Portrait of Steve",
     "description": "oil on canvas board",
     "category": "fine-art"
   },
   {
     "slug": "elena-portrait",
-    "imgUrl": "/img/fine-art/elena-portrait.jpg",
-    "previewImgUrl": "/img/fine-art/elena-portrait-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/elena-portrait.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/elena-portrait-sm.jpg",
     "title": "Portrait of Elena",
     "description": "oil on canvas board",
     "category": "fine-art"
   },
   {
     "slug": "devin-sitting",
-    "imgUrl": "/img/fine-art/devin-sitting.jpg",
-    "previewImgUrl": "/img/fine-art/devin-sitting-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/devin-sitting.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/devin-sitting-sm.jpg",
     "title": "Portrait of Devin Sitting",
     "description": "charcoal",
     "category": "fine-art"
   },
   {
     "slug": "copper-cup-still-life",
-    "imgUrl": "/img/fine-art/copper-cup-still-life.jpg",
-    "previewImgUrl": "/img/fine-art/copper-cup-still-life-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/copper-cup-still-life.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/copper-cup-still-life-sm.jpeg",
     "title": "Copper Cup",
     "description": "oil on canvas board",
     "category": "fine-art"
   },
   {
     "slug": "joe-portrait",
-    "imgUrl": "/img/fine-art/joe-portrait.jpg",
-    "previewImgUrl": "/img/fine-art/joe-portrait-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/joe-portrait.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/joe-portrait-sm.jpeg",
     "title": "Portrait of Joe",
     "description": "oil on canvas board",
     "category": "fine-art"
   },
   {
     "slug": "lilypad-pond",
-    "imgUrl": "/img/fine-art/lilypad-pond.jpg",
-    "previewImgUrl": "/img/fine-art/lilypad-pond-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/lilypad-pond.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/lilypad-pond-sm.jpg",
     "title": "Lilypad Landscape",
     "description": "watercolor",
     "category": "fine-art"
   },
   {
     "slug": "man-with-staff",
-    "imgUrl": "/img/fine-art/man-with-staff.jpg",
-    "previewImgUrl": "/img/fine-art/man-with-staff-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/man-with-staff.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/man-with-staff-sm.jpg",
     "title": "Man with Staff",
     "description": "charcoal",
     "category": "fine-art"
   },
   {
     "slug": "woman-with-earring",
-    "imgUrl": "/img/fine-art/woman-with-earring.jpg",
-    "previewImgUrl": "/img/fine-art/woman-with-earring-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/woman-with-earring.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/woman-with-earring-sm.jpeg",
     "title": "Woman with Earring",
     "description": "charcoal pencil",
     "category": "fine-art"
   },
   {
     "slug": "sitting-woman-in-ink",
-    "imgUrl": "/img/fine-art/sitting-woman-in-ink.jpg",
-    "previewImgUrl": "/img/fine-art/sitting-woman-in-ink-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/sitting-woman-in-ink.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/sitting-woman-in-ink-sm.jpeg",
     "title": "Sitting Woman #2",
     "description": "ink wash",
     "category": "fine-art"
   },
   {
     "slug": "anatomical-woman",
-    "imgUrl": "/img/fine-art/anatomical-woman.jpg",
-    "previewImgUrl": "/img/fine-art/anatomical-woman-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/anatomical-woman.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/anatomical-woman-sm.jpeg",
     "title": "Anatomy Study #1",
     "description": "pencil",
     "category": "fine-art"
   },
   {
     "slug": "darcy-standing",
-    "imgUrl": "/img/fine-art/darcy-standing.jpg",
-    "previewImgUrl": "/img/fine-art/darcy-standing-sm.jpg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/darcy-standing.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/darcy-standing-sm.jpg",
     "title": "Darcy Standing",
     "description": "pencil",
     "category": "fine-art"
   },
   {
     "slug": "cadaver-hand-foot-study",
-    "imgUrl": "/img/fine-art/cadaver-hand-foot-study.jpg",
-    "previewImgUrl": "/img/fine-art/cadaver-hand-foot-study-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/cadaver-hand-foot-study.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/cadaver-hand-foot-study-sm.jpeg",
     "title": "Study of a Cadaver's Hand and Foot",
     "description": "graphite",
     "category": "fine-art"
   },
   {
     "slug": "mans-chest",
-    "imgUrl": "/img/fine-art/mans-chest.jpg",
-    "previewImgUrl": "/img/fine-art/mans-chest-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/mans-chest.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/mans-chest-sm.jpeg",
     "title": "A Man's Chest",
     "description": "sanguine chalk",
     "category": "fine-art"
   },
   {
     "slug": "sitting-man-in-wax-resist",
-    "imgUrl": "/img/fine-art/sitting-man-in-wax-resist.jpg",
-    "previewImgUrl": "/img/fine-art/sitting-man-in-wax-resist-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/sitting-man-in-wax-resist.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/sitting-man-in-wax-resist-sm.jpeg",
     "title": "Sitting Man #2",
     "description": "wax, ink, char-kole",
     "category": "fine-art"
   },
   {
     "slug": "george-washington-bridge-cloudy-day",
-    "imgUrl": "/img/fine-art/gwb-cloudy-day.jpg",
-    "previewImgUrl": "/img/fine-art/gwb-cloudy-day-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/gwb-cloudy-day.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/gwb-cloudy-day-sm.jpeg",
     "title": "George Washington Bridge on a Cloudy Day",
     "description": "ink wash",
     "category": "fine-art"
   },
   {
     "slug": "womans-torso",
-    "imgUrl": "/img/fine-art/womans-torso.jpg",
-    "previewImgUrl": "/img/fine-art/womans-torso-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/womans-torso.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/womans-torso-sm.jpeg",
     "title": "A Woman's Torso",
     "description": "sanguine chalk",
     "category": "fine-art"
   },
   {
     "slug": "reclining-woman",
-    "imgUrl": "/img/fine-art/reclining-woman.jpg",
-    "previewImgUrl": "/img/fine-art/reclining-woman-sm.jpeg",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/reclining-woman.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/reclining-woman-sm.jpeg",
     "title": "Reclining Woman",
     "description": "pastel",
     "category": "fine-art"
