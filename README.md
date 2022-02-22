@@ -22,8 +22,8 @@ $ npm install --save-dev @11ty/eleventy@0.12.1
 ```
 
 
-3. Generate the static site:
+3. Generate and serve the static site:
 ```
 npx @11ty/eleventy --serve
 ```
-4. View the site locally at the port specified in the output of the above command (as of writing, the default is `localhost:8080`) 
+4. View the site locally at the port specified in the output of the above command (as of writing, the default is [http://localhost:8080](http://localhost:8080))
