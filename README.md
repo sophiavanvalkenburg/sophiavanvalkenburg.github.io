@@ -1,8 +1,11 @@
-# Source code for my personal website, [SophiaCeleste.com](https://www.sophiaceleste.com)
+# Source code for [SophiaCeleste.com](https://www.sophiaceleste.com)
 
-This document includes:
+Welcome to the README for my personal website, [SophiaCeleste.com](https://www.sophiaceleste.com)!
+This document is intended for anyone interested in digging around in the code and/or modifying it for your own use. It assumes some knowledge of Git, HTML, and Javascript. 
+
+The document includes:
 - a Quick Start Guide for setting up my website on your local machine
-- ~~how to add a content to an existing page~~
+- ~~how to add content to an existing page~~
 - ~~how to add a new page~~
 
 
@@ -12,7 +15,7 @@ This document includes:
 ```
 $ git clone git@github.com:sophiavanvalkenburg/sophiavanvalkenburg.github.io.git
 ```
-2. Install [EJS](https://ejs.co/) and [eleventy.js](https://www.11ty.dev/):
+2. Install [EJS](https://ejs.co/) and [eleventy.js](https://www.11ty.dev/) using NPM:
 
 **Note: This code currently uses eleventy.js v0.12.1. It does not work using v1.0.0.**
 ```
@@ -21,9 +24,12 @@ $ npm install ejs
 $ npm install --save-dev @11ty/eleventy@0.12.1
 ```
 
-
 3. Generate and serve the static site:
 ```
 npx @11ty/eleventy --serve
 ```
 4. View the site locally at the port specified in the output of the above command (as of writing, the default is [http://localhost:8080](http://localhost:8080))
+
+
+## Adding Content To An Existing Page
+
