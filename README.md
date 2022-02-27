@@ -1,13 +1,13 @@
 # Source code for [SophiaCeleste.com](https://www.sophiaceleste.com)
 
 Welcome to the README for my personal website, [SophiaCeleste.com](https://www.sophiaceleste.com)!
-This document is intended for anyone interested in digging around in the code and/or modifying it for your own use. It assumes some knowledge of Git, HTML, and Javascript. 
+This document is intended for anyone interested in digging around in the code and/or modifying it for your own use. It assumes some knowledge of Git, JSON, HTML, and Javascript. 
 
 The document includes:
 - A Quick Start Guide for setting up my website on your local machine
 - An overview of the site architecture
 - Schema for individual projects
-- ~~How to add content to an existing portfolio page~~
+- How to add content to an existing portfolio page
 - ~~How to add a new page~~
 
 
@@ -89,7 +89,7 @@ The following attributes are required for all projects:
 
 ### Static Images
 
-For static images, such as illustrations, the following attribute is required:
+For static images, such as illustrations, the following top-level attribute is required:
 - `imgUrl`: A link to the full-resolution. 
 
 ### Video
@@ -134,5 +134,22 @@ If you would like to create your own template for a project, you may add a `proj
 - `template`: The name of the `.ejs` layout file, relative to the `_includes` directory.
 
 
-## Adding Content To An Existing Portfolio Page
+## Adding A New Project
 
+Adding a new project to an existing portfolio is easy once you are familiar with the project schema described above. Simply use the following steps:
+
+1. Open the `_data/projects.json` file.
+2. Pick the portfolio that will contain your project. To see the list of currently used portfolio pages, view the right side of `_data/maps.json`.
+3. Add a new object to the list in `_data/projects.json`. The order of the objects in this file determines the order they will be displayed in the portfolio.
+4. Fill in the top-level required attributes described in the section above. To determine what to put in the `category` field, use the left side of `_data/maps.json` corresponding to the new project's portfolio. 
+5. Fill in the rest of the attributes depending on the schema type, as described above, that makes the most sense for your project:
+    - static image
+    - video
+    - gallery
+    - external
+    - custom
+6. Save the `_data/projects.json` file.
+7. Re-generate the static webpages and serve:
+```
+npx @11ty/eleventy --serve
+``` 
