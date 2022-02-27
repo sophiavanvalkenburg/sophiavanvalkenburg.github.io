@@ -8,7 +8,7 @@ The document includes:
 - An overview of the site architecture
 - Schema for individual projects
 - How to add content to an existing portfolio page
-- ~~How to add a new page~~
+- How to add a new portfolio page
 
 
 ## Quick Start Guide
@@ -245,3 +245,5 @@ Adding a new project to an existing portfolio is easy once you are familiar with
 ```
 npx @11ty/eleventy --serve
 ``` 
+
+## Adding A New Portfolio
