@@ -92,6 +92,19 @@ The following attributes are required for all projects:
 For static images, such as illustrations, the following top-level attribute is required:
 - `imgUrl`: A link to the full-resolution. 
 
+Here is an example of a static image project: 
+```
+{
+    "slug": "october-new-december",
+    "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/oct-new-dec.jpg",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/oct-new-dec-sm.jpg",
+    "title": "October is the New December",
+    "description": "Poster created for <a href='https://www.wordupbooks.com/'>Word Up Community Bookshop</a> to encourage early holiday shopping. I created both the illustration & graphic design.",
+    "category": "color-illustration"
+}
+```
+
+
 ### Video
 
 Video projects require multiple attributes, so they are grouped underneath the `projectPreview` collection. In order to use the default project layout for video, it must be hosted on [Vimeo](https://vimeo.com/).
@@ -101,6 +114,23 @@ Video projects require multiple attributes, so they are grouped underneath the `
 - `videoUrl`: The link to the video on vimeo, in the format `https://player.vimeo.com/video/[video_id]`.
 - (optional) `videoLoop`:  A boolean value indicating whether the video should loop automatically. Defaults to false.
 - (optional) `videoAutoPlay`:  A boolean value indicating whether the video should automatically start playing on page load. Defaults to false.
+
+Here is an example of a video project:
+```
+{
+    "slug": "lil-lobster-dude",
+    "title": "Lil Lobster Dude",
+    "description": "A little lobster created in Illustrator and animated in After Effects.",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/animation/lobster-sm.mp4",
+    "category": "color-illustration",
+    "projectPreview": {
+      "type": "video",
+      "videoLoop": true,
+      "videoAutoPlay": true,
+      "videoUrl": "https://player.vimeo.com/video/642479929"
+    }
+}
+```
 
 ### Gallery
 
@@ -114,8 +144,40 @@ Gallery projects also require multiple attributes and are grouped underneath the
 - `gallery`: A list of gallery objects. Each object should include the following attributes.
   - `file`: The filename of a gallery image.
   - `preview`: The filename of a gallery image thumbnail.
-  - `title`: The name of a gallery image.
-
+  - (optional) `title`: The name of a gallery image.
+  
+Here is an example of a gallery project:
+```
+{
+    "slug": "mole-cricket",
+    "title": "Mole Cricket",
+    "description": "Detailed drawing of a mole cricket in various styles.",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/mole-cricket-sm.jpg",
+    "category": "archive",
+    "projectPreview": {
+      "type": "gallery",
+      "galleryUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/mole-cricket/",
+      "gallery" : [
+        {
+          "file": "mole-cricket-pencil.jpg",
+          "preview": "mole-cricket-pencil.jpg"
+        },
+        {
+          "file": "mole-cricket-watercolor.jpg",
+          "preview": "mole-cricket-watercolor.jpg"
+        },
+        {
+          "file": "mole-cricket-ink.jpg",
+          "preview": "mole-cricket-ink.jpg"
+        },
+        {
+          "file": "mole-cricket-coloringbook.jpg",
+          "preview": "mole-cricket-coloringbook.jpg"
+        }
+      ]
+    }
+}
+```
 
 ### External
 
@@ -127,11 +189,41 @@ If your project is hosted at a different website, you may use the external proje
 - (optional) `codeUrl`:  A link to the source code, if it is a coding project.
 - (optional) `projectUrl`:  A link to the hosted project, if it is available online.
 
+Here is an example of an external project:
+```
+{
+    "slug": "halloween-haus",
+    "title": "Halloween Haus",
+    "description": "Many moons ago, 28 souls gathered at a haunted haus on all hallow's eve, unaware of the dark secrets lurking in their midst ... Based on true events! Do you join them on their day of spooky revelry? Play now, if you dare ...",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/halloween-haus.gif",
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/halloween-haus.gif",
+      "projectUrl": "https://sophiaceleste.com/halloween-haus/",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/halloween-haus/"
+    }
+}
+```
 
 ### Custom
 
 If you would like to create your own template for a project, you may add a `projectPreview` collection with the following attribute:
 - `template`: The name of the `.ejs` layout file, relative to the `_includes` directory.
+
+Here is an example of a custom project:
+```
+{
+    "slug": "amaryllis-blooming",
+    "title": "Amaryllis Blooming",
+    "description": "Short animation of an amaryllis blooming, in watercolor",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/animation/amaryllis.png",
+    "category": "animation",
+    "projectPreview": {
+      "template": "projects/_amaryllis-blooming.ejs"
+    }
+}
+```
 
 
 ## Adding A New Project
