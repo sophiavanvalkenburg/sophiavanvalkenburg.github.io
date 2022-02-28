@@ -5,10 +5,10 @@ This document is intended for anyone interested in digging around in the code an
 
 The document includes:
 - [Quick Start Guide](#quick-start-guide) 
-- An overview of the site architecture
-- Schema for individual projects
-- How to add a new portfolio page
-- How to add content to an existing portfolio page
+- [Overview of Site Structure](#overview-of-site-structure)
+- [Project Schema](#project-schema)
+- [Adding a New Portfolio](#adding-a-new-portfolio)
+- [Adding a New Project](#adding-a-new-project)
 
 
 
@@ -60,7 +60,7 @@ Some examples of project pages:
 ### Data files
 
 The top-level `_data` folder is a special directory that eleventy.js processes. It contains two files:
-- `projects.json`: metadata for the individual project listing. For example, the data for a single illustration would be an entry in this file. See the **Project Schema** section below for details.
+- `projects.json`: metadata for the individual project listing. For example, the data for a single illustration would be an entry in this file. See the [Project Schema](#project-schema) section below for details.
 - `maps.json`: mapping between project category as described in the schema, and the specific portfolio it belongs to. There is a many-to-one relationship between project categories and portfolio; for example, both comics and animation are part of the same portfolio.
 
 ### Layout files
@@ -237,7 +237,7 @@ Here is an example of a custom project:
 
 ## Adding A New Portfolio
 
-In this section, you will learn how to add a new portfolio page. Once you create a new portfolio, you may add projects to it in the next section.
+In this section, you will learn how to add a new portfolio page. Once you create a new portfolio, you may add projects to it in the [Adding a New Project](#adding-a-new-project) section.
 
 1. Create a new top-level directory using the URL you want for your portfolio. For example, the `fine-art/` directory corresponds to the portfolio at [https://sophiaceleste.com/fine-art/](https://sophiaceleste.com/fine-art/).
 2. Add an empty `index.html` file to the directory you created in Step 1.
@@ -278,15 +278,15 @@ Your new portfolio is now available on the website. To add projects, follow the 
 
 ## Adding A New Project
 
-Adding a new project to an existing portfolio is easy once you are familiar with the project schema described above. Simply follow these steps:
+Adding a new project to an existing portfolio is easy once you are familiar with the project types as described in the [Project Schema](#project-schema) section. Simply follow these steps:
 
 1. Open the `_data/projects.json` file.
 2. Pick the portfolio that will contain your project. A portfolio page is a top-level directory containing an `index.html` file that uses the `_portfolio-layout.ejs` layout.
 3. Add a new object `{}` to the list in `_data/projects.json`. The order of the objects in this file determines the order they will be displayed in the portfolio.
-4. Fill in the top-level required attributes described in the **Project Schema** section above. To determine what to put in the `category` field:
+4. Fill in the top-level required attributes described in the [Project Schema](#project-schema) section above. To determine what to put in the `category` field:
     1. Open the `index.html` file of the portfolio you picked.
     2. Choose one of the strings in the `categories` list. 
-5. Fill in the rest of the attributes depending on the schema type, as described in the **Project Schema** section, that makes the most sense for your project:
+5. Fill in the rest of the attributes depending on the schema type, as described in the [Project Schema](#project-schema) section, that makes the most sense for your project:
     - static image
     - video
     - gallery
