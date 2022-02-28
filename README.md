@@ -75,6 +75,15 @@ Below is a non-exhaustive list of some commonly used layouts:
 - `projects/`: directory that contains custom project pages
 
 
+### Site files
+
+The `_site` directory contains all the static files that eleventy.js has generated. **Do not modify this directory.** If you delete the directory, you may re-generate it with the following:
+
+```
+npx @11ty/eleventy --serve
+```
+
+
 ## Project Schema
 
 This section explains the schema for entries in the `_data/_projects.json` file. Each entry represents one individual project. The projects will be displayed in the order in which they are listed. 
