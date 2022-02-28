@@ -7,8 +7,9 @@ The document includes:
 - A Quick Start Guide for setting up my website on your local machine
 - An overview of the site architecture
 - Schema for individual projects
-- How to add content to an existing portfolio page
 - How to add a new portfolio page
+- How to add content to an existing portfolio page
+
 
 
 ## Quick Start Guide
@@ -39,7 +40,7 @@ This repo uses [eleventy.js](https://www.11ty.dev/) to generate a static HTML si
 
 ### Portfolio Pages
 
-The portfolio page displays a list of thumbnail links, one for each individual project included in the portfolio. Most of the top-level directories in this repo are portfolio pages.
+The portfolio page displays a list of thumbnail links, one for each individual project included in the portfolio. Most of the top-level directories in this repo are portfolio pages. The layout file that a portfolio page uses is `_portfolio-layout.ejs`. Read more about layout files in the **Layout files** subsection below.
 
 Some examples of portfolio pages:
 - [illustration-color](https://sophiaceleste.com/illustration-color/)
@@ -225,15 +226,57 @@ Here is an example of a custom project:
 }
 ```
 
+## Adding A New Portfolio
+
+In this section, you will learn how to add a new portfolio page. Once you create a new portfolio, you may add projects to it in the next section.
+
+1. Create a new top-level directory using the URL you want for your portfolio. For example, the `fine-art/` directory corresponds to the portfolio at [https://sophiaceleste.com/fine-art/](https://sophiaceleste.com/fine-art/).
+2. Add an empty `index.html` file to the directory you created in Step 1.
+3. In `_data/maps.json`, add a key-value pair under `category_to_project_page`:
+    - key: The type of project you plan to put in the portfolio, e.g. `painting`. 
+    - value: The name of your portfolio, e.g. `fine-art`
+4. Repeat Step 3 if you have multiple types of projects you want to put in the same portfolio. For example, if you have drawings in addition to paintings in the `fine-art` portfolio, you would add another key-value pair `"drawing": "fine-art"`. 
+5. To the `index.html` created in Step 2, add the following template:
+```
+---
+layout: _portfolio-layout.ejs
+categories: []
+title: 
+---
+```
+6. In the `categories` list, put the string keys corresponding to project types you created in Steps 3 and 4. For example:
+```
+categories: ['painting', 'drawing']
+```
+7. The `title` field is not currently used, but cannot be blank, so the convention is to add the human-readable title of your new portfolio. For example, `Fine Art`.
+
+The content of `index.html` should now look something like this:
+```
+---
+layout: _portfolio-layout.ejs
+categories: ['painting', 'drawing']
+title: Fine Art
+---
+```
+
+8. Save all files and re-generate the static pages:
+```
+npx @11ty/eleventy --serve
+``` 
+
+Your new portfolio is now available on the website. To add projects, follow the instructions in the next section.
+
 
 ## Adding A New Project
 
-Adding a new project to an existing portfolio is easy once you are familiar with the project schema described above. Simply use the following steps:
+Adding a new project to an existing portfolio is easy once you are familiar with the project schema described above. Simply follow these steps:
 
 1. Open the `_data/projects.json` file.
-2. Pick the portfolio that will contain your project. To see the list of currently used portfolio pages, view the right side of `_data/maps.json`.
+2. Pick the portfolio that will contain your project. A portfolio page is a top-level directory using the `_portfolio-layout.ejs` layout listed in its `index.html` file.
 3. Add a new object to the list in `_data/projects.json`. The order of the objects in this file determines the order they will be displayed in the portfolio.
-4. Fill in the top-level required attributes described in the section above. To determine what to put in the `category` field, use the left side of `_data/maps.json` corresponding to the new project's portfolio. 
+4. Fill in the top-level required attributes described in the section above. To determine what to put in the `category` field:
+    1. Check the `index.html` file of the portfolio you picked.
+    2. Choose one of the strings in the `categories` list. 
 5. Fill in the rest of the attributes depending on the schema type, as described above, that makes the most sense for your project:
     - static image
     - video
@@ -246,4 +289,3 @@ Adding a new project to an existing portfolio is easy once you are familiar with
 npx @11ty/eleventy --serve
 ``` 
 
-## Adding A New Portfolio
