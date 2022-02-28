@@ -4,7 +4,7 @@ Welcome to the README for my personal website, [SophiaCeleste.com](https://www.s
 This document is intended for anyone interested in digging around in the code and/or modifying it for your own use. It assumes some knowledge of Git, JSON, HTML, and Javascript. 
 
 The document includes:
-- A Quick Start Guide for setting up my website on your local machine
+- [Quick Start Guide](#quick-start-guide) 
 - An overview of the site architecture
 - Schema for individual projects
 - How to add a new portfolio page
