@@ -86,7 +86,7 @@ npx @11ty/eleventy --serve
 
 ## Project Schema
 
-This section explains the schema for entries in the `_data/_projects.json` file. Each entry represents one individual project. The projects will be displayed in the order in which they are listed. 
+This section explains the schema for entries in the `_data/_projects.json` file. Each entry represents one individual project. The projects will be displayed on the webpage in the order in which they are listed. 
 
 ### Required Attributes
 
@@ -100,7 +100,7 @@ The following attributes are required for all projects:
 ### Static Images
 
 For static images, such as illustrations, the following top-level attribute is required:
-- `imgUrl`: A link to the full-resolution. 
+- `imgUrl`: A link to the full-resolution image. 
 
 Here is an example of a static image project: 
 ```
@@ -151,7 +151,7 @@ Gallery projects also require multiple attributes and are grouped underneath the
 `projectPreview` for galleries requires the following:
 - `type`: Always set to `"gallery"`.
 - `galleryUrl`: A link to the directory that holds the individual gallery images.
-- `gallery`: A list of gallery objects. Each object should include the following attributes.
+- `gallery`: A list of gallery objects. Each object should include the following attributes:
   - `file`: The filename of a gallery image.
   - `preview`: The filename of a gallery image thumbnail.
   - (optional) `title`: The name of a gallery image.
@@ -191,11 +191,11 @@ Here is an example of a gallery project:
 
 ### External
 
-If your project is hosted at a different website, you may use the external project schema. For example, this could be used for an interactive or a GitHub project. Attributes for external projects are also added underneath the `projectPreview` collection.
+If your project is hosted on a different website, you may use the external project schema. For example, this could be used for an interactive web app or a GitHub repo. Attributes for external projects are also added underneath the `projectPreview` collection.
 
 `projectPreview` for external projects must include the following:
-- `type`: Always set to `external`.
-- `previewUrl`: A thumbnail for the external project. May be the same as `previewImgUrl` above.
+- `type`: Always set to `"external"`.
+- `previewUrl`: A thumbnail for the external project. May be the same as `previewImgUrl`.
 - (optional) `codeUrl`:  A link to the source code, if it is a coding project.
 - (optional) `projectUrl`:  A link to the hosted project, if it is available online.
 
@@ -218,7 +218,7 @@ Here is an example of an external project:
 
 ### Custom
 
-If you would like to create your own template for a project, you may add a `projectPreview` collection with the following attribute:
+If you would like to create your own layout for a project, you may add a `projectPreview` collection with the following attribute:
 - `template`: The name of the `.ejs` layout file, relative to the `_includes` directory.
 
 Here is an example of a custom project:
@@ -257,7 +257,7 @@ title:
 ```
 categories: ['painting', 'drawing']
 ```
-7. The `title` field is not currently used, but cannot be blank, so the convention is to add the human-readable title of your new portfolio. For example, `Fine Art`.
+7. The `title` field is not currently used, but eleveny.js does not allow it to be blank, so the convention is to add the human-readable title of your new portfolio. For example, `Fine Art`.
 
 The content of `index.html` should now look something like this:
 ```
@@ -281,12 +281,12 @@ Your new portfolio is now available on the website. To add projects, follow the 
 Adding a new project to an existing portfolio is easy once you are familiar with the project schema described above. Simply follow these steps:
 
 1. Open the `_data/projects.json` file.
-2. Pick the portfolio that will contain your project. A portfolio page is a top-level directory using the `_portfolio-layout.ejs` layout listed in its `index.html` file.
-3. Add a new object to the list in `_data/projects.json`. The order of the objects in this file determines the order they will be displayed in the portfolio.
-4. Fill in the top-level required attributes described in the section above. To determine what to put in the `category` field:
-    1. Check the `index.html` file of the portfolio you picked.
+2. Pick the portfolio that will contain your project. A portfolio page is a top-level directory containing an `index.html` file that uses the `_portfolio-layout.ejs` layout.
+3. Add a new object `{}` to the list in `_data/projects.json`. The order of the objects in this file determines the order they will be displayed in the portfolio.
+4. Fill in the top-level required attributes described in the **Project Schema** section above. To determine what to put in the `category` field:
+    1. Open the `index.html` file of the portfolio you picked.
     2. Choose one of the strings in the `categories` list. 
-5. Fill in the rest of the attributes depending on the schema type, as described above, that makes the most sense for your project:
+5. Fill in the rest of the attributes depending on the schema type, as described in the **Project Schema** section, that makes the most sense for your project:
     - static image
     - video
     - gallery
