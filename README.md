@@ -1,4 +1,4 @@
-# Source code for [SophiaCeleste.com](https://www.sophiaceleste.com)
+# Documentation for [SophiaCeleste.com](https://www.sophiaceleste.com)
 
 Welcome to the README for my personal website, [SophiaCeleste.com](https://www.sophiaceleste.com)!
 This document is intended for anyone interested in digging around in the code and/or modifying it for your own use. It assumes some knowledge of Git, JSON, HTML, and Javascript. 
