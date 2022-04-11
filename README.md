@@ -39,7 +39,7 @@ This repo uses [eleventy.js](https://www.11ty.dev/) to generate a static HTML si
 
 ### Portfolio Pages
 
-The portfolio page displays a list of thumbnail links, one for each individual project included in the portfolio. Most of the top-level directories in this repo are portfolio pages. The layout file that a portfolio page uses is `_portfolio-layout.ejs`. Read more about layout files in the **Layout files** subsection below.
+The portfolio page displays a list of thumbnail links, one for each individual project included in the portfolio. Most of the top-level directories in this repo are portfolio pages. The layout file that a portfolio page uses is `_portfolio-layout.ejs`. Read more about layout files in the [Layout files](#layout-files) subsection below.
 
 Some examples of portfolio pages:
 - [illustration-color](https://sophiaceleste.com/illustration-color/)
