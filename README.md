@@ -1,7 +1,6 @@
 # Documentation for [SophiaCeleste.com](https://www.sophiaceleste.com)
 
-Welcome to the README for my personal website, [SophiaCeleste.com](https://www.sophiaceleste.com)!
-This document is intended for anyone interested in digging around in the code and/or modifying it for your own use. It assumes some knowledge of Git, JSON, HTML, and Javascript. 
+Welcome to the README for my personal website, [SophiaCeleste.com](https://www.sophiaceleste.com)! On my website I have grouped my creative projects into several different "portfolios". This document is intended for anyone interested in digging around in the project and portfolio code and/or modifying it for your own use. It assumes some knowledge of Git, JSON, HTML, and Javascript. 
 
 The document includes:
 - [Quick Start Guide](#quick-start-guide) 
