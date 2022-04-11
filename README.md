@@ -256,7 +256,7 @@ title:
 ```
 categories: ['painting', 'drawing']
 ```
-7. The `title` field is not currently used, but eleveny.js does not allow it to be blank, so the convention is to add the human-readable title of your new portfolio. For example, `Fine Art`.
+7. The `title` field is not currently used, but eleventy.js does not allow it to be blank, so the convention is to add the human-readable title of your new portfolio. For example, `Fine Art`.
 
 The content of `index.html` should now look something like this:
 ```
