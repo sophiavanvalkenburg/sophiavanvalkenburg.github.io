@@ -92,7 +92,7 @@
     "fill-range": "^7.0.1",
     "finalhandler": "^1.1.0",
     "find-up": "^4.1.0",
-    "follow-redirects": "^1.14.9",
+    "follow-redirects": "^1.15.9",
     "fresh": "^0.5.2",
     "fs-extra": "^8.1.0",
     "fs.realpath": "^1.0.0",
