@@ -1,9 +1,22 @@
 [
   {
+    "slug": "harriman-map",
+    "title": "Harriman & Bear Mountain Trails Tracker",
+    "description": "An interactive map of all the trails I've hiked in Harriman & Bear Mountain State Parks since 2015, with stats on mileage and location data.",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/harriman-map.gif",
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/harriman-map.gif",
+      "projectUrl": "https://sophiaceleste.com/harriman-map/",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/harriman-map/"
+    }
+  },
+  {
     "slug": "lil-lobster-dude",
     "title": "Lil Lobster Dude",
     "description": "A little lobster created in Illustrator and animated in After Effects.",
-    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/animation/lobster-sm.mp4",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/animation/lobster-sm.gif",
     "category": "color-illustration",
     "projectPreview": {
       "type": "video",
