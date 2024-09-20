@@ -681,13 +681,12 @@
   {
     "slug": "ar-builders",
     "title": "AR Builders",
-    "description": "Talk to CBRE Build's 'Builders' in Augmented Reality! They've lost some of their favorite items ... can you help? (Need to download & print the AR marker images in the code link below).",
+    "description": "Talk to CBRE Build's 'Builders' in Augmented Reality! They've lost some of their favorite items ... can you help? (Note: this project is no longer available to view online, but you may check out the code below).",
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/ar-builders-demo.gif",
     "category": "interactive",
     "projectPreview": {
       "type": "external",
       "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/ar-builders-demo.gif",
-      "projectUrl": "https://floored.github.io/ar-builders",
       "codeUrl": "https://github.com/sophiavanvalkenburg/ar-builders/"
     } 
   },
