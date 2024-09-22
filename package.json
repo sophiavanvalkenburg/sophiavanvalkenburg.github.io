@@ -158,7 +158,7 @@
     "lodash": "^4.17.21",
     "lodash.isfinite": "^3.3.2",
     "lru-cache": "^4.1.5",
-    "luxon": "^1.28.0",
+    "luxon": "^1.28.1",
     "map-cache": "^0.2.2",
     "markdown-it": "^10.0.0",
     "maximatch": "^0.1.0",
