@@ -239,7 +239,7 @@
     "rxjs": "^5.5.12",
     "safer-buffer": "^2.1.2",
     "section-matter": "^1.0.0",
-    "semver": "^7.3.5",
+    "semver": "^7.6.3",
     "semver-compare": "^1.0.0",
     "send": "^0.16.2",
     "serve-index": "^1.9.1",
