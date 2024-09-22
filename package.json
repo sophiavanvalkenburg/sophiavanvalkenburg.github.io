@@ -160,7 +160,7 @@
     "lru-cache": "^4.1.5",
     "luxon": "^1.28.1",
     "map-cache": "^0.2.2",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "maximatch": "^0.1.0",
     "mdurl": "^1.0.1",
     "merge2": "^1.4.1",
