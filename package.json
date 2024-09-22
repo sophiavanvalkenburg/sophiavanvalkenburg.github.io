@@ -221,7 +221,7 @@
     "pug-runtime": "^3.0.1",
     "pug-strip-comments": "^2.0.0",
     "pug-walk": "^2.0.0",
-    "qs": "^6.2.3",
+    "qs": "^6.2.4",
     "queue-microtask": "^1.2.3",
     "range-parser": "^1.2.1",
     "raw-body": "^2.5.0",
