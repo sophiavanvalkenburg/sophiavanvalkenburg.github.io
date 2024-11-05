@@ -87,7 +87,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/projects/inktober-2020/06-sm.jpg",
     "title": "Sasquatch Watch",
     "description": "A fancy watch for all creatures! From Drawlloween 2020, an annual October drawing event. Black watercolor & Ink.",
-    "category": "bw-illustration"
+    "category": "archive"
   },
   {
     "slug": "scuba-bull",
@@ -447,7 +447,7 @@
     "description": "Super Cat takes on her strongest foe yet... but there's a twist!",
     "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/comics/super-cat-defender-of-the-realm.png",
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/comics/super-cat-defender-of-the-realm-sm.png",
-    "category": "bw-illustration"
+    "category": "comic"
   },
   {
     "slug": "the-doll-house-poster",
@@ -488,7 +488,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/graphic-still-life-sm.png",
     "title": "Mango and Knife",
     "description": "digital (Photoshop)",
-    "category": "color-illustration"
+    "category": "archive"
   },
   {
     "slug": "sunflower-eloise",
@@ -533,7 +533,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/film-noir-sm.jpg",
     "title": "A Film Noir Scene",
     "description": "watercolor & ink",
-    "category": "bw-illustration"
+    "category": "archive"
   },
   {
     "slug": "queen-of-plants",
@@ -574,7 +574,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/illustration/our-livingroom-sm.jpg",
     "title": "Our Livingroom",
     "description": "digital (Illustrator)",
-    "category": "bw-illustration"
+    "category": "archive"
   },
   {
     "slug": "boscord-streaming",
@@ -725,7 +725,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/girl-with-pearl-earring-sm.jpg",
     "title": "Copy of 'Girl With A Pearl Earring'",
     "description": "oil on canvas board",
-    "category": "fine-art"
+    "category": "archive"
   },
   {
     "slug": "man-facing-away-with-staff",
@@ -773,7 +773,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/autumn-path-sm.jpg",
     "title": "Autumn Path",
     "description": "digital (Photoshop)",
-    "category": "fine-art"
+    "category": "archive"
   },
   {
     "slug": "eartha-kitt",
@@ -781,7 +781,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/eartha-kitt-sm.jpg",
     "title": "Portrait of Eartha Kitt",
     "description": "watercolor",
-    "category": "fine-art"
+    "category": "archive"
   },
   {
     "slug": "devin-portrait",
@@ -805,7 +805,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/elena-portrait-sm.jpg",
     "title": "Portrait of Elena",
     "description": "oil on canvas board",
-    "category": "fine-art"
+    "category": "archive"
   },
   {
     "slug": "devin-sitting",
@@ -837,7 +837,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/lilypad-pond-sm.jpg",
     "title": "Lilypad Landscape",
     "description": "watercolor",
-    "category": "fine-art"
+    "category": "archive"
   },
   {
     "slug": "man-with-staff",
@@ -869,7 +869,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/anatomical-woman-sm.jpeg",
     "title": "Anatomy Study #1",
     "description": "pencil",
-    "category": "fine-art"
+    "category": "archive"
   },
   {
     "slug": "darcy-standing",
@@ -885,7 +885,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/cadaver-hand-foot-study-sm.jpeg",
     "title": "Study of a Cadaver's Hand and Foot",
     "description": "graphite",
-    "category": "fine-art"
+    "category": "archive"
   },
   {
     "slug": "mans-chest",
@@ -901,7 +901,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/sitting-man-in-wax-resist-sm.jpeg",
     "title": "Sitting Man #2",
     "description": "wax, ink, char-kole",
-    "category": "fine-art"
+    "category": "archive"
   },
   {
     "slug": "george-washington-bridge-cloudy-day",
@@ -909,7 +909,7 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/gwb-cloudy-day-sm.jpeg",
     "title": "George Washington Bridge on a Cloudy Day",
     "description": "ink wash",
-    "category": "fine-art"
+    "category": "archive"
   },
   {
     "slug": "womans-torso",
@@ -925,6 +925,6 @@
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/reclining-woman-sm.jpeg",
     "title": "Reclining Woman",
     "description": "pastel",
-    "category": "fine-art"
+    "category": "archive"
   }
 ]
