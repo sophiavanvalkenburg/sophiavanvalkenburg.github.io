@@ -704,6 +704,18 @@
     }
   },
   {
+    "slug": "rubiks-cube",
+    "title": "Rubik's Cube Simulator",
+    "description": "A simple rubik's cube simulator written in C++ that allows the player to move the faces of the cube in the X, Y, and Z directions.",
+    "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/rubiks-cube-demo.gif",
+    "category": "interactive",
+    "projectPreview": {
+      "type": "external",
+      "previewUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/interactives/rubiks-cube-demo.gif",
+      "codeUrl": "https://github.com/sophiavanvalkenburg/rubiks-cube"
+    }
+  },
+  {
     "slug": "plum-and-pear",
     "imgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/plum-and-pear.jpg",
     "previewImgUrl": "https://s3.amazonaws.com/sophiaceleste.com/img/fine-art/plum-and-pear-sm.jpg",
